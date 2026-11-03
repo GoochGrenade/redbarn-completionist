@@ -43,7 +43,7 @@ python3 rs3comp.py "Your Name" --done "Kudos to You"
 
 ## Windows
 
-**[Download Redbarn Completionist for Windows](https://github.com/GoochGrenade/redbarn-completionist/releases/download/v1.1.0-beta/Redbarn-Completionist-Windows.zip)** (beta)
+**[Download Redbarn Completionist for Windows](https://github.com/GoochGrenade/redbarn-completionist/releases/download/v1.1.0-beta/Redbarn-Completionist-Windows.zip)** (beta, 48 MB)
 
 This is a beta: it passes all automated tests on a Windows build server, but hasn't been tested on a real Windows PC yet.
 
