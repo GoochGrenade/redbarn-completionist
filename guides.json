@@ -1169,6 +1169,545 @@
      "https://runescape.wiki/w/Anachronia_Big_Game_Hunter"
     ]
    ]
+  },
+  "Draconic Decoctions": {
+   "checked": "2026-11-04",
+   "summary": "Read five dragonkin potion recipes. Each recipe comes in four numbered fragments found while excavating at the Orthen Dig Site, or you can buy the finished recipe.",
+   "need": [
+    "90 Archaeology for the first recipe; 120 for all five, if you excavate them yourself"
+   ],
+   "steps": [
+    [
+     "Excavate the hotspots for each recipe's four fragments. They drop in order, 1 to 4.",
+     [
+      "Archaeology potion: varanusaur remains (90) or dragonkin reliquary (96)",
+      "Summoning renewal: dragonkin coffin (99) or autopsy table (101)",
+      "Holy aggroverload: experiment workbench (102) or Aughra remains (106)",
+      "Powerburst of opportunity: Moksha device (108) or Xolo mine (113)",
+      "Spirit attraction: Xolo remains (119) or Saurthen debris (120)"
+     ]
+    ],
+    [
+     "Read each completed recipe: Archaeology potion, Summoning renewal, Holy aggroverload, Powerburst of opportunity and Spirit attraction.",
+     []
+    ]
+   ],
+   "tips": [
+    "Completed recipes trade on the Grand Exchange, about 9 million coins for all five, so buying one skips its excavation.",
+    "Each recipe can be found at two hotspots, so pick whichever suits your level."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Draconic Decoctions",
+     "https://runescape.wiki/w/Draconic_Decoctions"
+    ],
+    [
+     "RuneScape Wiki: Dragonkin potion recipes",
+     "https://runescape.wiki/w/Dragonkin_potion_recipes"
+    ]
+   ]
+  },
+  "Everything Is Still Treemendous": {
+   "checked": "2026-11-04",
+   "summary": "Cut 100 eternal magic logs from eternal magic trees. It also adds 10 to every log type in your wood box.",
+   "need": [
+    "100 Woodcutting"
+   ],
+   "steps": [
+    [
+     "Cut eternal magic trees until you've received 100 eternal magic logs.",
+     []
+    ]
+   ],
+   "tips": [
+    "Logs used up by Superheat Form, the inferno adze or Always Adze don't count. You have to actually receive the logs.",
+    "Extra logs from eternal magic wood spirits do count."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Everything Is Still Treemendous",
+     "https://runescape.wiki/w/Everything_Is_Still_Treemendous"
+    ]
+   ]
+  },
+  "Famous": {
+   "checked": "2026-11-04",
+   "summary": "Complete Morvran's special Slayer challenge: kill 12 bosses once each, solo, to earn the title 'the Famous'.",
+   "need": [
+    "70 Constitution",
+    "70 Strength",
+    "Plague's End",
+    "Troll Stronghold"
+   ],
+   "steps": [
+    [
+     "Get the challenge from Morvran in Prifddinas.",
+     [
+      "He offers it now and then; refusing has no penalty.",
+      "You can also pay 100 Slayer points to have him assign it, once a week."
+     ]
+    ],
+    [
+     "Kill each boss once.",
+     [
+      "Araxxi · Giant Mole (hard mode) · Kalphite Queen · King Black Dragon · Queen Black Dragon",
+      "Dagannoth Prime · Dagannoth Rex · Dagannoth Supreme",
+      "Commander Zilyana · Kree'arra · K'ril Tsutsaroth · General Graardor"
+     ]
+    ],
+    [
+     "After the last boss, the crystals go to Morvran automatically and you get the title.",
+     []
+    ]
+   ],
+   "tips": [
+    "Each kill gives you a dark crystal that weakens you for the bosses left, so save the hardest for early.",
+    "Kills only count solo: if another player is nearby it won't count. Turn off lootshare and leave any group.",
+    "Kills with deathtouched darts don't count.",
+    "Finishing gives 50,000 Slayer XP, plus 45 Slayer points if you've done Smoking Kills."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Famous",
+     "https://runescape.wiki/w/Famous"
+    ],
+    [
+     "RuneScape Wiki: Morvran",
+     "https://runescape.wiki/w/Morvran"
+    ]
+   ]
+  },
+  "Gaps, Traps and Laps": {
+   "checked": "2026-11-04",
+   "summary": "Complete one lap of each of the 16 Agility courses below.",
+   "need": [
+    "90 Agility"
+   ],
+   "steps": [
+    [
+     "Run one lap of each course:",
+     [
+      "Burthorpe · Gnome Stronghold · Brimhaven Agility Arena · Werewolf Skullball",
+      "Jaleustrophos Pyramid · Penguin · Barbarian Outpost · Ape Atoll",
+      "Wilderness · Bandos' Throne Room · Werewolf · Het's Oasis",
+      "Hefin Agility Course · Dorgesh-Kaan · Gnome Stronghold (advanced) · Barbarian Outpost (advanced)"
+     ]
+    ],
+    [
+     "Werewolf Agility Course: the lap only counts if you finish the deathslide without falling.",
+     []
+    ],
+    [
+     "Brimhaven Agility Arena: tag the active pillar to get an Agility Arena ticket.",
+     []
+    ],
+    [
+     "Dorgesh-Kaan: use both the agility route and the grapple route to help Turgall get 2 parts from the boiler.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Gaps, Traps and Laps",
+     "https://runescape.wiki/w/Gaps%2C_Traps_and_Laps"
+    ]
+   ]
+  },
+  "Gross Misconduct": {
+   "checked": "2026-11-04",
+   "summary": "Kill 144 demons in the Wilderness. It's also needed to finish the Civil War I miniquest.",
+   "need": [],
+   "steps": [
+    [
+     "Kill 144 demons anywhere in the Wilderness.",
+     [
+      "Easiest: hellhounds, lesser demons and greater demons in the Forinthry Dungeon or the Wilderness Crater. They have few life points and lots of spawns.",
+      "Also counting: abyssal demons, beasts, lords and savages, black demons, greater demon ash lords and berserkers, Kal'gerion demons, revenant demons, ripper demons, waterfiends and gargoyles.",
+      "The Chaos Elemental doesn't count."
+     ]
+    ]
+   ],
+   "tips": [
+    "Track your count in the achievement's description: Hero › Achievements › Lore › Combat."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Gross Misconduct",
+     "https://runescape.wiki/w/Gross_Misconduct"
+    ]
+   ]
+  },
+  "Heal, Quickly": {
+   "checked": "2026-11-04",
+   "summary": "Buy the Scroll of renewal from the Dungeoneering reward shop for 38,000 Dungeoneering tokens, then read it.",
+   "need": [
+    "65 Dungeoneering",
+    "65 Prayer"
+   ],
+   "steps": [
+    [
+     "Earn 38,000 Dungeoneering tokens by doing dungeons in Daemonheim.",
+     []
+    ],
+    [
+     "Buy the Scroll of renewal from the Dungeoneering reward shop and read it.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Heal, Quickly",
+     "https://runescape.wiki/w/Heal%2C_Quickly"
+    ],
+    [
+     "RuneScape Wiki: Scroll of renewal",
+     "https://runescape.wiki/w/Scroll_of_renewal"
+    ]
+   ]
+  },
+  "Here to Slay": {
+   "checked": "2026-11-04",
+   "summary": "Equip a corrupted slayer helmet after consuming an ensouled spectral lens.",
+   "need": [
+    "80 Necromancy",
+    "70 Defence",
+    "55 Crafting",
+    "Smoking Kills",
+    "Necromancy!"
+   ],
+   "steps": [
+    [
+     "Create a corrupted slayer helmet. The first one costs 2,500 Slayer points.",
+     []
+    ],
+    [
+     "Consume an ensouled spectral lens.",
+     []
+    ],
+    [
+     "Equip the corrupted slayer helmet.",
+     [
+      "If you consumed the lens before making the helmet, take the helmet off and put it back on."
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Here to Slay",
+     "https://runescape.wiki/w/Here_to_Slay"
+    ],
+    [
+     "RuneScape Wiki: Corrupted slayer helmet",
+     "https://runescape.wiki/w/Corrupted_slayer_helmet"
+    ]
+   ]
+  },
+  "I've Got a Little List (of Miniquests)": {
+   "checked": "2026-11-04",
+   "summary": "Complete all 51 miniquests listed below. Each one opens its own guide, and finished ones are ticked from your account.",
+   "need": [
+    "Bar Crawl (miniquest)",
+    "Benedict's World Tour (miniquest)",
+    "Boric's Task I (miniquest)",
+    "Boric's Task II (miniquest)",
+    "Boric's Task III (miniquest)",
+    "Civil War I (miniquest)",
+    "Civil War II (miniquest)",
+    "Civil War III (miniquest)",
+    "Curse of the Empty Lord (miniquest)",
+    "Damage Control (miniquest)",
+    "Desert Slayer Dungeon (miniquest)",
+    "Doric's Task I (miniquest)",
+    "Doric's Task II (miniquest)",
+    "Doric's Task III (miniquest)",
+    "Doric's Task IV (miniquest)",
+    "Doric's Task V (miniquest)",
+    "Doric's Task VI (miniquest)",
+    "Doric's Task VII (miniquest)",
+    "Doric's Task VIII (miniquest)",
+    "Enter the Abyss (miniquest)",
+    "Eye for an Eye (miniquest)",
+    "Father and Son (miniquest)",
+    "Final Destination (miniquest)",
+    "Flag Fall (miniquest)",
+    "From Tiny Acorns (miniquest)",
+    "The General's Shadow (miniquest)",
+    "Ghosts from the Past (miniquest)",
+    "A Guild of Our Own (miniquest)",
+    "Harbinger (miniquest)",
+    "Head of the Family (miniquest)",
+    "Helping Laniakea (miniquest)",
+    "Hopespear's Will (miniquest)",
+    "The Hunt for Surok (miniquest)",
+    "In Memory of the Myreque (miniquest)",
+    "Jed Hunter (miniquest)",
+    "Koschei's Troubles (miniquest)",
+    "Lair of Tarn Razorlor (miniquest)",
+    "Lost Her Marbles (miniquest)",
+    "The Lost Toys (miniquest)",
+    "Mahjarrat Memories (miniquest)",
+    "One Foot in the Grave (miniquest)",
+    "Purple Cat (miniquest)",
+    "Rebuilding Edgeville (miniquest)",
+    "Sheep Shearer (miniquest)",
+    "Spiritual Enlightenment (miniquest)",
+    "Tales of Nomad (miniquest)",
+    "Tales of the God Wars (miniquest)",
+    "Tortle Combat (miniquest)",
+    "Tuai Leit's Own (miniquest)",
+    "Wandering Ga'al (miniquest)",
+    "Witch's Potion (miniquest)"
+   ],
+   "steps": [
+    [
+     "Open each miniquest in the list above and follow its guide.",
+     [
+      "RuneMetrics tracks miniquests, so they tick off by themselves when you refresh."
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: I've Got a Little List (of Miniquests)",
+     "https://runescape.wiki/w/I%27ve_Got_a_Little_List_%28of_Miniquests%29"
+    ]
+   ]
+  },
+  "In Rituals We Trust": {
+   "checked": "2026-11-04",
+   "summary": "Perform each of 13 Necromancy rituals at least once, at the Um or Ungael ritual site.",
+   "need": [
+    "95 Necromancy"
+   ],
+   "steps": [
+    [
+     "Go to a ritual site: Um (from the Necromancy! quest) or Ungael (from Requiem for a Dragon).",
+     []
+    ],
+    [
+     "Perform each ritual once:",
+     [
+      "Lesser, greater and powerful communion",
+      "Lesser, greater and powerful necroplasm",
+      "Lesser, greater and powerful essence",
+      "Lesser ensoul material, ensoul material and greater ensoul material",
+      "Manifest ectoplasm"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: In Rituals We Trust",
+     "https://runescape.wiki/w/In_Rituals_We_Trust"
+    ],
+    [
+     "RuneScape Wiki: Rituals",
+     "https://runescape.wiki/w/Rituals"
+    ]
+   ]
+  },
+  "It Should Have Been Called Aetherium": {
+   "checked": "2026-11-04",
+   "summary": "Smith a full set of elder rune armour up to +5. It also unlocks masterwork melee equipment.",
+   "need": [
+    "90 Smithing"
+   ],
+   "steps": [
+    [
+     "Get a full set of elder rune armour +4 (helm, platebody, platelegs, gauntlets, boots) plus 192 elder rune bars, or 384 bars to make it from scratch.",
+     []
+    ],
+    [
+     "Upgrade each piece to +5.",
+     [
+      "Full helm: 64 bars · Platebody: 160 · Platelegs: 96 · Gauntlets: 32 · Armoured boots: 32"
+     ]
+    ]
+   ],
+   "tips": [
+    "Buying the +4 pieces and bars cost about 7.5 million coins when checked; buying only the bars, about 5.5 million."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: It Should Have Been Called Aetherium",
+     "https://runescape.wiki/w/It_Should_Have_Been_Called_Aetherium"
+    ],
+    [
+     "RuneScape Wiki: Elder rune equipment",
+     "https://runescape.wiki/w/Elder_rune_equipment"
+    ]
+   ]
+  },
+  "It Should Have Been Called Ancestral": {
+   "checked": "2026-11-04",
+   "summary": "Craft a full set of Starbloom equipment up to +5. It also unlocks masterwork magic robes.",
+   "need": [
+    "100 Crafting"
+   ],
+   "steps": [
+    [
+     "Get 384 starbloom cloth (768 starbloom thread) to make the set from scratch.",
+     []
+    ],
+    [
+     "Make each piece and upgrade it from +4 to +5.",
+     [
+      "Hat: 64 cloth · Robe top: 160 · Robe bottom: 96 · Gloves: 32 · Boots: 32"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: It Should Have Been Called Ancestral",
+     "https://runescape.wiki/w/It_Should_Have_Been_Called_Ancestral"
+    ],
+    [
+     "RuneScape Wiki: Starbloom equipment",
+     "https://runescape.wiki/w/Starbloom_equipment"
+    ]
+   ]
+  },
+  "It Should Have Been Called Chinskin": {
+   "checked": "2026-11-04",
+   "summary": "Craft a full set of apex hide armour up to +5. It also unlocks masterwork ranged equipment.",
+   "need": [
+    "100 Crafting"
+   ],
+   "steps": [
+    [
+     "Gather the materials: 384 apex leather, 12 apex sinew, 3 steel studs and 1 steel bar.",
+     []
+    ],
+    [
+     "Make each piece and upgrade it from +4 to +5.",
+     [
+      "Cowl: 64 leather, 2 sinew",
+      "Body: 160 leather, 5 sinew, 1 steel studs, 1 steel bar",
+      "Chaps: 96 leather, 3 sinew, 1 steel studs",
+      "Vambraces: 32 leather, 1 sinew, 1 steel studs",
+      "Boots: 32 leather, 1 sinew"
+     ]
+    ]
+   ],
+   "tips": [
+    "When checked, the materials cost about 12.7 million coins and the set sold back for about 2 million less."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: It Should Have Been Called Chinskin",
+     "https://runescape.wiki/w/It_Should_Have_Been_Called_Chinskin"
+    ],
+    [
+     "RuneScape Wiki: Apex hide armour",
+     "https://runescape.wiki/w/Apex_hide_armour"
+    ]
+   ]
+  },
+  "It Still Should Have Been Called Aetherium": {
+   "checked": "2026-11-04",
+   "summary": "Smith a full set of primal armour up to +5. It also unlocks masterwork 2h swords.",
+   "need": [
+    "100 Smithing"
+   ],
+   "steps": [
+    [
+     "Get the primal armour +4 pieces plus 192 primal bars, or 384 bars to make it from scratch.",
+     []
+    ],
+    [
+     "Upgrade each piece to +5.",
+     [
+      "Full helm: 64 bars · Platebody: 160 · Platelegs: 96 · Gauntlets: 32 · Armoured boots: 32"
+     ]
+    ]
+   ],
+   "tips": [
+    "Buying a +4 set cost about 17 million coins when checked; buying only the bars, about 9 million."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: It Still Should Have Been Called Aetherium",
+     "https://runescape.wiki/w/It_Still_Should_Have_Been_Called_Aetherium"
+    ]
+   ]
+  },
+  "Kiln Fighter": {
+   "checked": "2026-11-04",
+   "summary": "Finish the Fight Kiln once: 37 waves of TokHaar, a harder sequel to the TzHaar Fight Cave.",
+   "need": [
+    "The Elder Kiln",
+    "A fire cape (from the TzHaar Fight Cave), paid once to enter"
+   ],
+   "steps": [
+    [
+     "Enter the Fight Kiln. The first time, you hand over a fire cape.",
+     []
+    ],
+    [
+     "Fight through all 37 waves.",
+     [
+      "The waves are the same every time, and monsters always spawn in the same places, so you can plan ahead.",
+      "Lure TokHaar into safespots. Lava slowly fills the cave and covers them, so later on use the low wall in the middle."
+     ]
+    ],
+    [
+     "Use the lava crystals that appear every other wave: they give bonuses like brief invincibility or a full prayer and life point restore. Save them for the 7 TokHaar-Jads and Har-Aken.",
+     []
+    ]
+   ],
+   "tips": [
+    "A cutscene plays after waves 10, 20, 30 and 34."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Kiln Fighter",
+     "https://runescape.wiki/w/Kiln_Fighter"
+    ],
+    [
+     "RuneScape Wiki: Fight Kiln",
+     "https://runescape.wiki/w/Fight_Kiln"
+    ]
+   ]
+  },
+  "Long Live the Queen": {
+   "checked": "2026-11-04",
+   "summary": "Get the first dragonkin journal, which drops from your first Queen Black Dragon kill.",
+   "need": [
+    "60 Summoning"
+   ],
+   "steps": [
+    [
+     "Go to the Grotworm Lair. Remora's necklace (from Song from the Depths) is quickest; otherwise use the Port Sarim lodestone and run north-west.",
+     []
+    ],
+    [
+     "Defeat the Queen Black Dragon. The kill counts when you activate the final crystal in the arena.",
+     []
+    ],
+    [
+     "Take the first dragonkin journal from the drop.",
+     []
+    ]
+   ],
+   "tips": [
+    "Equip any Slayer boosts, like dragon slayer gloves, before you activate the final crystal."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Long Live the Queen",
+     "https://runescape.wiki/w/Long_Live_the_Queen"
+    ],
+    [
+     "RuneScape Wiki: Queen Black Dragon",
+     "https://runescape.wiki/w/Queen_Black_Dragon"
+    ]
+   ]
   }
  }
 }
