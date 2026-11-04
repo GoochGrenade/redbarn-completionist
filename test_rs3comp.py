@@ -129,5 +129,18 @@ class WikiGuide(unittest.TestCase):
         self.assertEqual(wikiguide.training_page("Mining"), "Pay-to-play Mining training")
 
 
+class WrittenGuides(unittest.TestCase):
+    def test_guides_are_complete(self):
+        guides = json.loads((HERE / "guides.json").read_text(encoding="utf-8"))["guides"]
+        self.assertTrue(guides)
+        for name, g in guides.items():
+            with self.subTest(name):
+                self.assertIn(name, REQS["achievements"])  # keyed by the same name the app uses
+                self.assertTrue(g["summary"] and g["steps"] and g["checked"])
+                for step, subs in g["steps"]:
+                    self.assertTrue(step and isinstance(subs, list))
+                self.assertTrue(g["sources"] and all(url.startswith("https://") for _, url in g["sources"]))
+
+
 if __name__ == "__main__":
     unittest.main()

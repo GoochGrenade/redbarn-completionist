@@ -228,8 +228,31 @@ def expander(title, rows):
     return e
 
 
+@functools.cache
+def written_guides():
+    """Original guides that replace a thin wiki page, by achievement name (guides.json)."""
+    return json.loads((rs3comp.HERE / "guides.json").read_text(encoding="utf-8"))["guides"]
+
+
+def as_guide(written):
+    """A written guide in the shape wikiguide.parse() returns, so it renders the same way."""
+    details = [("What it is", written["summary"])]
+    if written.get("need"):
+        details.append(("You'll need", "\n".join("• " + n for n in written["need"])))
+    steps = []
+    for text, subs in written["steps"]:
+        steps += [("step", 0, text)] + [("step", 1, sub) for sub in subs]
+    sections = [{"title": "Steps", "blocks": steps}]
+    if written.get("tips"):
+        sections.append({"title": "Tips", "blocks": [("text", 0, t) for t in written["tips"]]})
+    return {"details": details, "sections": sections, "skills": []}
+
+
 class GuideDialog(Adw.Dialog):
-    """A wiki page as a step-by-step guide: what you need first, then steps to tick off as you go."""
+    """A task as a step-by-step guide: what you need first, then steps to tick off as you go.
+
+    Uses an original written guide when there is one for the task, otherwise the wiki page.
+    """
 
     def __init__(self, win, page, title, kind, own="", level=None, achievement=None, fetched=None):
         super().__init__(content_width=680, content_height=780)
@@ -242,12 +265,21 @@ class GuideDialog(Adw.Dialog):
         self.view = Adw.ToolbarView()
         self.view.add_top_bar(header)
         # the wiki's licence asks for this credit wherever its text is shown
-        self.view.add_bottom_bar(Gtk.Label(label="From the RuneScape Wiki · CC BY-NC-SA 3.0",
-                                           css_classes=["caption", "dim-label"], margin_top=6, margin_bottom=6))
+        self.credit = Gtk.Label(label="From the RuneScape Wiki · CC BY-NC-SA 3.0", css_classes=["caption", "dim-label"],
+                                margin_top=6, margin_bottom=6)
+        self.view.add_bottom_bar(self.credit)
         self.set_child(self.view)
-        self.show(fetched) if fetched else self.load()
+        written = written_guides().get(achievement) if achievement else None
+        if fetched:
+            self.show(fetched)
+        elif written:
+            self.credit.set_label("Written for Redbarn Completionist from the sources listed · CC BY-NC-SA 3.0")
+            self.render(as_guide(written), written=written)
+        else:
+            self.load()
 
     def load(self, *_):
+        self.credit.set_label("From the RuneScape Wiki · CC BY-NC-SA 3.0")
         spinner = (Adw.Spinner if hasattr(Adw, "Spinner") else Gtk.Spinner)(width_request=48, height_request=48,
                                                                               halign=Gtk.Align.CENTER)
         if isinstance(spinner, Gtk.Spinner):
@@ -292,9 +324,11 @@ class GuideDialog(Adw.Dialog):
         return "\n".join(lines), (all(results) if results else None)
 
     def show(self, fetched):
-        g = wikiguide.parse(fetched["html"], self.own)
+        self.render(wikiguide.parse(fetched["html"], self.own), stale=fetched.get("stale"))
+
+    def render(self, g, stale=False, written=None):
         page = Adw.PreferencesPage()
-        if fetched.get("stale"):
+        if stale:
             page.add(Adw.PreferencesGroup(description="You're offline, so this is a saved copy that may be out of date."))
         if g["details"]:
             before = Adw.PreferencesGroup(title="Before you start")
@@ -341,6 +375,21 @@ class GuideDialog(Adw.Dialog):
                 for r in rows:
                     group.add(r)
             page.add(group)
+        if written:
+            sources = Adw.PreferencesGroup(title="Sources", description=f"Checked {written['checked']}. The facts come "
+                                           "from these pages; the wording is written for this app.")
+            for title, url in written["sources"]:
+                r = row(title, url)
+                r.set_activatable(True)
+                r.add_suffix(Gtk.Image(icon_name="adw-external-link-symbolic"))
+                r.connect("activated", open_url, url)
+                sources.add(r)
+            full = row("Read the full wiki page", "Show the RuneScape Wiki's own page here instead")
+            full.set_activatable(True)
+            full.add_suffix(Gtk.Image(icon_name="go-next-symbolic"))
+            full.connect("activated", self.load)
+            sources.add(full)
+            page.add(sources)
         if self.achievement:
             finish = Adw.PreferencesGroup()
             if self.achievement in self.win.done:
@@ -860,6 +909,9 @@ def self_test(app, win):
         d = guide("kudos_to_you", "Achievement", achievement="Kudos to You")
         buttons = [w for w in walk(d.view.get_content()) if isinstance(w, Gtk.Button)]
         check(any(b.get_label() == "Tick off this achievement" for b in buttons), "Achievement guide: tick-off button")
+        d = GuideDialog(win, "Big Chinchompa (achievement)", "Big Chinchompa", "Achievement", achievement="Big Chinchompa")
+        titles = [w.get_title() for w in walk(d.view.get_content()) if isinstance(w, Adw.PreferencesGroup)]
+        check(len(d.steps) > 3 and "Sources" in titles, "Written guide: steps and sources, offline")
         d = guide("ranged_training", "Training guide", level=99)
         check(d.sections[0]["title"] == "For your level · Levels 70-120", "Training guide: opens on your level")
     except Exception as e:  # a crash is a failure too, and must not leave the app running
