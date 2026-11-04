@@ -219,14 +219,14 @@ def render(name, g, limit, fetched):
 
 
 def load_progress():
-    return json.loads(PROGRESS.read_text()) if PROGRESS.exists() else {}
+    return json.loads(PROGRESS.read_text(encoding="utf-8")) if PROGRESS.exists() else {}
 
 
 def save_done(rsn, done):
     progress = load_progress()
     progress[rsn.lower()] = sorted(done)
     PROGRESS.parent.mkdir(parents=True, exist_ok=True)
-    PROGRESS.write_text(json.dumps(progress, indent=1) + "\n")
+    PROGRESS.write_text(json.dumps(progress, indent=1) + "\n", encoding="utf-8")
 
 
 def tick(rsn, query, names, add):
@@ -249,7 +249,7 @@ def main():
     ap.add_argument("--cape", choices=CAPES, default="comp", help="which cape to guide (default: comp)")
     args = ap.parse_args()
 
-    reqs = json.loads((HERE / "requirements.json").read_text())
+    reqs = json.loads((HERE / "requirements.json").read_text(encoding="utf-8"))
     names = [n for n in reqs["achievements"] if n not in META]
     for query, add in ((args.done, True), (args.undo, False)):
         if query:

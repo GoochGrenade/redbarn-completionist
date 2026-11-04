@@ -6,12 +6,12 @@ import rs3comp
 import wikiguide
 
 HERE = Path(__file__).resolve().parent
-REQS = json.loads((HERE / "requirements.json").read_text())
+REQS = json.loads((HERE / "requirements.json").read_text(encoding="utf-8"))
 
 
 def load(name):
-    profile = json.loads((HERE / "fixtures" / f"{name}.profile.json").read_text())
-    return profile, json.loads((HERE / "fixtures" / f"{name}.quests.json").read_text())["quests"]
+    profile = json.loads((HERE / "fixtures" / f"{name}.profile.json").read_text(encoding="utf-8"))
+    return profile, json.loads((HERE / "fixtures" / f"{name}.quests.json").read_text(encoding="utf-8"))["quests"]
 
 
 def player(name, done=(), cape="comp"):
@@ -89,7 +89,7 @@ class Capes(unittest.TestCase):
 
 class WikiGuide(unittest.TestCase):
     def page(self, name, own=""):
-        return wikiguide.parse((HERE / "fixtures" / "wiki" / f"{name}.html").read_text(), own)
+        return wikiguide.parse((HERE / "fixtures" / "wiki" / f"{name}.html").read_text(encoding="utf-8"), own)
 
     def test_quest_quick_guide(self):
         g = self.page("cooks_assistant_quick_guide", "Cook's Assistant")

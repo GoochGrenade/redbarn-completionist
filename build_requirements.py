@@ -116,7 +116,7 @@ def main():
     out = {"source": "https://runescape.wiki", "license": LICENSE, "fetched": datetime.date.today().isoformat(),
            "achievements": achievements, "lists": {k: [display(t) for t in ts] for k, ts in lists.items()},
            "quests": quests}
-    Path(__file__).with_name("requirements.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    Path(__file__).with_name("requirements.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{len(achievements)} achievements, lists " + ", ".join(f"{k} {len(v)}" for k, v in lists.items())
           + f", {len(quests)} quests in guide order")
     return out

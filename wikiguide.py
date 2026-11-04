@@ -37,7 +37,7 @@ def training_page(skill):
 def fetch(page):
     """{title, html, stale} for a wiki page, from a 7-day cache when possible; a stale copy beats no copy."""
     path = CACHE / (hashlib.sha1(page.encode()).hexdigest() + ".json")
-    cached = json.loads(path.read_text()) if path.exists() else None
+    cached = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
     if cached and time.time() - cached["fetched"] < MAX_AGE:
         return {**cached, "stale": False}
     try:
@@ -52,7 +52,7 @@ def fetch(page):
             return {**cached, "stale": True}
         raise GuideError(f"Couldn't reach the RuneScape Wiki: {e}") from e
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(fresh))
+    path.write_text(json.dumps(fresh), encoding="utf-8")
     return {**fresh, "stale": False}
 
 

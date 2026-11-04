@@ -85,7 +85,7 @@ Categories=Game;
 Keywords=RuneScape;RS3;completionist;quest cape;max cape;master;
 StartupWMClass={APP_ID}
 Terminal=false
-""")
+""", encoding="utf-8")
     refresh_menus()
     print(f"Installed {APP_NAME}. Open it from your app menu.\n"
           f"It runs from {program.parent}, so keep that folder where it is.")
@@ -352,14 +352,14 @@ class GuideDialog(Adw.Dialog):
         self.view.set_content(page)
 
     def saved_steps(self):
-        steps = json.loads(STEPS_FILE.read_text()) if STEPS_FILE.exists() else {}
+        steps = json.loads(STEPS_FILE.read_text(encoding="utf-8")) if STEPS_FILE.exists() else {}
         return steps.get((self.win.name or "").lower(), {}).get(self.page, [])
 
     def on_step(self, _check):
-        steps = json.loads(STEPS_FILE.read_text()) if STEPS_FILE.exists() else {}
+        steps = json.loads(STEPS_FILE.read_text(encoding="utf-8")) if STEPS_FILE.exists() else {}
         steps.setdefault((self.win.name or "").lower(), {})[self.page] = [r.step_key for r, c in self.steps if c.get_active()]
         STEPS_FILE.parent.mkdir(parents=True, exist_ok=True)
-        STEPS_FILE.write_text(json.dumps(steps, indent=1) + "\n")
+        STEPS_FILE.write_text(json.dumps(steps, indent=1) + "\n", encoding="utf-8")
         self.mark_current()
 
     def mark_current(self):
@@ -379,10 +379,10 @@ class Window(Adw.ApplicationWindow):
     def __init__(self, app):
         super().__init__(application=app, title=APP_NAME, default_width=1120, default_height=880)
         self.set_size_request(360, 480)
-        self.reqs = json.loads((rs3comp.HERE / "requirements.json").read_text())
+        self.reqs = json.loads((rs3comp.HERE / "requirements.json").read_text(encoding="utf-8"))
         self.profile, self.batching, self.search_items = None, False, []
         self.name, self.quests, self.done = None, [], set()  # guides can open before a player loads
-        self.cape = CAPE_FILE.read_text().strip() if CAPE_FILE.exists() else None
+        self.cape = CAPE_FILE.read_text(encoding="utf-8").strip() if CAPE_FILE.exists() else None
         self.cape = self.cape if self.cape in rs3comp.CAPES else None  # else the closest cape, once a profile loads
 
         self.entry = Gtk.Entry(placeholder_text="RuneScape name", width_chars=22,
@@ -406,7 +406,7 @@ class Window(Adw.ApplicationWindow):
         menu.append_section(None, about)
         header.pack_end(Gtk.MenuButton(icon_name="open-menu-symbolic", menu_model=menu, tooltip_text="Main Menu",
                                        primary=True))
-        dark = not DARK_MODE.exists() or DARK_MODE.read_text().strip() == "1"  # dark by default, like Redbarn Studio
+        dark = not DARK_MODE.exists() or DARK_MODE.read_text(encoding="utf-8").strip() == "1"  # dark by default, like Redbarn Studio
         self.set_dark(dark)
         toggle = Gtk.ToggleButton(icon_name="weather-clear-night-symbolic", active=dark, tooltip_text="Dark mode")
         toggle.connect("toggled", lambda t: self.set_dark(t.get_active(), save=True))
@@ -458,7 +458,7 @@ class Window(Adw.ApplicationWindow):
             self.cape_list.select_row(self.cape_rows[self.cape])
         self.welcome()
         if LAST_NAME.exists():
-            self.entry.set_text(LAST_NAME.read_text().strip())
+            self.entry.set_text(LAST_NAME.read_text(encoding="utf-8").strip())
             self.load()
 
     def set_dark(self, dark, save=False):
@@ -466,7 +466,7 @@ class Window(Adw.ApplicationWindow):
         (self.add_css_class if dark else self.remove_css_class)("dark-ui")
         if save:
             DARK_MODE.parent.mkdir(parents=True, exist_ok=True)
-            DARK_MODE.write_text("1" if dark else "0")
+            DARK_MODE.write_text("1" if dark else "0", encoding="utf-8")
 
     def toast(self, title, button=None, on_button=None):
         t = Adw.Toast(title="", use_markup=False, timeout=4)
@@ -523,7 +523,7 @@ class Window(Adw.ApplicationWindow):
     def show(self, name, profile, quests):
         self.button.set_sensitive(True)
         LAST_NAME.parent.mkdir(parents=True, exist_ok=True)
-        LAST_NAME.write_text(name)
+        LAST_NAME.write_text(name, encoding="utf-8")
         self.name, self.profile, self.quests = name, profile, quests
         self.loaded_at = time.strftime("%H:%M")
         self.done = set(rs3comp.load_progress().get(name.lower(), []))
@@ -540,7 +540,7 @@ class Window(Adw.ApplicationWindow):
         self.content.set_title(rs3comp.CAPES[r.cape]["title"])
         if changed:
             CAPE_FILE.parent.mkdir(parents=True, exist_ok=True)
-            CAPE_FILE.write_text(r.cape)
+            CAPE_FILE.write_text(r.cape, encoding="utf-8")
             if self.profile:
                 self.render_guide()
             self.split.set_show_content(True)
@@ -844,8 +844,8 @@ def self_test(app, win):
         check(all(cape_texture(k) for k in rs3comp.CAPES), "Cape icons draw (SVG support is present)")
         check(Gtk.IconTheme.get_for_display(win.get_display()).has_icon(APP_ID), "App icon found")
         for who in ("beginner", "maxed"):
-            profile = json.loads((rs3comp.HERE / "fixtures" / f"{who}.profile.json").read_text())
-            quests = json.loads((rs3comp.HERE / "fixtures" / f"{who}.quests.json").read_text())["quests"]
+            profile = json.loads((rs3comp.HERE / "fixtures" / f"{who}.profile.json").read_text(encoding="utf-8"))
+            quests = json.loads((rs3comp.HERE / "fixtures" / f"{who}.quests.json").read_text(encoding="utf-8"))["quests"]
             win.show(who, profile, quests)
             for key, cape in rs3comp.CAPES.items():
                 win.cape_list.select_row(win.cape_rows[key])
@@ -854,7 +854,7 @@ def self_test(app, win):
         win.search.set_text("museum")
         check(any(r.get_visible() for r, *_ in win.search_items), "Search finds matches")
         wiki = rs3comp.HERE / "fixtures" / "wiki"
-        guide = lambda name, *a, **kw: GuideDialog(win, name, name, *a, fetched={"html": (wiki / f"{name}.html").read_text()}, **kw)  # noqa: E731
+        guide = lambda name, *a, **kw: GuideDialog(win, name, name, *a, fetched={"html": (wiki / f"{name}.html").read_text(encoding="utf-8")}, **kw)  # noqa: E731
         d = guide("cooks_assistant_quick_guide", "Quest", own="Cook's Assistant")
         check(len(d.steps) > 1 and sum(r.has_css_class("current") for r, _ in d.steps) == 1, "Quest guide: steps and a current step")
         d = guide("kudos_to_you", "Achievement", achievement="Kudos to You")
