@@ -1708,6 +1708,543 @@
      "https://runescape.wiki/w/Queen_Black_Dragon"
     ]
    ]
+  },
+  "Lunar Master": {
+   "checked": "2026-11-04",
+   "summary": "Unlock all 11 Livid Farm spells by earning 130,000 produce points helping Pauline Polaris on the northern part of Lunar Isle.",
+   "need": [
+    "Lunar Diplomacy",
+    "70 Magic",
+    "60 Agility",
+    "60 Crafting",
+    "60 Farming",
+    "50 Construction"
+   ],
+   "steps": [
+    [
+     "Switch to the Lunar spellbook. You need it for every task on the farm.",
+     []
+    ],
+    [
+     "Talk to Pauline Polaris at Livid Farm and do her tasks to earn produce points.",
+     [
+      "Tasks reset every 60 seconds. With practice you can do all of them in a round."
+     ]
+    ],
+    [
+     "Unlock the spells in order as your total points pass each mark:",
+     [
+      "South Falador Teleport: 10,000",
+      "Repair Rune Pouch: 20,000",
+      "North Ardougne Teleport: 35,000",
+      "Remote Farm: 45,000",
+      "Spiritual Healing: 60,000",
+      "Make Leather: 75,000",
+      "Disruption Shield: 90,000",
+      "Vengeance Group: 100,000",
+      "Trollheim Farm Teleport: 110,000",
+      "Tele-group Trollheim Farm: 120,000",
+      "Borrowed Power: 130,000"
+     ]
+    ]
+   ],
+   "tips": [
+    "Check your produce points in your currency pouch.",
+    "The spell thresholds count every point you've ever earned, not your current balance."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Lunar Master",
+     "https://runescape.wiki/w/Lunar_Master"
+    ],
+    [
+     "RuneScape Wiki: Livid Farm",
+     "https://runescape.wiki/w/Livid_Farm"
+    ]
+   ]
+  },
+  "My Last Resort": {
+   "checked": "2026-11-04",
+   "summary": "Unlock every upgrade at War's Wares, War's shop at War's Retreat. They're paid for with boss kills, which aren't used up, so you need 2,000 boss kills in total.",
+   "need": [
+    "60 combat level"
+   ],
+   "steps": [
+    [
+     "Kill bosses to build up your boss kill count.",
+     []
+    ],
+    [
+     "Unlock each upgrade at War's Wares as you reach its kill count:",
+     [
+      "Hub teleport: 10 boss kills",
+      "Second attunable portal: 100 boss kills",
+      "Altar of War: 200 boss kills",
+      "Ability cooldown: 500 boss kills",
+      "War's Grimoire: 750 boss kills",
+      "Adrenaline crystal: 1,000 boss kills",
+      "Adrenaline potion cooldown: 2,000 boss kills"
+     ]
+    ]
+   ],
+   "tips": [
+    "Buying an upgrade with boss kills doesn't lower your kill count, even though the dialogue says it costs kills."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: My Last Resort",
+     "https://runescape.wiki/w/My_Last_Resort"
+    ],
+    [
+     "RuneScape Wiki: War's Wares",
+     "https://runescape.wiki/w/War%27s_Wares"
+    ]
+   ]
+  },
+  "Myreque in Memoriam": {
+   "checked": "2026-11-04",
+   "summary": "Talk to Veliaf Hurtz once you've finished the In Memory of the Myreque miniquest and the River of Blood quest.",
+   "need": [
+    "In Memory of the Myreque (miniquest)",
+    "River of Blood"
+   ],
+   "steps": [
+    [
+     "Talk to Veliaf Hurtz.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Myreque in Memoriam",
+     "https://runescape.wiki/w/Myreque_in_Memoriam"
+    ]
+   ]
+  },
+  "Mystical Moonstone": {
+   "checked": "2026-11-04",
+   "summary": "Learn to make moonstone jewellery from the Former Master Crafter in the City of Um.",
+   "need": [
+    "50 Necromancy",
+    "A brown apron",
+    "A cut or uncut moonstone"
+   ],
+   "steps": [
+    [
+     "Wear a brown apron, with no cosmetic override on your torso.",
+     []
+    ],
+    [
+     "Put a cut or uncut moonstone in your backpack.",
+     []
+    ],
+    [
+     "Talk to the Former Master Crafter in the City of Um.",
+     []
+    ]
+   ],
+   "tips": [
+    "You don't need to have done Housing of Parliament."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Mystical Moonstone",
+     "https://runescape.wiki/w/Mystical_Moonstone"
+    ],
+    [
+     "RuneScape Wiki: Former Master Crafter",
+     "https://runescape.wiki/w/Former_Master_Crafter"
+    ]
+   ]
+  },
+  "Out into the Ourania": {
+   "checked": "2026-11-04",
+   "summary": "Unlock the Ourania Teleport spell from Baba Yaga after Lunar Diplomacy.",
+   "need": [
+    "Lunar Diplomacy"
+   ],
+   "steps": [
+    [
+     "Switch to the Lunar spellbook.",
+     []
+    ],
+    [
+     "Talk to Baba Yaga, inside the walking house with chicken legs on the northern part of Lunar Isle.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Out into the Ourania",
+     "https://runescape.wiki/w/Out_into_the_Ourania"
+    ],
+    [
+     "RuneScape Wiki: Baba Yaga",
+     "https://runescape.wiki/w/Baba_Yaga"
+    ]
+   ]
+  },
+  "Pious Prayers": {
+   "checked": "2026-11-04",
+   "summary": "Unlock Chivalry, Piety, Rigour and Augury by beating the Knight Waves training ground in Camelot after King's Ransom.",
+   "need": [
+    "70 Prayer",
+    "70 Defence",
+    "King's Ransom"
+   ],
+   "steps": [
+    [
+     "Climb the western ladder of Camelot castle to the top floor.",
+     []
+    ],
+    [
+     "Talk to the squire outside the door to start.",
+     []
+    ],
+    [
+     "Defeat the eight Knights of the Round Table.",
+     [
+      "Any combat style works, but Summoning, Prayer, binds and stuns don't.",
+      "Each knight drains some of your combat stats as you fight."
+     ]
+    ]
+   ],
+   "tips": [
+    "Once you've won you can't go back in, and it also counts for the Nomad's Requiem quest."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Pious Prayers",
+     "https://runescape.wiki/w/Pious_Prayers"
+    ],
+    [
+     "RuneScape Wiki: Knight Waves training ground",
+     "https://runescape.wiki/w/Knight_Waves_training_ground"
+    ]
+   ]
+  },
+  "Port Life": {
+   "checked": "2026-11-04",
+   "summary": "Do the Player-owned port tutorial once you have level 90 in any of its skills.",
+   "need": [
+    "Level 90 in one of: Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer or Thieving"
+   ],
+   "steps": [
+    [
+     "Enter your port through a portal: south-west of the Rusty Anchor pub in Port Sarim, north-east of the Prifddinas lodestone, or in the south of the Menaphos Port district. The ports table in Fort Forinthry works too.",
+     []
+    ],
+    [
+     "Follow the tutorial to the end.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Port Life",
+     "https://runescape.wiki/w/Port_Life"
+    ],
+    [
+     "RuneScape Wiki: Player-owned port",
+     "https://runescape.wiki/w/Player-owned_port"
+    ]
+   ]
+  },
+  "Potion For a Lady": {
+   "checked": "2026-11-04",
+   "summary": "Make a super melee potion yourself, find an unreadable page in Daemonheim, and give the potion to Lady Meilyr for a melee XP lamp.",
+   "need": [
+    "Plague's End"
+   ],
+   "steps": [
+    [
+     "Find an unreadable page while doing dungeons in Daemonheim.",
+     []
+    ],
+    [
+     "Make a super melee potion yourself.",
+     []
+    ],
+    [
+     "With the potion in your backpack, talk to Lady Meilyr in Prifddinas.",
+     [
+      "Choose 'What can I do here?', then 'Ask about the combination potion recipes...'."
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Potion For a Lady",
+     "https://runescape.wiki/w/Potion_For_a_Lady"
+    ],
+    [
+     "RuneScape Wiki: Lady Meilyr",
+     "https://runescape.wiki/w/Lady_Meilyr"
+    ]
+   ]
+  },
+  "Potion Mixer Master I": {
+   "checked": "2026-11-04",
+   "summary": "Unlock 27 combination potion recipes from the Recipe Shop in Prifddinas, 12.5 million coins in total. Some need an unreadable page from Daemonheim first.",
+   "need": [
+    "Plague's End"
+   ],
+   "steps": [
+    [
+     "Find unreadable pages while doing dungeons in Daemonheim, for the recipes that need one.",
+     []
+    ],
+    [
+     "Buy each recipe from the Recipe Shop (through Lady Meilyr in the Meilyr Clan district):",
+     [
+      "Grand strength potion: 100,000 coins",
+      "Grand ranging potion: 100,000 coins",
+      "Grand magic potion: 100,000 coins",
+      "Grand attack potion: 100,000 coins",
+      "Grand defence potion: 100,000 coins",
+      "Super melee potion: 150,000 coins",
+      "Super warmaster's potion: 200,000 coins",
+      "Replenishment potion: 200,000 coins",
+      "Wyrmfire potion: 200,000 coins",
+      "Extreme brawler's potion: 300,000 coins",
+      "Extreme battlemage's potion: 300,000 coins",
+      "Extreme sharpshooter's potion: 300,000 coins",
+      "Extreme warmaster's potion: 400,000 coins",
+      "Supreme strength potion: 500,000 coins",
+      "Supreme attack potion: 500,000 coins",
+      "Supreme defence potion: 500,000 coins",
+      "Supreme magic potion: 500,000 coins",
+      "Supreme ranging potion: 500,000 coins",
+      "Brightfire potion: 600,000 coins",
+      "Super prayer renewal potion: 750,000 coins",
+      "Holy overload potion: 700,000 coins",
+      "Searing overload potion: 700,000 coins",
+      "Overload salve: 800,000 coins",
+      "Supreme overload potion: 900,000 coins",
+      "Supreme overload salve: 1,000,000 coins",
+      "Perfect plus potion: 1,000,000 coins",
+      "Aggroverload: 1,000,000 coins"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Potion Mixer Master I",
+     "https://runescape.wiki/w/Potion_Mixer_Master_I"
+    ],
+    [
+     "RuneScape Wiki: Combination potions",
+     "https://runescape.wiki/w/Combination_potions"
+    ]
+   ]
+  },
+  "Potion Mixer Master II": {
+   "checked": "2026-11-04",
+   "summary": "Unlock three advanced combination potion recipes from the Recipe Shop in Prifddinas, 3.7 million coins in total. No unreadable pages needed.",
+   "need": [
+    "Plague's End"
+   ],
+   "steps": [
+    [
+     "Talk to Lady Meilyr or a harmony pillar farmer in the Meilyr Clan district of Prifddinas to open the Recipe Shop.",
+     []
+    ],
+    [
+     "Buy the recipes:",
+     [
+      "Spiritual prayer potion: 1,000,000 coins",
+      "Elder overload potion: 1,200,000 coins",
+      "Elder overload salve: 1,500,000 coins"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Potion Mixer Master II",
+     "https://runescape.wiki/w/Potion_Mixer_Master_II"
+    ]
+   ]
+  },
+  "Qualification - Guildmaster": {
+   "checked": "2026-11-04",
+   "summary": "Complete the Archaeology achievements that make you a guildmaster of the Archaeology Guild.",
+   "need": [
+    "Qualification - Professor",
+    "Archaeology 99",
+    "The Discoverer IX",
+    "The Restorer IX",
+    "Collectors Assemble VII",
+    "Mystery Solver VI",
+    "The Researcher IV"
+   ],
+   "steps": [
+    [
+     "Complete each achievement in the list above. Each one opens its own guide.",
+     []
+    ],
+    [
+     "Talk to Acting Guildmaster Reiniger to claim five material manuals, hi-spec monocles, tarpaulin sheets and cups of archaeologist's tea.",
+     []
+    ]
+   ],
+   "tips": [
+    "You don't have to talk to Reiniger to become guildmaster; the achievement completes on its own.",
+    "Guildmaster gives a research team of 5, research professors, another relic loadout and new Guild Shop rewards."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Qualification - Guildmaster",
+     "https://runescape.wiki/w/Qualification_-_Guildmaster"
+    ]
+   ]
+  },
+  "Rhian in Gold - The Original": {
+   "checked": "2026-11-04",
+   "summary": "Collect all 32 golden rocks, two for each of 16 skills, and build the Statue of Rhiannon once in the Shattered Heart activity in Prifddinas.",
+   "need": [
+    "Plague's End",
+    "75 in each golden rock skill and in Constitution (boosts don't work)"
+   ],
+   "steps": [
+    [
+     "Talk to Auron Ithell by the golden plinth in the Tower of Voices to start receiving golden rocks.",
+     [
+      "He tells you which skill levels you're still missing."
+     ]
+    ],
+    [
+     "Train the skills to find golden rocks; they're random per action.",
+     [
+      "They're more likely in a Prifddinas district while the Voice of Seren is active there.",
+      "Train with lots of quick actions to get more chances."
+     ]
+    ],
+    [
+     "Add the rocks to the plinth in pairs, until the Statue of Rhiannon is built.",
+     []
+    ]
+   ],
+   "tips": [
+    "A metamorphic geode always gives a strange or golden rock you don't have yet.",
+    "Examine a golden rock to see which skill it's for."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Rhian in Gold - The Original",
+     "https://runescape.wiki/w/Rhian_in_Gold_-_The_Original"
+    ],
+    [
+     "RuneScape Wiki: Golden rock",
+     "https://runescape.wiki/w/Golden_rock"
+    ]
+   ]
+  },
+  "Slayer Master": {
+   "checked": "2026-11-04",
+   "summary": "Clear 20 waves of Rush of Blood on its hardest tier, Platinum, to earn the title 'Slayer Master'.",
+   "need": [
+    "99 Slayer",
+    "90 Dungeoneering",
+    "Plague's End",
+    "The Branches of Darkmeyer",
+    "Ritual of the Mahjarrat",
+    "The Firemaker's Curse",
+    "The Void Stares Back",
+    "The Chosen Commander",
+    "One of a Kind",
+    "The World Wakes",
+    "Fate of the Gods"
+   ],
+   "steps": [
+    [
+     "Talk to Morvran in Prifddinas and start Rush of Blood on Platinum. A reward run or a trial run both count.",
+     []
+    ],
+    [
+     "Clear 20 full waves. Only reaching wave 20 isn't enough.",
+     []
+    ]
+   ],
+   "tips": [
+    "Any earlier titles you're missing (the Abyssal, the Dark and the Beast) unlock at the same time.",
+    "The Make Them Bleed guide covers what to bring to Rush of Blood."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Slayer Master",
+     "https://runescape.wiki/w/Slayer_Master"
+    ],
+    [
+     "RuneScape Wiki: Rush of Blood",
+     "https://runescape.wiki/w/Rush_of_Blood"
+    ]
+   ]
+  },
+  "Slide To The Left": {
+   "checked": "2026-11-04",
+   "summary": "Solve a puzzle box from Treasure Trails: slide the pieces back into the right picture.",
+   "need": [
+    "A clue scroll"
+   ],
+   "steps": [
+    [
+     "Do clue scrolls until a step gives you a puzzle box.",
+     []
+    ],
+    [
+     "Solve the sliding puzzle.",
+     []
+    ]
+   ],
+   "tips": [
+    "The wiki has a step-by-step method for puzzle boxes; it's listed in the sources."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Slide To The Left",
+     "https://runescape.wiki/w/Slide_To_The_Left"
+    ],
+    [
+     "RuneScape Wiki: Treasure Trails/Guide/Puzzle boxes",
+     "https://runescape.wiki/w/Treasure_Trails/Guide/Puzzle_boxes"
+    ]
+   ]
+  },
+  "Stay Safe": {
+   "checked": "2026-11-04",
+   "summary": "Loot the treasure chest at the end of the Stronghold of Player Safety, a dungeon north of Barbarian Village and south of Edgeville.",
+   "need": [],
+   "steps": [
+    [
+     "Enter the Stronghold of Player Safety, under the Misthalin Training Centre of Excellence.",
+     []
+    ],
+    [
+     "Pull the old lever on the upper floor.",
+     []
+    ],
+    [
+     "Enter the secure area and loot the treasure chest.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Stay Safe",
+     "https://runescape.wiki/w/Stay_Safe"
+    ],
+    [
+     "RuneScape Wiki: Stronghold of Player Safety",
+     "https://runescape.wiki/w/Stronghold_of_Player_Safety"
+    ]
+   ]
   }
  }
 }
