@@ -124,6 +124,19 @@ class WikiGuide(unittest.TestCase):
         self.assertEqual(wikiguide.level_range("Level 1–46+"), (1, 46))
         self.assertIsNone(wikiguide.level_range("Rings"))
 
+    def test_goal_step_for_thin_pages(self):
+        html = ("<p>Blinded by Ramarno's Teaching is an achievement that requires the player to give Ramarno a "
+                "redberry pie during or after Defender of Varrock. Ramarno is by the Sacred Forge.</p>")
+        g = wikiguide.parse(html)
+        self.assertEqual(g["sections"][0], {"title": "Do this", "blocks": [
+            ("step", 0, "Give Ramarno a redberry pie during or after Defender of Varrock.")]})
+        self.assertEqual(g["sections"][1]["blocks"], [("text", 0, "Ramarno is by the Sacred Forge.")])
+        kudos = self.page("kudos_to_you")["sections"][0]
+        self.assertEqual(kudos["blocks"][0][2], "Obtain all available Kudos by helping out the Varrock Museum.")
+        g = wikiguide.parse("<p>Lunar Spells is an achievement completed by unlocking the eleven spells.</p>")
+        self.assertEqual(g["sections"][0]["blocks"][0][2], "Unlocking the eleven spells.")
+        self.assertEqual(wikiguide.parse("<p>Not about an achievement.</p>")["sections"][0]["title"], "")
+
     def test_training_page_names(self):
         self.assertEqual(wikiguide.training_page("Defence"), "Pay-to-play melee training")
         self.assertEqual(wikiguide.training_page("Mining"), "Pay-to-play Mining training")

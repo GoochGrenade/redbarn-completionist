@@ -244,7 +244,33 @@ def parse(html, own=""):
     p.close()
     p.flush()
     sections = [s for s in p.sections if s["blocks"] and s["title"].lower() not in SKIP_SECTIONS]
-    return {"details": p.details, "sections": sections, "skills": p.skills}
+    return {"details": p.details, "sections": with_goal_step(sections), "skills": p.skills}
+
+
+GOAL = re.compile(r"^.{1,150}? is an? (?:[\w-]+ )?achievement (?:(?:that|which) requires (?:the )?(?:players? )?(?:to )?"
+                  r"|(?:that is |which is )?completed by "
+                  r"|(?:that|which) tracks the player's progress (?:into|in|towards?) )(.+)$", re.S)
+
+
+def with_goal_step(sections):
+    """Achievement pages open with "X is an achievement that requires the player to do Y. …".
+
+    Lift "Do Y." out as a first step to tick, leaving the rest of the paragraph as text. Thin pages
+    have no other steps, so this gives every achievement a clear goal.
+    """
+    for s in sections:
+        for i, (kind, _, text) in enumerate(s["blocks"]):
+            if kind != "text":
+                continue
+            m = GOAL.match(text)
+            if not m:
+                return sections  # only the page's opening paragraph can state the goal
+            goal, _, rest = m.group(1).partition(". ")
+            goal = goal[0].upper() + goal[1:].rstrip(".") + "."
+            blocks = s["blocks"][:i] + ([("text", 0, rest)] if rest.strip() else []) + s["blocks"][i + 1:]
+            return [{"title": "Do this", "blocks": [("step", 0, goal)]}] + \
+                [dict(x, blocks=blocks) if x is s else x for x in sections if x is not s or blocks]
+    return sections
 
 
 def level_range(title):

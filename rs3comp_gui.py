@@ -17,6 +17,7 @@ import sys
 import tempfile
 import threading
 import time
+import urllib.parse
 from pathlib import Path
 
 import rs3comp
@@ -248,20 +249,68 @@ def as_guide(written):
     return {"details": details, "sections": sections, "skills": []}
 
 
+def search_links(task):
+    """Related searches for a task: (title, subtitle, url). Searches, not copies, of other sites."""
+    q = urllib.parse.quote_plus
+    return [("Watch videos on YouTube", f"Search: RS3 {task} guide",
+             f"https://www.youtube.com/results?search_query={q(f'RS3 {task} guide')}"),
+            ("Ask the community on Reddit", f"Search r/runescape for {task}",
+             f"https://www.reddit.com/r/runescape/search/?q={q(task)}"),
+            ("Search the RuneScape Wiki", f"Every wiki page mentioning {task}",
+             f"https://runescape.wiki/?search={q(task)}&fulltext=1"),
+            ("Search the web", f"Other guides for {task}",
+             f"https://duckduckgo.com/?q={q(f'RS3 {task} guide')}")]
+
+
 class GuideDialog(Adw.Dialog):
+    """Guides for tasks, one page each; links inside a guide open the linked guide, with Back to return."""
+
+    def __init__(self, win, page, title, kind, **kw):
+        super().__init__(content_width=680, content_height=780)
+        self.win = win
+        self.set_title(title)
+        self.nav = Adw.NavigationView()
+        self.set_child(self.nav)
+        self.open(page, title, kind, **kw)
+
+    @property
+    def top(self):
+        return self.nav.get_visible_page()
+
+    def open(self, page, title, kind, **kw):
+        self.nav.push(GuidePage(self, page, title, kind, **kw))
+
+    def open_task(self, name):
+        """Open a guide for a quest, achievement, skill ("90 Mining") or any other wiki page, by name."""
+        reqs = self.win.reqs
+        skill = re.fullmatch(r"(\d+) (" + "|".join(rs3comp.SKILLS) + r")", name)
+        if skill:
+            level = next((s["level"] for s in (self.win.profile or {}).get("skillvalues", [])
+                          if rs3comp.SKILLS[s["id"]] == skill.group(2)), None)
+            self.open(wikiguide.training_page(skill.group(2)), f"{skill.group(2)} training", "Training guide", level=level)
+        elif name in reqs["achievements"]:
+            self.open(reqs["achievements"][name]["page"], name, "Achievement", achievement=name)
+        elif name in reqs["quests"] or any(q["title"] == name for q in self.win.quests):
+            quick = reqs["quests"].get(name, {}).get("quick")
+            self.open(f"{name}/Quick guide" if quick else name, name, "Quest", own=name)
+        else:
+            self.open(name, name, "Guide")
+
+
+class GuidePage(Adw.NavigationPage):
     """A task as a step-by-step guide: what you need first, then steps to tick off as you go.
 
     Uses an original written guide when there is one for the task, otherwise the wiki page.
     """
 
-    def __init__(self, win, page, title, kind, own="", level=None, achievement=None, fetched=None):
-        super().__init__(content_width=680, content_height=780)
-        self.set_title(title)
-        self.win, self.page, self.kind, self.own, self.level, self.achievement = win, page, kind, own, level, achievement
-        header = Adw.HeaderBar()
+    def __init__(self, dialog, page, title, kind, own="", level=None, achievement=None, fetched=None):
+        super().__init__(title=title)
+        self.dialog, self.win = dialog, dialog.win
+        self.page, self.title, self.kind, self.own, self.level, self.achievement = page, title, kind, own, level, achievement
+        header = Adw.HeaderBar()  # shows Back when this guide was opened from another
         wiki = Gtk.Button(icon_name="adw-external-link-symbolic", tooltip_text="Open on the RuneScape Wiki")
         wiki.connect("clicked", open_url, rs3comp.link(page))
-        header.pack_start(wiki)
+        header.pack_end(wiki)
         self.view = Adw.ToolbarView()
         self.view.add_top_bar(header)
         # the wiki's licence asks for this credit wherever its text is shown
@@ -305,23 +354,32 @@ class GuideDialog(Adw.Dialog):
         self.view.set_content(Adw.StatusPage(icon_name="dialog-warning-symbolic", title="Couldn't open this guide",
                                              description=text, child=buttons))
 
-    def checked(self, text):
-        """Requirement text with ✓/✗ against the loaded player; (text, every check met or None if none)."""
-        if not self.win.profile:
-            return text, None
-        levels = {rs3comp.SKILLS[s["id"]]: s["level"] for s in self.win.profile["skillvalues"]}
+    def check_line(self, line):
+        """(text, met?, task to open) for one requirement line; met is None when it can't be checked."""
+        name = line.removeprefix("• ").strip()
+        skill = re.search(r"(\d+) (" + "|".join(rs3comp.SKILLS) + r")\b", name)
         quests = {q["title"]: q["status"] for q in self.win.quests}
-        lines, results = [], []
-        for line in text.splitlines():
-            name = line.removeprefix("• ").strip()
-            skill = re.search(r"(\d+) (" + "|".join(rs3comp.SKILLS) + r")\b", line)
-            ok = (quests[name] == "COMPLETED" if name in quests
-                  else levels.get(skill.group(2), 1) >= int(skill.group(1)) if skill else None)
-            if ok is not None:
-                results.append(ok)
-                line = ("✓ " if ok else "✗ ") + name
-            lines.append(line)
-        return "\n".join(lines), (all(results) if results else None)
+        if skill:
+            level = next((s["level"] for s in (self.win.profile or {}).get("skillvalues", [])
+                          if rs3comp.SKILLS[s["id"]] == skill.group(2)), None)
+            return name, (level >= int(skill.group(1)) if level is not None else None), skill.group(0)
+        if name in quests or name in self.win.reqs["quests"]:
+            return name, (quests[name] == "COMPLETED" if self.win.profile and name in quests else None), name
+        if name in self.win.reqs["achievements"]:
+            return name, (name in self.win.done if self.win.profile else None), name
+        # a wiki link the page made, like an area task set or a miniquest
+        return name, None, name if line.startswith("• ") and len(name) < 60 and not name.endswith(":") else None
+
+    def task_row(self, text, met, task):
+        r = row(("✓ " if met else "✗ " if met is False else "") + text)
+        if met:
+            r.add_css_class("completed")
+        if task:
+            r.set_activatable(True)
+            r.add_suffix(Gtk.Image(icon_name="go-next-symbolic"))
+            r.set_tooltip_text(f"Open the guide for {task}")
+            r.connect("activated", lambda *_: self.dialog.open_task(task))
+        return r
 
     def show(self, fetched):
         self.render(wikiguide.parse(fetched["html"], self.own), stale=fetched.get("stale"))
@@ -330,15 +388,27 @@ class GuideDialog(Adw.Dialog):
         page = Adw.PreferencesPage()
         if stale:
             page.add(Adw.PreferencesGroup(description="You're offline, so this is a saved copy that may be out of date."))
-        if g["details"]:
-            before = Adw.PreferencesGroup(title="Before you start")
-            for label, text in g["details"]:
-                text, met = self.checked(text)
-                r = row(label, text)
-                if met:
-                    r.add_css_class("completed")
-                before.add(r)
+        self.task_rows = []
+        before = Adw.PreferencesGroup(title="Before you start")
+        lists = []
+        for label, text in g["details"]:
+            lines = text.splitlines()
+            if any(l.startswith("• ") for l in lines):
+                lists.append((label, lines))
+            else:
+                before.add(row(label, text))
+        if len(lists) < len(g["details"]):  # some details weren't lists, so the group has rows
             page.add(before)
+        for label, lines in lists:  # requirements and items: one row each, ticked off and openable
+            group = Adw.PreferencesGroup(title=label)
+            for line in lines:
+                if not line.startswith("• "):
+                    group.add(row(line) if not line.endswith(":") else Adw.ActionRow(title=line, css_classes=["dim-label"]))
+                    continue
+                r = self.task_row(*self.check_line(line))
+                self.task_rows.append(r)
+                group.add(r)
+            page.add(group)
 
         sections = g["sections"]
         if self.kind == "Training guide" and self.level is not None:
@@ -379,17 +449,17 @@ class GuideDialog(Adw.Dialog):
             sources = Adw.PreferencesGroup(title="Sources", description=f"Checked {written['checked']}. The facts come "
                                            "from these pages; the wording is written for this app.")
             for title, url in written["sources"]:
-                r = row(title, url)
-                r.set_activatable(True)
-                r.add_suffix(Gtk.Image(icon_name="adw-external-link-symbolic"))
-                r.connect("activated", open_url, url)
-                sources.add(r)
+                sources.add(self.link_row(title, url))
             full = row("Read the full wiki page", "Show the RuneScape Wiki's own page here instead")
             full.set_activatable(True)
             full.add_suffix(Gtk.Image(icon_name="go-next-symbolic"))
             full.connect("activated", self.load)
             sources.add(full)
             page.add(sources)
+        more = Adw.PreferencesGroup(title="More help", description="Searches on other sites, opened in your browser.")
+        for title, subtitle, url in search_links(self.title):
+            more.add(self.link_row(title, url, subtitle))
+        page.add(more)
         if self.achievement:
             finish = Adw.PreferencesGroup()
             if self.achievement in self.win.done:
@@ -399,6 +469,13 @@ class GuideDialog(Adw.Dialog):
             page.add(finish)
         self.mark_current()
         self.view.set_content(page)
+
+    def link_row(self, title, url, subtitle=None):
+        r = row(title, subtitle if subtitle is not None else url)
+        r.set_activatable(True)
+        r.add_suffix(Gtk.Image(icon_name="adw-external-link-symbolic"))
+        r.connect("activated", open_url, url)
+        return r
 
     def saved_steps(self):
         steps = json.loads(STEPS_FILE.read_text(encoding="utf-8")) if STEPS_FILE.exists() else {}
@@ -421,7 +498,7 @@ class GuideDialog(Adw.Dialog):
 
     def tick_off(self, _button):
         self.win.tick_achievement(self.achievement)
-        self.close()
+        self.dialog.close()
 
 
 class Window(Adw.ApplicationWindow):
@@ -604,7 +681,8 @@ class Window(Adw.ApplicationWindow):
 
     def track(self, r, group, parent=None):
         """Remember a row for search."""
-        self.search_items.append((r, f"{r.get_title()} {r.get_subtitle() or ''}".lower(), group, parent))
+        text = f"{r.get_title()} {r.get_subtitle() or ''} {getattr(r, 'search_extra', '')}"
+        self.search_items.append((r, text.lower(), group, parent))
         return r
 
     def render_guide(self):
@@ -692,6 +770,8 @@ class Window(Adw.ApplicationWindow):
             if g["items_locked"]:
                 rows = [self.guide_row(row(a["name"], "Needs " + ", ".join(need)), a.get("page", a["name"]), a["name"],
                                        "Achievement", achievement=a["name"]) for a, need in g["items_locked"]]
+                for r, (a, _) in zip(rows, g["items_locked"]):
+                    r.search_extra = f"{a['category']} {a['subcategory']}"
                 e = expander(f"Locked ({len(rows)})", rows)
                 group.add(e)
                 for r in rows:
@@ -743,13 +823,8 @@ class Window(Adw.ApplicationWindow):
         r.add_prefix(r.check)
         if checked:
             r.add_css_class("completed")
-        r.set_activatable_widget(r.check)
-        guide = Gtk.Button(icon_name="go-next-symbolic", valign=Gtk.Align.CENTER, tooltip_text="Open guide",
-                           css_classes=["flat"])
-        guide.connect("clicked", lambda *_: GuideDialog(self, a.get("page", a["name"]), a["name"], "Achievement",
-                                                        achievement=a["name"]).present(self))
-        r.add_suffix(guide)
-        return r
+        r.search_extra = f"{a['category']} {a['subcategory']}"
+        return self.guide_row(r, a.get("page", a["name"]), a["name"], "Achievement", achievement=a["name"])
 
     def guide_row(self, r, page, title, kind, **kw):
         """Make a row open a wiki page as an in-app guide."""
@@ -904,15 +979,27 @@ def self_test(app, win):
         check(any(r.get_visible() for r, *_ in win.search_items), "Search finds matches")
         wiki = rs3comp.HERE / "fixtures" / "wiki"
         guide = lambda name, *a, **kw: GuideDialog(win, name, name, *a, fetched={"html": (wiki / f"{name}.html").read_text(encoding="utf-8")}, **kw)  # noqa: E731
-        d = guide("cooks_assistant_quick_guide", "Quest", own="Cook's Assistant")
+        d = guide("cooks_assistant_quick_guide", "Quest", own="Cook's Assistant").top
         check(len(d.steps) > 1 and sum(r.has_css_class("current") for r, _ in d.steps) == 1, "Quest guide: steps and a current step")
-        d = guide("kudos_to_you", "Achievement", achievement="Kudos to You")
+        dialog = guide("kudos_to_you", "Achievement", achievement="Kudos to You")
+        d = dialog.top
         buttons = [w for w in walk(d.view.get_content()) if isinstance(w, Gtk.Button)]
         check(any(b.get_label() == "Tick off this achievement" for b in buttons), "Achievement guide: tick-off button")
-        d = GuideDialog(win, "Big Chinchompa (achievement)", "Big Chinchompa", "Achievement", achievement="Big Chinchompa")
+        check(d.steps[0][0].get_title().startswith("Obtain all available Kudos"), "Achievement guide: goal as the first step")
+        demon = next(r for r in d.task_rows if r.get_title().endswith("Demon Slayer"))
+        check(demon.get_title() == "✓ Demon Slayer", "Requirements: one row each, checked against the player")
+        titles = [w.get_title() for w in walk(d.view.get_content()) if isinstance(w, Adw.PreferencesGroup)]
+        check("More help" in titles, "More help searches on every guide")
+        dialog.open("cooks_assistant_quick_guide", "Cook's Assistant", "Quest",
+                    fetched={"html": (wiki / "cooks_assistant_quick_guide.html").read_text(encoding="utf-8")})
+        check(dialog.top.get_title() == "Cook's Assistant" and dialog.nav.get_navigation_stack().get_n_items() == 2,
+              "A linked guide opens inside the guide")
+        dialog.nav.pop()
+        check(dialog.top is d, "Back returns to the first guide")
+        d = GuideDialog(win, "Big Chinchompa (achievement)", "Big Chinchompa", "Achievement", achievement="Big Chinchompa").top
         titles = [w.get_title() for w in walk(d.view.get_content()) if isinstance(w, Adw.PreferencesGroup)]
         check(len(d.steps) > 3 and "Sources" in titles, "Written guide: steps and sources, offline")
-        d = guide("ranged_training", "Training guide", level=99)
+        d = guide("ranged_training", "Training guide", level=99).top
         check(d.sections[0]["title"] == "For your level · Levels 70-120", "Training guide: opens on your level")
     except Exception as e:  # a crash is a failure too, and must not leave the app running
         check(False, f"crashed: {e!r}")
