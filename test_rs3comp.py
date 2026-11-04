@@ -137,6 +137,10 @@ class WikiGuide(unittest.TestCase):
         self.assertEqual(g["sections"][0]["blocks"][0][2], "Unlocking the eleven spells.")
         self.assertEqual(wikiguide.parse("<p>Not about an achievement.</p>")["sections"][0]["title"], "")
 
+    def test_decimal_skill_level(self):
+        g = wikiguide.parse('<p><span class="skillreq" data-skill="Divination" data-level="22.6">22.6</span></p>')
+        self.assertEqual(g["skills"], [("Divination", 22)])
+
     def test_training_page_names(self):
         self.assertEqual(wikiguide.training_page("Defence"), "Pay-to-play melee training")
         self.assertEqual(wikiguide.training_page("Mining"), "Pay-to-play Mining training")

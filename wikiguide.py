@@ -109,7 +109,7 @@ class _Parser(HTMLParser):
             return
         what = None
         if tag == "span" and "skillreq" in classes and a.get("data-skill"):
-            skill, level = a["data-skill"], int(a.get("data-level") or 0)
+            skill, level = a["data-skill"], int(float(a.get("data-level") or 0))  # some pages give "22.6"
             self.skills.append((skill, level))
             self.buf.append(f" {level} {skill} ")
             self.skipping += 1  # its own text is the level and an icon link

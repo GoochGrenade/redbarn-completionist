@@ -4,20 +4,39 @@
   "Bag of Herbs": {
    "checked": "2026-11-04",
    "summary": "Buy the herb bag and its upgrade from the Herby Werby reward shop. Together they cost 400 points, and you can earn at most 100 a week, so this takes at least four weeks. Start it early.",
-   "need": ["Access to Anachronia (members)"],
+   "need": [
+    "Access to Anachronia (members)"
+   ],
    "steps": [
-    ["Travel to Herby Werby: climb down the tree roots in the north-east of Anachronia.", [
-     "From the base camp, the quickest path crosses the Anachronia Agility Course (70 Agility; 50 Agility to enter the course).",
-     "Without the Agility levels, walk around: north, then east, then south under the bones, then north to the tree roots.",
-     "With 78 Magic, cast the Eastern Anachronia Teleport, then run north."]],
-    ["Earn the weekly maximum of 100 points inside the cave.", [
-     "Take herbs from zygomites carrying healthy herbs (white particles) for points and Herblore XP.",
-     "Pick corrupt herbs (purple) and burn them on the ritual fire in the middle for more points.",
-     "Never burn healthy (green) herbs: it gives a 30-second penalty that cuts the points you earn.",
-     "There's no time limit, so you can leave and come back."]],
-    ["Spend your points with the ancient zygomite elder outside the cave.", []],
-    ["Come back each week after the reset (Wednesday 00:00 game time) until you have 400 points.", []],
-    ["Buy the herb bag, then the herb bag upgrade.", []]
+    [
+     "Travel to Herby Werby: climb down the tree roots in the north-east of Anachronia.",
+     [
+      "From the base camp, the quickest path crosses the Anachronia Agility Course (70 Agility; 50 Agility to enter the course).",
+      "Without the Agility levels, walk around: north, then east, then south under the bones, then north to the tree roots.",
+      "With 78 Magic, cast the Eastern Anachronia Teleport, then run north."
+     ]
+    ],
+    [
+     "Earn the weekly maximum of 100 points inside the cave.",
+     [
+      "Take herbs from zygomites carrying healthy herbs (white particles) for points and Herblore XP.",
+      "Pick corrupt herbs (purple) and burn them on the ritual fire in the middle for more points.",
+      "Never burn healthy (green) herbs: it gives a 30-second penalty that cuts the points you earn.",
+      "There's no time limit, so you can leave and come back."
+     ]
+    ],
+    [
+     "Spend your points with the ancient zygomite elder outside the cave.",
+     []
+    ],
+    [
+     "Come back each week after the reset (Wednesday 00:00 game time) until you have 400 points.",
+     []
+    ],
+    [
+     "Buy the herb bag, then the herb bag upgrade.",
+     []
+    ]
    ],
    "tips": [
     "Fastest points: burn corrupt herbs from the three big clusters on the south wall, which give 4 points each.",
@@ -25,109 +44,217 @@
     "Points (potent herbs) cap at 2,000, so spend them before you hit the cap."
    ],
    "sources": [
-    ["RuneScape Wiki: Bag of Herbs", "https://runescape.wiki/w/Bag_of_Herbs"],
-    ["RuneScape Wiki: Herby Werby", "https://runescape.wiki/w/Herby_Werby"],
-    ["RuneHQ: Herby Werby", "https://reforged.runehq.com/rs3/distract-divert/herby-werby"]
+    [
+     "RuneScape Wiki: Bag of Herbs",
+     "https://runescape.wiki/w/Bag_of_Herbs"
+    ],
+    [
+     "RuneScape Wiki: Herby Werby",
+     "https://runescape.wiki/w/Herby_Werby"
+    ],
+    [
+     "RuneHQ: Herby Werby",
+     "https://reforged.runehq.com/rs3/distract-divert/herby-werby"
+    ]
    ]
   },
   "Bean There, Done That": {
    "checked": "2026-11-04",
    "summary": "Buy 13 upgrades from the Farmers' Market at Manor Farm, 38,600 beans in total. Beans come from selling animals you raise, so this takes steady play over many days.",
-   "need": ["71 Farming", "20 Construction"],
+   "need": [
+    "71 Farming",
+    "20 Construction"
+   ],
    "steps": [
-    ["Do the player-owned farm tutorial at Manor Farm. It gives your first 500 beans.", []],
-    ["Raise animals in your pens and sell them to the buyers for beans.", [
-     "Buyers for small, medium and large animals appear on their own resets.",
-     "Put animals of the right size in your pens before a reset, so the buyer you want turns up.",
-     "Fully grown animals and buyers' preferred animals are worth more beans."]],
-    ["Buy the pen deeds first, so you can raise more animals at once.", [
-     "Small pen deed I and II: 100 beans each",
-     "Medium pen deed I: 150 · Medium pen deed II: 500",
-     "Large pen deed I: 250 · Large pen deed II: 1,000"]],
-    ["Buy the farm upgrades.", [
-     "Bank chest: 300",
-     "6 farm totems: 1,200",
-     "Noted produce: 3,000",
-     "Seasonaliser wheel: 5,000"]],
-    ["Buy the three trait boosts last; they cost the most.", [
-     "Multiple trait boost (small): 6,000",
-     "Multiple trait boost (medium): 9,000",
-     "Multiple trait boost (large): 12,000"]]
+    [
+     "Do the player-owned farm tutorial at Manor Farm. It gives your first 500 beans.",
+     []
+    ],
+    [
+     "Raise animals in your pens and sell them to the buyers for beans.",
+     [
+      "Buyers for small, medium and large animals appear on their own resets.",
+      "Put animals of the right size in your pens before a reset, so the buyer you want turns up.",
+      "Fully grown animals and buyers' preferred animals are worth more beans."
+     ]
+    ],
+    [
+     "Buy the pen deeds first, so you can raise more animals at once.",
+     [
+      "Small pen deed I and II: 100 beans each",
+      "Medium pen deed I: 150 · Medium pen deed II: 500",
+      "Large pen deed I: 250 · Large pen deed II: 1,000"
+     ]
+    ],
+    [
+     "Buy the farm upgrades.",
+     [
+      "Bank chest: 300",
+      "6 farm totems: 1,200",
+      "Noted produce: 3,000",
+      "Seasonaliser wheel: 5,000"
+     ]
+    ],
+    [
+     "Buy the three trait boosts last; they cost the most.",
+     [
+      "Multiple trait boost (small): 6,000",
+      "Multiple trait boost (medium): 9,000",
+      "Multiple trait boost (large): 12,000"
+     ]
+    ]
    ],
    "tips": [
     "The master farmer outfit and the Grandmaster Farmer rank each add 10% to beans from sales.",
     "Granny Potterington gives bonus beans: 100 at level 99 Farming, 600 in total at 120, and 1,600 in total at 200 million XP."
    ],
    "sources": [
-    ["RuneScape Wiki: Bean There, Done That", "https://runescape.wiki/w/Bean_There,_Done_That"],
-    ["RuneScape Wiki: Beans", "https://runescape.wiki/w/Beans"]
+    [
+     "RuneScape Wiki: Bean There, Done That",
+     "https://runescape.wiki/w/Bean_There%2C_Done_That"
+    ],
+    [
+     "RuneScape Wiki: Beans",
+     "https://runescape.wiki/w/Beans"
+    ]
    ]
   },
   "Bean There, Done That, Got the Postcard": {
    "checked": "2026-11-04",
    "summary": "Buy 9 upgrades from the Farmers' Market at the Anachronia Dinosaur Farm, 35,100 beans in total. Like the Manor Farm version, beans come from selling animals, so start early.",
-   "need": ["104 Farming", "Access to Anachronia (members)"],
+   "need": [
+    "104 Farming",
+    "Access to Anachronia (members)"
+   ],
    "steps": [
-    ["Raise dinosaurs at the Anachronia Dinosaur Farm and sell them for beans.", [
-     "Grow them fully and sell to buyers who want them, for the most beans."]],
-    ["Buy the pen deeds first, so you can raise more dinosaurs at once.", [
-     "Small dinosaur pen deed: 100",
-     "Medium dinosaur pen deed: 500",
-     "Large dinosaur pen deed I: 1,000 · Large dinosaur pen deed II: 1,000",
-     "Dinosaur breeding pen deed: 1,000"]],
-    ["Buy breeding for each pen size.", [
-     "Breeding in small dinosaur pens: 6,000",
-     "Breeding in medium dinosaur pens: 8,000",
-     "Breeding in large dinosaur pens: 10,000"]],
-    ["Buy the Anachronia storm barn deeds: 7,500.", []]
+    [
+     "Raise dinosaurs at the Anachronia Dinosaur Farm and sell them for beans.",
+     [
+      "Grow them fully and sell to buyers who want them, for the most beans."
+     ]
+    ],
+    [
+     "Buy the pen deeds first, so you can raise more dinosaurs at once.",
+     [
+      "Small dinosaur pen deed: 100",
+      "Medium dinosaur pen deed: 500",
+      "Large dinosaur pen deed I: 1,000 · Large dinosaur pen deed II: 1,000",
+      "Dinosaur breeding pen deed: 1,000"
+     ]
+    ],
+    [
+     "Buy breeding for each pen size.",
+     [
+      "Breeding in small dinosaur pens: 6,000",
+      "Breeding in medium dinosaur pens: 8,000",
+      "Breeding in large dinosaur pens: 10,000"
+     ]
+    ],
+    [
+     "Buy the Anachronia storm barn deeds: 7,500.",
+     []
+    ]
    ],
    "tips": [
     "The master farmer outfit and the Grandmaster Farmer rank each add 10% to beans from sales."
    ],
    "sources": [
-    ["RuneScape Wiki: Bean There, Done That, Got the Postcard", "https://runescape.wiki/w/Bean_There,_Done_That,_Got_the_Postcard"],
-    ["RuneScape Wiki: Beans", "https://runescape.wiki/w/Beans"]
+    [
+     "RuneScape Wiki: Bean There, Done That, Got the Postcard",
+     "https://runescape.wiki/w/Bean_There%2C_Done_That%2C_Got_the_Postcard"
+    ],
+    [
+     "RuneScape Wiki: Beans",
+     "https://runescape.wiki/w/Beans"
+    ]
    ]
   },
   "Big Chinchompa": {
    "checked": "2026-11-04",
    "summary": "Score 1,111 points in a single game of Big Chinchompa, a Hunter activity that runs every hour. The achievement completes the moment you reach 1,111, so you don't have to finish the game.",
-   "need": ["Members", "A higher Hunter level helps a lot: better moths are worth more points"],
+   "need": [
+    "Members",
+    "A higher Hunter level helps a lot: better moths are worth more points"
+   ],
    "steps": [
-    ["Find the next game. Games start at half past every hour.", [
-     "Use Nyriki's portal at his and Mieliki's house in the Tree Gnome Stronghold, just south of the Gnome Agility Course. It shows where the next game is and takes you there."]],
-    ["Climb down the hole Nyriki leaves in the ground to join.", [
-     "Join at the start: a game lasts 20 minutes, or less if the chinchompa falls asleep early.",
-     "You can only join two games a day."]],
-    ["Take a protea flower from a corner of the lair and wield it. It draws in the best moth you can catch.", []],
-    ["Catch soporith moths from the air or from shaking branches. Your jar holds 15.", [
-     "Points per moth: black 21 (91 Hunter), grey 18 (78), purple 15 (65), blue 12 (52), green 8 (39).",
-     "1,111 points is about 53 black moths, 62 grey or 75 purple."]],
-    ["Empty the jar into the chinchompa's nest each time it's full. Points only count when you empty it.", []],
-    ["Keep going until you pass 1,111 points.", []]
+    [
+     "Find the next game. Games start at half past every hour.",
+     [
+      "Use Nyriki's portal at his and Mieliki's house in the Tree Gnome Stronghold, just south of the Gnome Agility Course. It shows where the next game is and takes you there."
+     ]
+    ],
+    [
+     "Climb down the hole Nyriki leaves in the ground to join.",
+     [
+      "Join at the start: a game lasts 20 minutes, or less if the chinchompa falls asleep early.",
+      "You can only join two games a day."
+     ]
+    ],
+    [
+     "Take a protea flower from a corner of the lair and wield it. It draws in the best moth you can catch.",
+     []
+    ],
+    [
+     "Catch soporith moths from the air or from shaking branches. Your jar holds 15.",
+     [
+      "Points per moth: black 21 (91 Hunter), grey 18 (78), purple 15 (65), blue 12 (52), green 8 (39).",
+      "1,111 points is about 53 black moths, 62 grey or 75 purple."
+     ]
+    ],
+    [
+     "Empty the jar into the chinchompa's nest each time it's full. Points only count when you empty it.",
+     []
+    ],
+    [
+     "Keep going until you pass 1,111 points.",
+     []
+    ]
    ],
    "tips": [
     "Boost your Hunter level with Hunter potions or the mud bath in Oo'glog to catch higher-tier moths.",
-    "Busy games end sooner, because everyone's moths fill the chinchompa's bar. A quieter game gives you more time.",
-    "Run energy is unlimited during the game."
+    "Busy games end sooner, because everyone's moths fill the chinchompa's bar. A quieter game gives you more time."
    ],
    "sources": [
-    ["RuneScape Wiki: Big Chinchompa (achievement)", "https://runescape.wiki/w/Big_Chinchompa_(achievement)"],
-    ["RuneScape Wiki: Big Chinchompa", "https://runescape.wiki/w/Big_Chinchompa"],
-    ["RuneHQ: Big Chinchompa", "https://reforged.runehq.com/rs3/distract-divert/big-chinchompa"]
+    [
+     "RuneScape Wiki: Big Chinchompa (achievement)",
+     "https://runescape.wiki/w/Big_Chinchompa_%28achievement%29"
+    ],
+    [
+     "RuneScape Wiki: Big Chinchompa",
+     "https://runescape.wiki/w/Big_Chinchompa"
+    ],
+    [
+     "RuneHQ: Big Chinchompa",
+     "https://reforged.runehq.com/rs3/distract-divert/big-chinchompa"
+    ]
    ]
   },
   "From Ardougne with Love": {
    "checked": "2026-11-04",
    "summary": "Spy on 40 penguins in Penguin Hide and Seek; your penguin spy device then upgrades itself. Only 12 penguins appear each week, so this takes at least four weeks. Start early.",
-   "need": ["Nothing to start. Some penguins hide in areas that need quests to reach."],
+   "need": [
+    "Nothing to start. Some penguins hide in areas that need quests to reach."
+   ],
    "steps": [
-    ["Get a penguin spy device from Larry at Ardougne Zoo (or from Chuck, after Hunt for Red Raktuber).", []],
-    ["Each week, find the 12 disguised penguins and spy on them.", [
-     "Use the spy device's hint for a penguin to see roughly where it is.",
-     "Penguins don't show on the minimap, but they're noisy, so turn up ambient sounds."]],
-    ["Come back after the weekly reset (Wednesday 00:00 UTC) and find the next 12.", []],
-    ["After 40 penguins in total, the spy device upgrades on its own and the achievement completes.", []]
+    [
+     "Get a penguin spy device from Larry at Ardougne Zoo (or from Chuck, after Hunt for Red Raktuber).",
+     []
+    ],
+    [
+     "Each week, find the 12 disguised penguins and spy on them.",
+     [
+      "Use the spy device's hint for a penguin to see roughly where it is.",
+      "Penguins don't show on the minimap, but they're noisy, so turn up ambient sounds."
+     ]
+    ],
+    [
+     "Come back after the weekly reset (Wednesday 00:00 UTC) and find the next 12.",
+     []
+    ],
+    [
+     "After 40 penguins in total, the spy device upgrades on its own and the achievement completes.",
+     []
+    ]
    ],
    "tips": [
     "World 60 is the official Penguin Hide and Seek world. Its community chat, W60Pengs, shares where the penguins are. You have to be on World 60 to join it.",
@@ -135,51 +262,110 @@
     "A Distraction & Diversion reset token (weekly) resets your weekly progress, so you can find another 12."
    ],
    "sources": [
-    ["RuneScape Wiki: From Ardougne with Love", "https://runescape.wiki/w/From_Ardougne_with_Love"],
-    ["RuneScape Wiki: Penguin Hide and Seek", "https://runescape.wiki/w/Penguin_Hide_and_Seek"],
-    ["RuneScape Wiki: World60Pengs collaboration", "https://runescape.wiki/w/Forum:Discord_collaboration:_World60Pengs"],
-    ["RuneHQ: Penguin Hide and Seek", "https://reforged.runehq.com/rs3/distract-divert/penguin-hide-and-seek"]
+    [
+     "RuneScape Wiki: From Ardougne with Love",
+     "https://runescape.wiki/w/From_Ardougne_with_Love"
+    ],
+    [
+     "RuneScape Wiki: Penguin Hide and Seek",
+     "https://runescape.wiki/w/Penguin_Hide_and_Seek"
+    ],
+    [
+     "RuneScape Wiki: World60Pengs collaboration",
+     "https://runescape.wiki/w/Forum:Discord_collaboration:_World60Pengs"
+    ],
+    [
+     "RuneHQ: Penguin Hide and Seek",
+     "https://reforged.runehq.com/rs3/distract-divert/penguin-hide-and-seek"
+    ]
    ]
   },
   "Invention Gives Me the Blues": {
    "checked": "2026-11-04",
    "summary": "Buy all 15 blueprints in the dwarven and cave goblin technology trees, 535 currency in total. The currency comes from Invention tasks, which appear once every 12 hours, so start early.",
-   "need": ["70 Invention", "The Giant Dwarf", "Death to the Dorgeshuun"],
+   "need": [
+    "70 Invention",
+    "The Giant Dwarf",
+    "Death to the Dorgeshuun"
+   ],
    "steps": [
-    ["Complete The Giant Dwarf and Death to the Dorgeshuun. They unlock the dwarven and cave goblin trees.", []],
-    ["Take Invention tasks from a noticeboard: in the Invention Guild, near Oldak in Dorgesh-Kaan, or near Drorkar in Keldagrim.", [
-     "A new task appears every 12 hours. Up to 5 wait for you, so check in at least every 2½ days to waste none."]],
-    ["Finish tasks to earn Dwarven and Goblin Currency.", []],
-    ["Buy the 8 dwarven blueprints from Drorkar in Keldagrim (295 Dwarven Currency).", [
-     "Corporeal components: 10",
-     "Sprinkler MK1, Mining accumulator: 25 each",
-     "Book switcher, Calorie bomb: 35 each",
-     "Auto-sanctifier, Kinetic cyclone, Dungeoneering lock melter: 55 each"]],
-    ["Buy the 7 cave goblin blueprints from Oldak in Dorgesh-Kaan (240 Goblin Currency).", [
-     "Pestiferous components: 10",
-     "Mechanised chinchompa, Woodcutting accumulator: 25 each",
-     "B.A.N.K. Stander, Monkey mind-control helmet: 35 each",
-     "Electrified box trap, Oldak coil: 55 each"]]
+    [
+     "Complete The Giant Dwarf and Death to the Dorgeshuun. They unlock the dwarven and cave goblin trees.",
+     []
+    ],
+    [
+     "Take Invention tasks from a noticeboard: in the Invention Guild, near Oldak in Dorgesh-Kaan, or near Drorkar in Keldagrim.",
+     [
+      "A new task appears every 12 hours. Up to 5 wait for you, so check in at least every 2½ days to waste none."
+     ]
+    ],
+    [
+     "Finish tasks to earn Dwarven and Goblin Currency.",
+     []
+    ],
+    [
+     "Buy the 8 dwarven blueprints from Drorkar in Keldagrim (295 Dwarven Currency).",
+     [
+      "Corporeal components: 10",
+      "Sprinkler MK1, Mining accumulator: 25 each",
+      "Book switcher, Calorie bomb: 35 each",
+      "Auto-sanctifier, Kinetic cyclone, Dungeoneering lock melter: 55 each"
+     ]
+    ],
+    [
+     "Buy the 7 cave goblin blueprints from Oldak in Dorgesh-Kaan (240 Goblin Currency).",
+     [
+      "Pestiferous components: 10",
+      "Mechanised chinchompa, Woodcutting accumulator: 25 each",
+      "B.A.N.K. Stander, Monkey mind-control helmet: 35 each",
+      "Electrified box trap, Oldak coil: 55 each"
+     ]
+    ]
    ],
    "tips": [
     "Blueprints unlock at Invention levels 40, 50, 60 and 70, by tier."
    ],
    "sources": [
-    ["RuneScape Wiki: Invention Gives Me the Blues", "https://runescape.wiki/w/Invention_Gives_Me_the_Blues"],
-    ["RuneScape Wiki: Dwarven technology tree", "https://runescape.wiki/w/Dwarven_technology_tree"],
-    ["RuneScape Wiki: Cave goblin technology tree", "https://runescape.wiki/w/Cave_goblin_technology_tree"]
+    [
+     "RuneScape Wiki: Invention Gives Me the Blues",
+     "https://runescape.wiki/w/Invention_Gives_Me_the_Blues"
+    ],
+    [
+     "RuneScape Wiki: Dwarven technology tree",
+     "https://runescape.wiki/w/Dwarven_technology_tree"
+    ],
+    [
+     "RuneScape Wiki: Cave goblin technology tree",
+     "https://runescape.wiki/w/Cave_goblin_technology_tree"
+    ]
    ]
   },
   "Make Them Bleed": {
    "checked": "2026-11-04",
    "summary": "Clear wave 20 of Rush of Blood, a Slayer combat activity in Prifddinas, then claim a Slayer XP lamp from Morvran. Any difficulty counts, including a practice run.",
-   "need": ["85 Slayer", "Plague's End"],
+   "need": [
+    "85 Slayer",
+    "Plague's End"
+   ],
    "steps": [
-    ["Go to Morvran's dungeon under the Iorwerth Clan district in Prifddinas and talk to Morvran.", []],
-    ["Start a Trial Run (practice) or a Reward Run. Either counts. Bronze is the easiest tier, at 85 Slayer.", []],
-    ["Clear 20 waves, so you reach wave 21.", [
-     "Dying is safe, but it ends the run at the last wave you cleared."]],
-    ["Talk to Morvran, inside or outside the arena, to claim the Slayer XP lamp. That completes the achievement.", []]
+    [
+     "Go to Morvran's dungeon under the Iorwerth Clan district in Prifddinas and talk to Morvran.",
+     []
+    ],
+    [
+     "Start a Trial Run (practice) or a Reward Run. Either counts. Bronze is the easiest tier, at 85 Slayer.",
+     []
+    ],
+    [
+     "Clear 20 waves, so you reach wave 21.",
+     [
+      "Dying is safe, but it ends the run at the last wave you cleared."
+     ]
+    ],
+    [
+     "Talk to Morvran, inside or outside the arena, to claim the Slayer XP lamp. That completes the achievement.",
+     []
+    ]
    ],
    "tips": [
     "Bring two or three attack styles and hybrid armour. Some monsters need a particular style, and swapping full armour sets wastes time.",
@@ -187,97 +373,801 @@
     "The bank chest outside the arena doesn't pause the timer, so use it sparingly."
    ],
    "sources": [
-    ["RuneScape Wiki: Make Them Bleed", "https://runescape.wiki/w/Make_Them_Bleed"],
-    ["RuneScape Wiki: Rush of Blood", "https://runescape.wiki/w/Rush_of_Blood"]
+    [
+     "RuneScape Wiki: Make Them Bleed",
+     "https://runescape.wiki/w/Make_Them_Bleed"
+    ],
+    [
+     "RuneScape Wiki: Rush of Blood",
+     "https://runescape.wiki/w/Rush_of_Blood"
+    ]
    ]
   },
   "Power Planter II": {
    "checked": "2026-11-04",
    "summary": "Unlock Plant Power (Tier 4) at Sydekix's Shop of Balance in the Garden of Kharid, 33,950 Crux Eqal favour in total. Favour comes from harvesting herbs, so start early.",
-   "need": ["110 Farming", "Power Planter I"],
+   "need": [
+    "110 Farming",
+    "Power Planter I"
+   ],
    "steps": [
-    ["Talk to Polletix at the Garden of Kharid to start earning favour (50 Farming). He also tells you your daily herb.", [
-     "Your daily herb is random for each player. You can also ask Polletix with the NPC Contact spell."]],
-    ["Grow herbs in any herb patch. Favour is added when you harvest the last herb from a patch.", []],
-    ["Grow your daily herb whenever you can.", [
-     "The daily herb gives 50 favour per seed, rising to 100, 200, 350 and 500 with Plant Power tiers 1 to 4.",
-     "Other herbs give less, from 10 to 35 favour per seed, depending on the herb."]],
-    ["Buy Plant Power tiers 1 to 4 from Sydekix, in order, as soon as you can afford each one.", [
-     "Each tier boosts the favour from your daily herb, so earlier tiers speed up the later ones."]]
+    [
+     "Talk to Polletix at the Garden of Kharid to start earning favour (50 Farming). He also tells you your daily herb.",
+     [
+      "Your daily herb is random for each player. You can also ask Polletix with the NPC Contact spell."
+     ]
+    ],
+    [
+     "Grow herbs in any herb patch. Favour is added when you harvest the last herb from a patch.",
+     []
+    ],
+    [
+     "Grow your daily herb whenever you can.",
+     [
+      "The daily herb gives 50 favour per seed, rising to 100, 200, 350 and 500 with Plant Power tiers 1 to 4.",
+      "Other herbs give less, from 10 to 35 favour per seed, depending on the herb."
+     ]
+    ],
+    [
+     "Buy Plant Power tiers 1 to 4 from Sydekix, in order, as soon as you can afford each one.",
+     [
+      "Each tier boosts the favour from your daily herb, so earlier tiers speed up the later ones."
+     ]
+    ]
    ],
    "tips": [
     "Favour caps at 100,000."
    ],
    "sources": [
-    ["RuneScape Wiki: Power Planter II", "https://runescape.wiki/w/Power_Planter_II"],
-    ["RuneScape Wiki: Crux Eqal favour", "https://runescape.wiki/w/Crux_Eqal_favour"],
-    ["RuneHQ: Garden of Kharid", "https://reforged.runehq.com/rs3/special/garden-of-kharid"],
-    ["Ten Ton Hammer: Garden of Kharid guide", "https://www.tentonhammer.com/articles/runescape-3-garden-of-kharid-guide"]
+    [
+     "RuneScape Wiki: Power Planter II",
+     "https://runescape.wiki/w/Power_Planter_II"
+    ],
+    [
+     "RuneScape Wiki: Crux Eqal favour",
+     "https://runescape.wiki/w/Crux_Eqal_favour"
+    ],
+    [
+     "RuneHQ: Garden of Kharid",
+     "https://reforged.runehq.com/rs3/special/garden-of-kharid"
+    ],
+    [
+     "Ten Ton Hammer: Garden of Kharid guide",
+     "https://www.tentonhammer.com/articles/runescape-3-garden-of-kharid-guide"
+    ]
    ]
   },
   "Top Town Hall": {
    "checked": "2026-11-04",
    "summary": "Upgrade the Town Hall at the Anachronia base camp to tier 3. The buildings take about 538 hours to complete in total, so start as early as you can.",
-   "need": ["Access to Anachronia (members)"],
+   "need": [
+    "Access to Anachronia (members)"
+   ],
    "steps": [
-    ["Talk to Giles at the base camp. The tier 1 Town Hall is built during his short tutorial.", []],
-    ["First build the Anachronia lodestone and turn the deposit box into a bank chest.", [
-     "The wiki recommends these first, so you can get around the island and bank from the camp."]],
-    ["Assign your workers to gather resources: wood, vines, leaves, hides, stone and clay.", [
-     "Either split them evenly, or put them all on one resource until you have enough, then switch."]],
-    ["Build the tier 1 Storehouse and Sleeping Quarters.", [
-     "More Sleeping Quarters means more workers; a bigger Storehouse holds more resources."]],
-    ["Upgrade the Town Hall, Storehouse and Sleeping Quarters to tier 2.", []],
-    ["Upgrade the Town Hall to tier 3. In total you need about 165,000 wood, 115,000 vines, 75,000 leaves, 100,000 hides and 115,000 stone.", []]
+    [
+     "Talk to Giles at the base camp. The tier 1 Town Hall is built during his short tutorial.",
+     []
+    ],
+    [
+     "First build the Anachronia lodestone and turn the deposit box into a bank chest.",
+     [
+      "The wiki recommends these first, so you can get around the island and bank from the camp."
+     ]
+    ],
+    [
+     "Assign your workers to gather resources: wood, vines, leaves, hides, stone and clay.",
+     [
+      "Either split them evenly, or put them all on one resource until you have enough, then switch."
+     ]
+    ],
+    [
+     "Build the tier 1 Storehouse and Sleeping Quarters.",
+     [
+      "More Sleeping Quarters means more workers; a bigger Storehouse holds more resources."
+     ]
+    ],
+    [
+     "Upgrade the Town Hall, Storehouse and Sleeping Quarters to tier 2.",
+     []
+    ],
+    [
+     "Upgrade the Town Hall to tier 3. In total you need about 165,000 wood, 115,000 vines, 75,000 leaves, 100,000 hides and 115,000 stone.",
+     []
+    ]
    ],
    "tips": [
     "Compacted resources from skilling or killing creatures on Anachronia add 100, 200 or 400 resources, depending on your Town Hall tier.",
     "The Command Centre in Fort Forinthry lets you manage the camp remotely."
    ],
    "sources": [
-    ["RuneScape Wiki: Top Town Hall", "https://runescape.wiki/w/Top_Town_Hall"],
-    ["RuneScape Wiki: Anachronia base camp", "https://runescape.wiki/w/Anachronia_base_camp"]
+    [
+     "RuneScape Wiki: Top Town Hall",
+     "https://runescape.wiki/w/Top_Town_Hall"
+    ],
+    [
+     "RuneScape Wiki: Anachronia base camp",
+     "https://runescape.wiki/w/Anachronia_base_camp"
+    ]
    ]
   },
   "Elven Titles": {
    "checked": "2026-11-04",
    "summary": "Earn the title of each of the 8 elven clans in Prifddinas, one task per clan. Check your progress in the Customisations interface, under Titles > Miscellaneous; turn off filtering at the bottom left to see them all.",
-   "need": ["89 Mining", "90 Slayer", "90 Farming", "77 Agility", "89 Crafting", "88 Summoning", "71 Divination", "Plague's End", "As a First Resort"],
+   "need": [
+    "89 Mining",
+    "90 Slayer",
+    "90 Farming",
+    "77 Agility",
+    "89 Crafting",
+    "88 Summoning",
+    "71 Divination",
+    "Plague's End",
+    "As a First Resort"
+   ],
    "steps": [
-    ["Crwys: grow an elder tree in the Crwys district elder tree patch, then check its health.", []],
-    ["Meilyr: harvest 50 harmony moss from the Harmony pillars.", []],
-    ["Trahaearn: get 100 corrupted ores while mining Seren stones.", []],
-    ["Iorwerth: complete 8 dark beast Slayer assignments from Morvran.", []],
-    ["Cadarn: defeat 1,000 Cadarn rangers or magi in total.", []],
-    ["Amlodd: summon a light creature familiar, use its Enlightenment scroll, then talk to Lord Amlodd.", []],
-    ["Ithell: craft 100 crystal flasks.", []],
-    ["Hefin: complete 200 laps of the Hefin Agility Course.", []]
+    [
+     "Crwys: grow an elder tree in the Crwys district elder tree patch, then check its health.",
+     []
+    ],
+    [
+     "Meilyr: harvest 50 harmony moss from the Harmony pillars.",
+     []
+    ],
+    [
+     "Trahaearn: get 100 corrupted ores while mining Seren stones.",
+     []
+    ],
+    [
+     "Iorwerth: complete 8 dark beast Slayer assignments from Morvran.",
+     []
+    ],
+    [
+     "Cadarn: defeat 1,000 Cadarn rangers or magi in total.",
+     []
+    ],
+    [
+     "Amlodd: summon a light creature familiar, use its Enlightenment scroll, then talk to Lord Amlodd.",
+     []
+    ],
+    [
+     "Ithell: craft 100 crystal flasks.",
+     []
+    ],
+    [
+     "Hefin: complete 200 laps of the Hefin Agility Course.",
+     []
+    ]
    ],
    "tips": [
     "Start the Crwys elder tree and the Meilyr harmony moss first. They're Farming tasks that take real time to grow, so work on the others while you wait."
    ],
    "sources": [
-    ["RuneScape Wiki: Elven Titles", "https://runescape.wiki/w/Elven_Titles"]
+    [
+     "RuneScape Wiki: Elven Titles",
+     "https://runescape.wiki/w/Elven_Titles"
+    ]
    ]
   },
   "Family Spirit Tree": {
    "checked": "2026-11-04",
    "summary": "Have four spirit trees fully grown at the same time, in Brimhaven, Port Sarim, Etceteria and Manor Farm, then claim a Farming XP lamp from Glouron in Prifddinas.",
-   "need": ["114 Farming", "Plague's End", "The Prisoner of Glouphrie"],
+   "need": [
+    "114 Farming",
+    "Plague's End",
+    "The Prisoner of Glouphrie"
+   ],
    "steps": [
-    ["Plant spirit trees in the patches at Brimhaven and Port Sarim.", []],
-    ["When both are fully grown, check their health, then tell Glouron in the Crwys district of Prifddinas.", [
-     "This also completes the Power of Three Spirits achievement."]],
-    ["Plant the third and fourth trees, at Etceteria and Manor Farm.", []],
-    ["When all four are fully grown and health-checked, talk to Glouron to claim the Farming XP lamp. That completes the achievement.", []]
+    [
+     "Plant spirit trees in the patches at Brimhaven and Port Sarim.",
+     []
+    ],
+    [
+     "When both are fully grown, check their health, then tell Glouron in the Crwys district of Prifddinas.",
+     [
+      "This also completes the Power of Three Spirits achievement."
+     ]
+    ],
+    [
+     "Plant the third and fourth trees, at Etceteria and Manor Farm.",
+     []
+    ],
+    [
+     "When all four are fully grown and health-checked, talk to Glouron to claim the Farming XP lamp. That completes the achievement.",
+     []
+    ]
    ],
    "tips": [
     "A temporary Farming boost counts when planting a spirit tree. Checking health and growth potions don't need the boost.",
     "A spirit tree can't be moved without replanting it, so keep all four where they are."
    ],
    "sources": [
-    ["RuneScape Wiki: Family Spirit Tree", "https://runescape.wiki/w/Family_Spirit_Tree"],
-    ["RuneScape Wiki: Spirit Tree (Farming)", "https://runescape.wiki/w/Spirit_Tree_(Farming)"]
+    [
+     "RuneScape Wiki: Family Spirit Tree",
+     "https://runescape.wiki/w/Family_Spirit_Tree"
+    ],
+    [
+     "RuneScape Wiki: Spirit Tree (Farming)",
+     "https://runescape.wiki/w/Spirit_Tree_%28Farming%29"
+    ]
+   ]
+  },
+  "A Fort Of My Own": {
+   "checked": "2026-11-04",
+   "summary": "Upgrade all nine buildings in Fort Forinthry, in the Wilderness north of the Jolly Boar Inn, to tier 3.",
+   "need": [
+    "New Foundations",
+    "Murder on the Border",
+    "Unwelcome Guests",
+    "Dead and Buried",
+    "Ancient Awakening"
+   ],
+   "steps": [
+    [
+     "Work through the Fort Forinthry quests. New Foundations must be nearly complete before you can build beyond the tier 1 Workshop.",
+     []
+    ],
+    [
+     "Start each building at the Fort Forinthry blueprints table in the Workshop.",
+     [
+      "Each blueprint has a Construction level requirement. A boost works, and is only needed when you start the blueprint.",
+      "You must build each tier before the next one."
+     ]
+    ],
+    [
+     "Gather the construction materials (timber and stone) the blueprint asks for, then build at the hotspots.",
+     []
+    ],
+    [
+     "Take all nine buildings to tier 3: Workshop, Town Hall, Chapel, Command Centre, Kitchen, Guardhouse, Grove, Ranger's Workroom and Botanist's Workbench.",
+     []
+    ]
+   ],
+   "tips": [
+    "Building gives Construction XP along the way, so this doubles as training."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: A Fort Of My Own",
+     "https://runescape.wiki/w/A_Fort_Of_My_Own"
+    ],
+    [
+     "RuneScape Wiki: Fort Forinthry",
+     "https://runescape.wiki/w/Fort_Forinthry"
+    ]
+   ]
+  },
+  "A Reptile's Dysfunction": {
+   "checked": "2026-11-04",
+   "summary": "Upgrade Zorgoth's ring, a reward from Requiem for a Dragon, into Zorgoth's soul ring by doing Necromancy rituals at the Ungael ritual site while wearing it.",
+   "need": [
+    "Requiem for a Dragon"
+   ],
+   "steps": [
+    [
+     "Speak to the Archivist at the Ungael ritual site first.",
+     []
+    ],
+    [
+     "Equip Zorgoth's ring and perform rituals at the Ungael ritual site.",
+     [
+      "Any ritual counts, and its level doesn't matter.",
+      "Each ritual has a chance to upgrade the ring, and it's guaranteed by the 100th."
+     ]
+    ],
+    [
+     "When the ring upgrades, the achievement completes.",
+     []
+    ]
+   ],
+   "tips": [
+    "Use the lesser necroplasm ritual: at 39.6 seconds it's the quickest.",
+    "Speed glyphs make rituals faster. Three Speed III glyphs with the alteration necklace reach the 50% cap (102 Necromancy to draw, or boost)."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: A Reptile's Dysfunction",
+     "https://runescape.wiki/w/A_Reptile%27s_Dysfunction"
+    ],
+    [
+     "RuneScape Wiki: Zorgoth's ring",
+     "https://runescape.wiki/w/Zorgoth%27s_ring"
+    ]
+   ]
+  },
+  "Absolute Planker": {
+   "checked": "2026-11-04",
+   "summary": "Buy the plank box and both of its upgrades with contract credits from Construction Contracts: 500 credits, which is about 100 contracts.",
+   "need": [
+    "40 Construction"
+   ],
+   "steps": [
+    [
+     "Get a Construction contract from an estate agent.",
+     [
+      "Rimmington has an estate agent and a sawmill close together; a house in Rimmington makes House Teleport the quickest way there.",
+      "Prifddinas's Ithell district has an estate agent and a sawmill side by side."
+     ]
+    ],
+    [
+     "Go to the contract's location, ask the NPC what the repair needs, then build at the empty furniture hotspots.",
+     []
+    ],
+    [
+     "Hand in contracts for contract credits (up to 5 each).",
+     []
+    ],
+    [
+     "Buy the plank box (50 credits), its first upgrade (150) and its second upgrade (300) from the Estate Agents' Shop.",
+     []
+    ]
+   ],
+   "tips": [
+    "Contracts also give the Baby Yaga's House pet, and strange and golden rocks, so this pairs well with Construction training."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Absolute Planker",
+     "https://runescape.wiki/w/Absolute_Planker"
+    ],
+    [
+     "RuneScape Wiki: Construction Contracts",
+     "https://runescape.wiki/w/Construction_Contracts"
+    ]
+   ]
+  },
+  "Abyssal Shortcut": {
+   "checked": "2026-11-04",
+   "summary": "Unlock the asylum gate in the Senntisten Asylum and open the shortcut to its lower level.",
+   "need": [
+    "115 Slayer",
+    "A rope"
+   ],
+   "steps": [
+    [
+     "Kill abyssal lords until one drops a gate key.",
+     []
+    ],
+    [
+     "Use the key on the asylum gate, near the abyssal savages on the upper level of the asylum.",
+     []
+    ],
+    [
+     "Attach a rope to the broken railing to open the shortcut to the lower level. That completes the achievement.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Abyssal Shortcut",
+     "https://runescape.wiki/w/Abyssal_Shortcut"
+    ],
+    [
+     "RuneScape Wiki: Asylum gate",
+     "https://runescape.wiki/w/Asylum_gate"
+    ]
+   ]
+  },
+  "Almost as Perky as a Prawn": {
+   "checked": "2026-11-04",
+   "summary": "Unlock all 15 Prawn Perks from the Prawnbroker in your house's Aquarium. Each perk costs one prawn perk point.",
+   "need": [
+    "63 Construction (for the Aquarium's bathysphere and diving suit)"
+   ],
+   "steps": [
+    [
+     "Build an Aquarium in your player-owned house: place a bathysphere and a diving suit.",
+     []
+    ],
+    [
+     "Earn prawn perk points.",
+     [
+      "Each golden fish egg gives one point. Eggs come from fishing (0.5% chance), from prawn balls and prawn crackers, or from trading crystal motherlode shards with Wythien.",
+      "You also get a point for reaching 1, 20, 100 and 200 prawn balls."
+     ]
+    ],
+    [
+     "Spend points on perks at the Prawnbroker, one per perk. Each tier must be finished before the next opens.",
+     []
+    ],
+    [
+     "Once all 15 are unlocked, talk to the Prawnbroker and choose 'Prawn perks' to complete the achievement.",
+     []
+    ]
+   ],
+   "tips": [
+    "Prawn balls come from the life points the fish you catch would heal, so fish whatever heals the most per hour.",
+    "At 99 Fishing, the Prawnbroker gives 50 bonus prawn balls.",
+    "Save a golden mystery egg for the egg you least want to fish for."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Almost as Perky as a Prawn",
+     "https://runescape.wiki/w/Almost_as_Perky_as_a_Prawn"
+    ],
+    [
+     "RuneScape Wiki: Aquarium",
+     "https://runescape.wiki/w/Aquarium"
+    ],
+    [
+     "RuneScape Wiki: Prawnbroker",
+     "https://runescape.wiki/w/Prawnbroker"
+    ]
+   ]
+  },
+  "Ancient Eastern Tortle Portals": {
+   "checked": "2026-11-04",
+   "summary": "Activate all three tortle portals on The Islands That Once Were Turtles, in the Arc, using 100 ancestral energy in total.",
+   "need": [
+    "90 Divination"
+   ],
+   "steps": [
+    [
+     "Get 100 ancestral energy.",
+     [
+      "Harvest it from ancestral energy springs near a dead moai on the Uncharted Isles (95 Divination, boostable).",
+      "Or harvest positive and negative energy (90 Divination) and combine them into ancestral energy (95 Divination).",
+      "The Tuai Leit's Own miniquest gives 50."
+     ]
+    ],
+    [
+     "Activate each of the three tortle portals on The Islands That Once Were Turtles with the energy.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Ancient Eastern Tortle Portals",
+     "https://runescape.wiki/w/Ancient_Eastern_Tortle_Portals"
+    ],
+    [
+     "RuneScape Wiki: Ancestral energy",
+     "https://runescape.wiki/w/Ancestral_energy"
+    ],
+    [
+     "RuneScape Wiki: Tortle portal",
+     "https://runescape.wiki/w/Tortle_portal"
+    ]
+   ]
+  },
+  "Annihilator": {
+   "checked": "2026-11-04",
+   "summary": "Earn the title 'the Annihilator' by defeating all four nihil at once in the Pit in Freneskae, during or after Fate of the Gods.",
+   "need": [
+    "Fate of the Gods"
+   ],
+   "steps": [
+    [
+     "Go to the Pit in Freneskae. After the quest, stand in the middle of the room and choose 'Yes - replay the boss fight!'.",
+     []
+    ],
+    [
+     "Get all four nihil into combat with you before you kill any of them. If you aren't fighting all four, it won't count.",
+     []
+    ],
+    [
+     "Defeat all four to complete the achievement.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Annihilator",
+     "https://runescape.wiki/w/Annihilator"
+    ],
+    [
+     "RuneScape Wiki: Nihil",
+     "https://runescape.wiki/w/Nihil"
+    ]
+   ]
+  },
+  "Balanced Combat Triangle": {
+   "checked": "2026-11-04",
+   "summary": "Solve a lockbox puzzle. Lockboxes appear in some anagram steps of master clue scrolls.",
+   "need": [
+    "A master clue scroll"
+   ],
+   "steps": [
+    [
+     "Work through master clue scrolls until an anagram step gives you a lockbox.",
+     []
+    ],
+    [
+     "Solve the puzzle: make every tile show the same symbol (Attack, Ranged or Magic).",
+     [
+      "Clicking a tile changes it and the four tiles directly next to it."
+     ]
+    ],
+    [
+     "Return the lockbox to the NPC to carry on with the clue.",
+     []
+    ]
+   ],
+   "tips": [
+    "A lockbox skipping ticket skips the puzzle, but then the achievement doesn't count."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Balanced Combat Triangle",
+     "https://runescape.wiki/w/Balanced_Combat_Triangle"
+    ],
+    [
+     "RuneScape Wiki: Lockbox (master)",
+     "https://runescape.wiki/w/Lockbox_%28master%29"
+    ]
+   ]
+  },
+  "Bane Tuner": {
+   "checked": "2026-11-04",
+   "summary": "Learn the Tune Bane spell during or after Ritual of the Mahjarrat.",
+   "need": [
+    "Ritual of the Mahjarrat"
+   ],
+   "steps": [
+    [
+     "In Kethsi, find the Tune bane scroll and read it to learn the spell.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Bane Tuner",
+     "https://runescape.wiki/w/Bane_Tuner"
+    ],
+    [
+     "RuneScape Wiki: Tune Bane",
+     "https://runescape.wiki/w/Tune_Bane"
+    ]
+   ]
+  },
+  "Bill & Ben's Egg/Salon Joint Venture": {
+   "checked": "2026-11-04",
+   "summary": "Complete six small achievements around the Anachronia dinosaur farm after the Extinction quest.",
+   "need": [
+    "95 Fletching",
+    "95 Firemaking",
+    "Extinction"
+   ],
+   "steps": [
+    [
+     "A Hatching Pair: ask Prehistoric Potterington about zygomites.",
+     []
+    ],
+    [
+     "Off to See the Lizard: help Galgalar at the incubator (incubate a good egg or compost a bad one), then show Galgalar a sharp shell shard.",
+     []
+    ],
+    [
+     "Egg McGuffin: talk to Ben, by the mystical tree south of the farm, about Carestyling and show him some tempered fungal shafts.",
+     []
+    ],
+    [
+     "Mycomanagement: talk to Bill, by the mystical tree on Anachronia's west coast, and show him some dinosaur 'propellant'.",
+     []
+    ],
+    [
+     "Fibbin' Archery Sequence: talk to Salusan about fletching Elder God arrows, then show her one.",
+     []
+    ],
+    [
+     "Needles from Skips: once you've made an Elder God arrow and finished the last two, show Prehistoric Potterington an Elder God arrow.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Bill & Ben's Egg/Salon Joint Venture",
+     "https://runescape.wiki/w/Bill_%26_Ben%27s_Egg/Salon_Joint_Venture"
+    ]
+   ]
+  },
+  "Bipedal Mask": {
+   "checked": "2026-11-04",
+   "summary": "Make a Tuska mask from five pieces that airut drop, but only while you're on an airut Slayer task.",
+   "need": [
+    "92 Slayer"
+   ],
+   "steps": [
+    [
+     "Get an airut Slayer assignment.",
+     []
+    ],
+    [
+     "Kill airut on task until you have all five pieces: the Tuska mask top, plate, headpiece, upper tusks and lower tusks.",
+     []
+    ],
+    [
+     "Combine the pieces into the Tuska mask. You don't need to be on task for this part.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Bipedal Mask",
+     "https://runescape.wiki/w/Bipedal_Mask"
+    ],
+    [
+     "RuneScape Wiki: Tuska mask",
+     "https://runescape.wiki/w/Tuska_mask"
+    ]
+   ]
+  },
+  "Bridge over Fremmy Waters": {
+   "checked": "2026-11-04",
+   "summary": "Finish all five unabridged Fremennik Sagas, story dungeons in Daemonheim told by Skaldrun.",
+   "need": [
+    "71 Dungeoneering",
+    "60 Attack",
+    "75 Strength",
+    "30 Magic",
+    "30 Ranged",
+    "55 Agility",
+    "55 Thieving"
+   ],
+   "steps": [
+    [
+     "Talk to Skaldrun, west of Thok in Daemonheim, and pick an unlocked saga.",
+     [
+      "You can't take any items into a saga, not even the ring of kinship."
+     ]
+    ],
+    [
+     "Complete Three's Company.",
+     []
+    ],
+    [
+     "Complete Vengeance.",
+     []
+    ],
+    [
+     "Complete Thok It To 'Em.",
+     []
+    ],
+    [
+     "Complete Nadir.",
+     []
+    ],
+    [
+     "Complete Thok Your Block Off.",
+     []
+    ]
+   ],
+   "tips": [
+    "Unlocking a door that needs a key saves a checkpoint. If you leave, you can restart from it."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Bridge over Fremmy Waters",
+     "https://runescape.wiki/w/Bridge_over_Fremmy_Waters"
+    ],
+    [
+     "RuneScape Wiki: Fremennik Sagas",
+     "https://runescape.wiki/w/Fremennik_Sagas"
+    ]
+   ]
+  },
+  "Da Vinci Who?": {
+   "checked": "2026-11-04",
+   "summary": "Study three Ancient Invention blueprints: Ancient Gizmos, Ancient Tools and the XP Capacitor.",
+   "need": [
+    "106 Invention for the XP Capacitor (89 with an extreme invention boost)"
+   ],
+   "steps": [
+    [
+     "Study an 'Ancient gizmos' blueprint (85 Invention, or 68 with an extreme invention).",
+     []
+    ],
+    [
+     "Study an 'Ancient tools' blueprint (93 Invention, or 76 with an extreme invention).",
+     []
+    ],
+    [
+     "Study an 'XP Capacitor' blueprint (106 Invention, or 89 with an extreme invention).",
+     []
+    ]
+   ],
+   "tips": [
+    "Each blueprint has a tradeable and an untradeable version; either works."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Da Vinci Who?",
+     "https://runescape.wiki/w/Da_Vinci_Who%3F"
+    ],
+    [
+     "RuneScape Wiki: Ancient Gizmos",
+     "https://runescape.wiki/w/Ancient_Gizmos"
+    ],
+    [
+     "RuneScape Wiki: Ancient Tools",
+     "https://runescape.wiki/w/Ancient_Tools"
+    ],
+    [
+     "RuneScape Wiki: Ancient XP Capacitor",
+     "https://runescape.wiki/w/Ancient_XP_Capacitor"
+    ]
+   ]
+  },
+  "Deadlier Catch": {
+   "checked": "2026-11-04",
+   "summary": "After the Deadliest Catch quest, hunt the sea monster Thalassus ten more times.",
+   "need": [
+    "Deadliest Catch"
+   ],
+   "steps": [
+    [
+     "Talk to Jones outside the bank in the Fishing Guild to start a hunt.",
+     []
+    ],
+    [
+     "Hunt the Thalassus ten times.",
+     [
+      "The ten hunts give 46,660 Hunter XP in total."
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Deadlier Catch",
+     "https://runescape.wiki/w/Deadlier_Catch"
+    ],
+    [
+     "RuneScape Wiki: Deadliest Catch",
+     "https://runescape.wiki/w/Deadliest_Catch"
+    ]
+   ]
+  },
+  "Dinosaur Hunter": {
+   "checked": "2026-11-04",
+   "summary": "Catch each of the nine dinosaurs in Big Game Hunter on Anachronia at least once. One of each is enough; you don't have to play a full hour.",
+   "need": [
+    "96 Hunter",
+    "76 Slayer"
+   ],
+   "steps": [
+    [
+     "Start with the three that take fish as bait (75 Hunter, 55 Slayer).",
+     [
+      "Arcane apoterrasaur: raw shark",
+      "Scimitops: raw sailfish",
+      "Bagrada rex: raw manta ray"
+     ]
+    ],
+    [
+     "Use their meat as bait for the next three.",
+     [
+      "Spicati apoterrasaur (80 Hunter, 60 Slayer): raw bagrada rex meat",
+      "Asciatops (85, 65): raw arcane apoterrasaur meat",
+      "Corbicula rex (90, 70): raw scimitops meat"
+     ]
+    ],
+    [
+     "Then use those dinosaurs' meat for the last three.",
+     [
+      "Oculi apoterrasaur (94, 74): raw asciatops meat",
+      "Malletops (95, 75): raw corbicula rex meat",
+      "Pavosaurus rex (96, 76): raw spicati apoterrasaur meat"
+     ]
+    ]
+   ],
+   "tips": [
+    "Each kill gives big Hunter and Slayer XP, so the later dinosaurs double as training."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Dinosaur Hunter",
+     "https://runescape.wiki/w/Dinosaur_Hunter"
+    ],
+    [
+     "RuneScape Wiki: Anachronia Big Game Hunter",
+     "https://runescape.wiki/w/Anachronia_Big_Game_Hunter"
+    ]
    ]
   }
  }
