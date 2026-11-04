@@ -10,6 +10,7 @@
 import ctypes
 import functools
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -28,7 +29,7 @@ elif WINDOWS and sys.stdout:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # the console's default code page can't print ✓
 APP_ID = "co.redbarn.CompletionistGuide"
 APP_NAME = "Redbarn Completionist"
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 DEVELOPER = "Redbarn Christian Co."
 COPYRIGHT = "© 2026 Redbarn Christian Co."
 TAGLINE = "Step-by-step guides to every RuneScape 3 quest, max and completionist cape."
@@ -117,9 +118,11 @@ except (ImportError, ValueError):
     sys.exit(f"{APP_NAME} needs GTK 4, libadwaita and PyGObject:\n  {PACKAGES}")
 
 import build_requirements  # noqa: E402
+import wikiguide  # noqa: E402
 LAST_NAME = rs3comp.PROGRESS.with_name("last-name")
 DARK_MODE = rs3comp.PROGRESS.with_name("dark-mode")
 CAPE_FILE = rs3comp.PROGRESS.with_name("cape")
+STEPS_FILE = rs3comp.PROGRESS.with_name("steps.json")
 SUMMARY_LABELS = {"skills": "Skills at target", "quests": "Quests", "checklist": "Achievements ticked off"}
 # Redbarn Studio's colours; .dark-ui because CSS media queries don't follow a forced colour scheme
 CSS = """
@@ -129,6 +132,9 @@ CSS = """
 .completed { --accent-bg-color: var(--success-bg-color); --accent-color: var(--success-color);
              background-color: alpha(var(--success-color), 0.14); }
 .completed label.title { color: var(--success-color); font-weight: 600; }
+/* the step to do next in a guide */
+.current { background-color: alpha(var(--accent-bg-color), 0.14); }
+.current label.title { font-weight: 700; }
 """
 # The Redbarn barn, the same artwork as Redbarn Studio's icon
 LOGO_SVG = """<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
@@ -147,26 +153,11 @@ def open_url(widget, url):
     Gtk.UriLauncher.new(url).launch(widget.get_root(), None, None)
 
 
-def linkify(r, url):
-    r.set_activatable(True)
-    r.add_suffix(Gtk.Image(icon_name="adw-external-link-symbolic"))
-    r.connect("activated", open_url, url)
-
-
-def row(title, subtitle="", url=None):
+def row(title, subtitle=""):
     r = Adw.ActionRow(use_markup=False)  # names contain "&"; set text after, or it is parsed as markup first
     r.set_title(title)
     r.set_subtitle(subtitle)
-    if url:
-        linkify(r, url)
     return r
-
-
-def link_button(url):
-    b = Gtk.Button(icon_name="adw-external-link-symbolic", valign=Gtk.Align.CENTER, tooltip_text="Open wiki guide")
-    b.add_css_class("flat")
-    b.connect("clicked", open_url, url)
-    return b
 
 
 def pill(label, callback, *args):
@@ -237,12 +228,160 @@ def expander(title, rows):
     return e
 
 
+class GuideDialog(Adw.Dialog):
+    """A wiki page as a step-by-step guide: what you need first, then steps to tick off as you go."""
+
+    def __init__(self, win, page, title, kind, own="", level=None, achievement=None, fetched=None):
+        super().__init__(content_width=680, content_height=780)
+        self.set_title(title)
+        self.win, self.page, self.kind, self.own, self.level, self.achievement = win, page, kind, own, level, achievement
+        header = Adw.HeaderBar()
+        wiki = Gtk.Button(icon_name="adw-external-link-symbolic", tooltip_text="Open on the RuneScape Wiki")
+        wiki.connect("clicked", open_url, rs3comp.link(page))
+        header.pack_start(wiki)
+        self.view = Adw.ToolbarView()
+        self.view.add_top_bar(header)
+        # the wiki's licence asks for this credit wherever its text is shown
+        self.view.add_bottom_bar(Gtk.Label(label="From the RuneScape Wiki · CC BY-NC-SA 3.0",
+                                           css_classes=["caption", "dim-label"], margin_top=6, margin_bottom=6))
+        self.set_child(self.view)
+        self.show(fetched) if fetched else self.load()
+
+    def load(self, *_):
+        spinner = (Adw.Spinner if hasattr(Adw, "Spinner") else Gtk.Spinner)(width_request=48, height_request=48,
+                                                                              halign=Gtk.Align.CENTER)
+        if isinstance(spinner, Gtk.Spinner):
+            spinner.set_spinning(True)
+        self.view.set_content(Adw.StatusPage(title="Opening guide…", description=self.page, child=spinner))
+
+        def work():
+            try:
+                fetched = wikiguide.fetch(self.page)
+            except Exception as e:  # GuideError, or anything unexpected; show it rather than hang
+                GLib.idle_add(self.failed, str(e))
+            else:
+                GLib.idle_add(self.show, fetched)
+
+        threading.Thread(target=work, daemon=True).start()
+
+    def failed(self, text):
+        buttons = Gtk.Box(spacing=12, halign=Gtk.Align.CENTER)
+        buttons.append(pill("Try Again", self.load))
+        wiki = Gtk.Button(label="Open on Wiki", css_classes=["pill"])
+        wiki.connect("clicked", open_url, rs3comp.link(self.page))
+        buttons.append(wiki)
+        self.view.set_content(Adw.StatusPage(icon_name="dialog-warning-symbolic", title="Couldn't open this guide",
+                                             description=text, child=buttons))
+
+    def checked(self, text):
+        """Requirement text with ✓/✗ against the loaded player; (text, every check met or None if none)."""
+        if not self.win.profile:
+            return text, None
+        levels = {rs3comp.SKILLS[s["id"]]: s["level"] for s in self.win.profile["skillvalues"]}
+        quests = {q["title"]: q["status"] for q in self.win.quests}
+        lines, results = [], []
+        for line in text.splitlines():
+            name = line.removeprefix("• ").strip()
+            skill = re.search(r"(\d+) (" + "|".join(rs3comp.SKILLS) + r")\b", line)
+            ok = (quests[name] == "COMPLETED" if name in quests
+                  else levels.get(skill.group(2), 1) >= int(skill.group(1)) if skill else None)
+            if ok is not None:
+                results.append(ok)
+                line = ("✓ " if ok else "✗ ") + name
+            lines.append(line)
+        return "\n".join(lines), (all(results) if results else None)
+
+    def show(self, fetched):
+        g = wikiguide.parse(fetched["html"], self.own)
+        page = Adw.PreferencesPage()
+        if fetched.get("stale"):
+            page.add(Adw.PreferencesGroup(description="You're offline, so this is a saved copy that may be out of date."))
+        if g["details"]:
+            before = Adw.PreferencesGroup(title="Before you start")
+            for label, text in g["details"]:
+                text, met = self.checked(text)
+                r = row(label, text)
+                if met:
+                    r.add_css_class("completed")
+                before.add(r)
+            page.add(before)
+
+        sections = g["sections"]
+        if self.kind == "Training guide" and self.level is not None:
+            mine = wikiguide.level_section(sections, self.level)
+            if mine is not None:  # your level's section first, the rest folded away below
+                sections = [dict(sections[mine], title=f"For your level · {sections[mine]['title']}")] + \
+                    [dict(s, folded=True) for i, s in enumerate(sections) if i != mine]
+        self.sections = sections
+        steps_done = set(self.saved_steps())
+        self.steps = []  # (row, check) of tickable steps, in order
+        tickable = self.kind in ("Quest", "Achievement")
+        for section in sections:
+            rows, current = [], None
+            for kind, depth, text in section["blocks"]:
+                if kind == "step" and depth and current is not None:  # sub-steps join their step
+                    current.set_subtitle(((current.get_subtitle() or "") + "\n" + "   " * (depth - 1) + "• " + text).strip())
+                    continue
+                current = row(text)
+                if kind == "step" and tickable and section["title"].lower() not in ("rewards",):
+                    check = Gtk.CheckButton(active=text[:80] in steps_done, valign=Gtk.Align.CENTER)
+                    check.connect("toggled", self.on_step)
+                    current.add_prefix(check)
+                    current.set_activatable_widget(check)
+                    current.step_key = text[:80]
+                    self.steps.append((current, check))
+                elif kind == "row":
+                    current.add_css_class("dim-label")
+                rows.append(current)
+            group = Adw.PreferencesGroup(title=section["title"] or (self.kind if not g["details"] else ""))
+            if section.get("folded"):
+                group.add(expander(section["title"], rows))
+                group.set_title("")
+            else:
+                for r in rows:
+                    group.add(r)
+            page.add(group)
+        if self.achievement:
+            finish = Adw.PreferencesGroup()
+            if self.achievement in self.win.done:
+                finish.add(done_row("Ticked off", "This achievement is marked done."))
+            else:
+                finish.add(pill("Tick off this achievement", self.tick_off))
+            page.add(finish)
+        self.mark_current()
+        self.view.set_content(page)
+
+    def saved_steps(self):
+        steps = json.loads(STEPS_FILE.read_text()) if STEPS_FILE.exists() else {}
+        return steps.get((self.win.name or "").lower(), {}).get(self.page, [])
+
+    def on_step(self, _check):
+        steps = json.loads(STEPS_FILE.read_text()) if STEPS_FILE.exists() else {}
+        steps.setdefault((self.win.name or "").lower(), {})[self.page] = [r.step_key for r, c in self.steps if c.get_active()]
+        STEPS_FILE.parent.mkdir(parents=True, exist_ok=True)
+        STEPS_FILE.write_text(json.dumps(steps, indent=1) + "\n")
+        self.mark_current()
+
+    def mark_current(self):
+        """Ticked steps go green; the first unticked one is the current step."""
+        current = next((r for r, c in self.steps if not c.get_active()), None)
+        for r, c in self.steps:
+            (r.add_css_class if c.get_active() else r.remove_css_class)("completed")
+            (r.add_css_class if r is current else r.remove_css_class)("current")
+            r.set_tooltip_text("Current step" if r is current else None)
+
+    def tick_off(self, _button):
+        self.win.tick_achievement(self.achievement)
+        self.close()
+
+
 class Window(Adw.ApplicationWindow):
     def __init__(self, app):
         super().__init__(application=app, title=APP_NAME, default_width=1120, default_height=880)
         self.set_size_request(360, 480)
         self.reqs = json.loads((rs3comp.HERE / "requirements.json").read_text())
         self.profile, self.batching, self.search_items = None, False, []
+        self.name, self.quests, self.done = None, [], set()  # guides can open before a player loads
         self.cape = CAPE_FILE.read_text().strip() if CAPE_FILE.exists() else None
         self.cape = self.cape if self.cape in rs3comp.CAPES else None  # else the closest cape, once a profile loads
 
@@ -349,7 +488,8 @@ class Window(Adw.ApplicationWindow):
                             ("2. Enter your RuneScape name above", "Press Enter or Load"),
                             ("3. Pick the cape you're working on", "Then follow its steps from the top")):
             steps.add(row(title, text))
-        steps.add(row("What is RuneMetrics?", "How Jagex shares your stats and quests", "https://runescape.wiki/w/RuneMetrics"))
+        steps.add(self.guide_row(row("What is RuneMetrics?", "How Jagex shares your stats and quests"),
+                                 "RuneMetrics", "RuneMetrics", "Guide"))
         self.status(APP_NAME, TAGLINE, APP_ID, Adw.Clamp(maximum_size=480, child=steps))
 
     def load(self, *_):
@@ -460,10 +600,9 @@ class Window(Adw.ApplicationWindow):
             for q in g["quests"]:
                 tag = "Started, finish it" if q["status"] == "STARTED" else q.get("length") or \
                     rs3comp.DIFFICULTY[min(q["difficulty"], 5)]
-                url = rs3comp.link(f"{q['title']}/Quick guide" if q.get("quick") else q["title"])
-                group.add(self.track(row(q["title"], tag + (" · Quick guide" if q.get("quick") else ""), url), group))
+                group.add(self.track(self.quest_row(q, tag + (" · Quick guide" if q.get("quick") else "")), group))
             if g["quests_locked"]:
-                rows = [row(q["title"], q.get("length", ""), rs3comp.link(q["title"])) for q in g["quests_locked"]]
+                rows = [self.quest_row(q, q.get("length", "")) for q in g["quests_locked"]]
                 e = expander(f"Locked: {len(rows)} need higher skills or other quests first", rows)
                 group.add(e)
                 for r in rows:
@@ -502,7 +641,8 @@ class Window(Adw.ApplicationWindow):
                 for r in rows:
                     self.track(r, group, e)
             if g["items_locked"]:
-                rows = [row(a["name"], "Needs " + ", ".join(need), rs3comp.link(a["name"])) for a, need in g["items_locked"]]
+                rows = [self.guide_row(row(a["name"], "Needs " + ", ".join(need)), a.get("page", a["name"]), a["name"],
+                                       "Achievement", achievement=a["name"]) for a, need in g["items_locked"]]
                 e = expander(f"Locked ({len(rows)})", rows)
                 group.add(e)
                 for r in rows:
@@ -513,14 +653,15 @@ class Window(Adw.ApplicationWindow):
             step += 1
             group = Adw.PreferencesGroup(title=f"{step}. Skills to train",
                                          description=f"{g['xp_left']:,} XP to go. Skills that unlock achievements "
-                                                     "come first, then the closest to target. Click one for the "
-                                                     "wiki's training guide.")
+                                                     "come first, then the closest to target. Open one for a "
+                                                     "training guide for your level.")
             for s in g["skills"]:
                 target_xp = rs3comp.xp_for(s["target"], s["skill"] == "Invention")
                 unlocks = f" · unlocks {len(s['blocks'])} achievement(s)" if s["blocks"] else ""
                 r = row(s["skill"], f"{s['level']} → {s['target']} · {s['xp_left']:,} xp left{unlocks}")
                 r.add_suffix(bar(1 - s["xp_left"] / target_xp))
-                linkify(r, rs3comp.link(f"{s['skill']} training"))
+                self.guide_row(r, wikiguide.training_page(s["skill"]), f"{s['skill']} training", "Training guide",
+                               level=s["level"])
                 group.add(self.track(r, group))
             if not g["skills"]:
                 group.add(done_row("All done", "Every skill is at its target."))
@@ -528,10 +669,10 @@ class Window(Adw.ApplicationWindow):
 
         step += 1
         claim = Adw.PreferencesGroup(title=f"{step}. Claim your cape")
-        claim.add(row("How to get it", cape["claim"], rs3comp.link(cape["wiki"])))
+        claim.add(self.guide_row(row("How to get it", cape["claim"]), cape["wiki"], cape["title"], "Cape"))
         if "checklist" in g["summary"]:
-            claim.add(row("Check in game", "Hero › Achievements › Completionist lists anything still missing",
-                          rs3comp.link("Completionist achievements")))
+            claim.add(self.guide_row(row("Check in game", "Hero › Achievements › Completionist lists anything still missing"),
+                                     "Completionist achievements", "Completionist achievements", "Guide"))
         keys = list(rs3comp.CAPES)
         if self.cape != keys[-1]:
             following = keys[keys.index(self.cape) + 1]
@@ -554,8 +695,33 @@ class Window(Adw.ApplicationWindow):
         if checked:
             r.add_css_class("completed")
         r.set_activatable_widget(r.check)
-        r.add_suffix(link_button(rs3comp.link(a["name"])))
+        guide = Gtk.Button(icon_name="go-next-symbolic", valign=Gtk.Align.CENTER, tooltip_text="Open guide",
+                           css_classes=["flat"])
+        guide.connect("clicked", lambda *_: GuideDialog(self, a.get("page", a["name"]), a["name"], "Achievement",
+                                                        achievement=a["name"]).present(self))
+        r.add_suffix(guide)
         return r
+
+    def guide_row(self, r, page, title, kind, **kw):
+        """Make a row open a wiki page as an in-app guide."""
+        r.set_activatable(True)
+        r.add_suffix(Gtk.Image(icon_name="go-next-symbolic"))
+        r.connect("activated", lambda *_: GuideDialog(self, page, title, kind, **kw).present(self))
+        return r
+
+    def quest_row(self, q, subtitle):
+        page = f"{q['title']}/Quick guide" if q.get("quick") else q["title"]
+        return self.guide_row(row(q["title"], subtitle), page, q["title"], "Quest", own=q["title"])
+
+    def tick_achievement(self, name):
+        """Tick an achievement from its guide, through its row when the current page shows one."""
+        check = next((r.check for r, *_ in self.search_items if hasattr(r, "check") and r.get_title() == name), None)
+        if check:
+            check.set_active(True)  # on_tick saves, refreshes and offers Undo
+        else:
+            self.done.add(name)
+            self.save_and_refresh()
+            self.toast(f"“{name}” ticked off")
 
     def on_tick(self, check, name):
         # rows stay put until the next Load so the list doesn't jump while ticking
@@ -659,6 +825,14 @@ class Window(Adw.ApplicationWindow):
         about.present(self)
 
 
+def walk(widget):
+    yield widget
+    child = widget.get_first_child()
+    while child:
+        yield from walk(child)
+        child = child.get_next_sibling()
+
+
 def self_test(app, win):
     """Show both sample players (no network) and open every cape's guide; print ✓/✗ per check."""
     def check(ok, what):
@@ -679,6 +853,15 @@ def self_test(app, win):
                       and win.content.get_title() == cape["title"], f"{profile['name']}: {cape['title']} guide")
         win.search.set_text("museum")
         check(any(r.get_visible() for r, *_ in win.search_items), "Search finds matches")
+        wiki = rs3comp.HERE / "fixtures" / "wiki"
+        guide = lambda name, *a, **kw: GuideDialog(win, name, name, *a, fetched={"html": (wiki / f"{name}.html").read_text()}, **kw)  # noqa: E731
+        d = guide("cooks_assistant_quick_guide", "Quest", own="Cook's Assistant")
+        check(len(d.steps) > 1 and sum(r.has_css_class("current") for r, _ in d.steps) == 1, "Quest guide: steps and a current step")
+        d = guide("kudos_to_you", "Achievement", achievement="Kudos to You")
+        buttons = [w for w in walk(d.view.get_content()) if isinstance(w, Gtk.Button)]
+        check(any(b.get_label() == "Tick off this achievement" for b in buttons), "Achievement guide: tick-off button")
+        d = guide("ranged_training", "Training guide", level=99)
+        check(d.sections[0]["title"] == "For your level · Levels 70-120", "Training guide: opens on your level")
     except Exception as e:  # a crash is a failure too, and must not leave the app running
         check(False, f"crashed: {e!r}")
     print("\nself-test passed" if not app.failures else f"\nself-test FAILED: {len(app.failures)} problem(s)")
@@ -717,7 +900,7 @@ if __name__ == "__main__":
         # Saved names, ticks and settings go to a throwaway folder, never the user's own
         tmp = Path(tempfile.mkdtemp())
         rs3comp.PROGRESS = tmp / "progress.json"
-        LAST_NAME, DARK_MODE, CAPE_FILE = (tmp / n for n in ("last-name", "dark-mode", "cape"))
+        LAST_NAME, DARK_MODE, CAPE_FILE, STEPS_FILE = (tmp / n for n in ("last-name", "dark-mode", "cape", "steps.json"))
         app = App(test=True)
         app.set_application_id(APP_ID + ".SelfTest")  # don't signal a copy that's already open
         app.run([sys.argv[0]])

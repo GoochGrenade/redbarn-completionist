@@ -100,6 +100,7 @@ def main():
         reqs = field(text, "requirements")
         achievements[name] = {
             "name": name,
+            "page": title,
             "description": plain(field(text, "description")),
             "category": plain(field(text, "maincategory")) or "Other",
             "subcategory": plain(field(text, "subcategory")),

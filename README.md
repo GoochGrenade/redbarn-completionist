@@ -5,10 +5,12 @@ Step-by-step guides to every RuneScape 3 quest, max and completionist cape. Ente
 **8 capes:** Quest Cape, Max cape, Master quest cape, Completionist cape, Completionist cape (t), Master max cape, Master completionist cape and Master completionist cape (t).
 
 **How it keeps you efficient:**
-- **Quests** come in the RuneScape Wiki's optimal order, so each quest's rewards help with the next and you train as little as possible. Each one links to its quick guide.
+- **Quests** come in the RuneScape Wiki's optimal order, so each quest's rewards help with the next and you train as little as possible.
 - **Achievements** show only what you can do right now. Time-limited ones come first, so they progress in the background while you do everything else.
-- **Skills** that unlock achievements come first. Each one links to the wiki's training guide.
+- **Skills** that unlock achievements come first.
 - Bigger capes include the smaller ones, and ticking an achievement counts towards every cape that needs it.
+
+**Step-by-step guides:** open any quest, achievement, skill or cape for a guide inside the app, taken from the RuneScape Wiki. It lists what you need first, marked ✓ or ✗ against your own levels and quests, then the steps to tick off as you go, with the current one highlighted. Quests use the wiki's quick guides, including which dialogue options to pick. Training guides open at the section for your level. The guides need an internet connection the first time; after that they're saved for a week. They can't see inside the game, so you tick steps yourself.
 
 It also shows your progress on every cape, highlights the one you're closest to, and tells you where to claim each cape and what it costs. You can search everything, and tick off a whole category at once.
 

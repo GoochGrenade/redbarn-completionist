@@ -3,6 +3,7 @@ import unittest
 from pathlib import Path
 
 import rs3comp
+import wikiguide
 
 HERE = Path(__file__).resolve().parent
 REQS = json.loads((HERE / "requirements.json").read_text())
@@ -84,6 +85,48 @@ class Capes(unittest.TestCase):
         overall, closest = rs3comp.progress_all(*load("maxed"), REQS, set())
         self.assertEqual(list(overall), list(rs3comp.CAPES))
         self.assertEqual(closest, "master_max")  # max is done; master max needs only Necromancy
+
+
+class WikiGuide(unittest.TestCase):
+    def page(self, name, own=""):
+        return wikiguide.parse((HERE / "fixtures" / "wiki" / f"{name}.html").read_text(), own)
+
+    def test_quest_quick_guide(self):
+        g = self.page("cooks_assistant_quick_guide", "Cook's Assistant")
+        details = dict(g["details"])
+        self.assertIn("Lumbridge Castle", details["Start point"])
+        self.assertEqual(details["Requirements"], "None")  # its own name and "None" filler are dropped
+        self.assertIn("• Bucket", details["Required items"])
+        steps = [(d, t) for s in g["sections"] if s["title"] == "Walkthrough" for k, d, t in s["blocks"] if k == "step"]
+        self.assertTrue(steps[0][1].startswith("Obtain the following items"))
+        self.assertIn(2, [d for d, _ in steps])  # nested sub-steps keep their depth
+        self.assertTrue(any("(Chat: What's Wrong? → [Accept Quest] → Can I help?)" in t for _, t in steps))
+        text = json.dumps(g)
+        self.assertNotIn("Show on map", text)  # page furniture is skipped
+        self.assertNotIn("League", text)
+
+    def test_achievement(self):
+        g = self.page("kudos_to_you")
+        details = dict(g["details"])
+        self.assertEqual(details["Description"], "Reach full Kudos with the Varrock Museum.")
+        self.assertIn("• Demon Slayer", details["Requirements"].splitlines())
+        self.assertNotIn("Update history", [s["title"] for s in g["sections"]])
+
+    def test_training_guide(self):
+        g = self.page("ranged_training")
+        titles = [s["title"] for s in g["sections"]]
+        pick = lambda level: titles[wikiguide.level_section(g["sections"], level)]  # noqa: E731
+        self.assertEqual([pick(1), pick(20), pick(45), pick(99), pick(120)],
+                         ["Levels 1-20", "Levels 20-40", "Levels 40-50", "Levels 70-120", "Levels 70-120"])
+        rows = [t for s in g["sections"] for k, _, t in s["blocks"] if k == "row"]
+        self.assertTrue(any("30 Defence, Broken Home" in t for t in rows))  # skill icon alt text kept
+        self.assertEqual(wikiguide.level_range("Level 20+"), (20, None))
+        self.assertEqual(wikiguide.level_range("Level 1–46+"), (1, 46))
+        self.assertIsNone(wikiguide.level_range("Rings"))
+
+    def test_training_page_names(self):
+        self.assertEqual(wikiguide.training_page("Defence"), "Pay-to-play melee training")
+        self.assertEqual(wikiguide.training_page("Mining"), "Pay-to-play Mining training")
 
 
 if __name__ == "__main__":

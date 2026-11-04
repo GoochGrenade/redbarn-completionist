@@ -1,10 +1,11 @@
 {
  "source": "https://runescape.wiki",
  "license": "Text and lists from the RuneScape Wiki, under CC BY-NC-SA 3.0 (creativecommons.org/licenses/by-nc-sa/3.0)",
- "fetched": "2026-11-02",
+ "fetched": "2026-11-04",
  "achievements": {
   "A Fort Of My Own": {
    "name": "A Fort Of My Own",
+   "page": "A Fort Of My Own",
    "description": "Upgrade all buildings in Fort Forinthry to Tier 3.",
    "category": "Exploration",
    "subcategory": "Fort Forinthry",
@@ -21,6 +22,7 @@
   },
   "A Place For My Heads": {
    "name": "A Place For My Heads",
+   "page": "A Place For My Heads",
    "description": "Mount all three of the Raptor's slayer trophies.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -35,6 +37,7 @@
   },
   "A Reptile's Dysfunction": {
    "name": "A Reptile's Dysfunction",
+   "page": "A Reptile's Dysfunction",
    "description": "Upgrade Zorgoth's ring by completing rituals at the Ungael ritual site.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -47,6 +50,7 @@
   },
   "Absolute Planker": {
    "name": "Absolute Planker",
+   "page": "Absolute Planker",
    "description": "Upgrade your plank box to hold 100 of each plank.",
    "category": "Skills",
    "subcategory": "Construction",
@@ -59,6 +63,7 @@
   },
   "Abyssal Shortcut": {
    "name": "Abyssal Shortcut",
+   "page": "Abyssal Shortcut",
    "description": "Unlock the asylum gate and complete the shortcut to the abyssal portal.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -71,6 +76,7 @@
   },
   "Almost as Perky as a Prawn": {
    "name": "Almost as Perky as a Prawn",
+   "page": "Almost as Perky as a Prawn",
    "description": "Unlock all the Prawn Perks from your Aquarium.",
    "category": "Skills",
    "subcategory": "Construction",
@@ -83,6 +89,7 @@
   },
   "An Essential Accessory": {
    "name": "An Essential Accessory",
+   "page": "An Essential Accessory",
    "description": "Create an expansive essence pouch. Start by buying a hungry hood from Wizard Rinsit's Runecrafting Shop.",
    "category": "Skills",
    "subcategory": "Runecrafting",
@@ -96,6 +103,7 @@
   },
   "Ancient Eastern Tortle Portals": {
    "name": "Ancient Eastern Tortle Portals",
+   "page": "Ancient Eastern Tortle Portals",
    "description": "Activate all tortle portals on The Islands That Once Were Turtles.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -108,6 +116,7 @@
   },
   "Annihilator": {
    "name": "Annihilator",
+   "page": "Annihilator",
    "description": "Earn 'the Annihilator' title by fighting all four nihil at once.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -120,6 +129,7 @@
   },
   "Bag of Herbs": {
    "name": "Bag of Herbs",
+   "page": "Bag of Herbs",
    "description": "Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -130,6 +140,7 @@
   },
   "Balanced Combat Triangle": {
    "name": "Balanced Combat Triangle",
+   "page": "Balanced Combat Triangle",
    "description": "Solve a lockbox puzzle.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -140,6 +151,7 @@
   },
   "Bandos's Memories": {
    "name": "Bandos's Memories",
+   "page": "Bandos's Memories (achievement)",
    "description": "Recover all 14 of Bandos's memories on Yu'biusk.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -152,6 +164,7 @@
   },
   "Bane Tuner": {
    "name": "Bane Tuner",
+   "page": "Bane Tuner",
    "description": "Unlock the spell: Tune Bane.",
    "category": "Skills",
    "subcategory": "Magic",
@@ -164,6 +177,7 @@
   },
   "Bean There, Done That": {
    "name": "Bean There, Done That",
+   "page": "Bean There, Done That",
    "description": "Purchase the following upgrades from the farmers' market reward shop.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -177,6 +191,7 @@
   },
   "Bean There, Done That, Got the Postcard": {
    "name": "Bean There, Done That, Got the Postcard",
+   "page": "Bean There, Done That, Got the Postcard",
    "description": "Purchase the following upgrades from the Anachronia farmers' market reward shop.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -189,6 +204,7 @@
   },
   "Big Chinchompa": {
    "name": "Big Chinchompa",
+   "page": "Big Chinchompa (achievement)",
    "description": "Score 1,111 in a session of the Big Chinchompa minigame.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -199,6 +215,7 @@
   },
   "Bill & Ben's Egg/Salon Joint Venture": {
    "name": "Bill & Ben's Egg/Salon Joint Venture",
+   "page": "Bill & Ben's Egg/Salon Joint Venture",
    "description": "After Extinction quest, 'eggs'plore Prehistoric Potterington's (sunny)-side-(up) hustle.",
    "category": "Activities",
    "subcategory": "'Accidental' Skilling Station",
@@ -214,6 +231,7 @@
   },
   "Bipedal Mask": {
    "name": "Bipedal Mask",
+   "page": "Bipedal Mask",
    "description": "Construct a Tuska mask (mask parts are dropped by airut during their Slayer task).",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -226,6 +244,7 @@
   },
   "Bridge over Fremmy Waters": {
    "name": "Bridge over Fremmy Waters",
+   "page": "Bridge over Fremmy Waters",
    "description": "Complete all the unabridged Fremennik Sagas.",
    "category": "Lore",
    "subcategory": "No",
@@ -250,6 +269,7 @@
   },
   "Claus is Rising": {
    "name": "Claus is Rising",
+   "page": "Claus is Rising",
    "description": "Claim a reward from Claus after doing him a favour.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -262,6 +282,7 @@
   },
   "Crafting to Your Own Rune": {
    "name": "Crafting to Your Own Rune",
+   "page": "Crafting to Your Own Rune",
    "description": "Unlock the ability to runecraft masterwork 2h staves by making and upgrading to +5 a full set of eternal magic weaponry.",
    "category": "Skills",
    "subcategory": "Runecrafting",
@@ -274,6 +295,7 @@
   },
   "Da Vinci Who?": {
    "name": "Da Vinci Who?",
+   "page": "Da Vinci Who?",
    "description": "Acquire knowledge from the listed ancient blueprints.",
    "category": "Skills",
    "subcategory": "Invention",
@@ -288,6 +310,7 @@
   },
   "Data Recovery": {
    "name": "Data Recovery",
+   "page": "Data Recovery",
    "description": "Help the Archivist recover all core memory data in the Hall of Memories.",
    "category": "Skills",
    "subcategory": "Divination",
@@ -300,6 +323,7 @@
   },
   "Deadlier Catch": {
    "name": "Deadlier Catch",
+   "page": "Deadlier Catch",
    "description": "Hunt the Thalassus until it flees for good.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -312,6 +336,7 @@
   },
   "Diaries of the Clans": {
    "name": "Diaries of the Clans",
+   "page": "Diaries of the Clans",
    "description": "Find the clan journal pages from the Hefin Agility Course in Prifddinas.",
    "category": "Lore",
    "subcategory": "Books",
@@ -326,6 +351,7 @@
   },
   "Dinosaur Hunter": {
    "name": "Dinosaur Hunter",
+   "page": "Dinosaur Hunter",
    "description": "Take down each dinosaur in Big Game Hunter.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -339,6 +365,7 @@
   },
   "Draconic Decoctions": {
    "name": "Draconic Decoctions",
+   "page": "Draconic Decoctions",
    "description": "Discover all of the listed potion recipes.",
    "category": "Skills",
    "subcategory": "Herblore",
@@ -349,6 +376,7 @@
   },
   "Elven Titles": {
    "name": "Elven Titles",
+   "page": "Elven Titles",
    "description": "Obtain the titles of the elven clans.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -370,6 +398,7 @@
   },
   "Everything Is Oresome": {
    "name": "Everything Is Oresome",
+   "page": "Everything Is Oresome",
    "description": "Increase the capacity of your ore box by mining 100 of each of the listed ores.",
    "category": "Skills",
    "subcategory": "Mining",
@@ -382,6 +411,7 @@
   },
   "Everything Is Still Oresome": {
    "name": "Everything Is Still Oresome",
+   "page": "Everything Is Still Oresome",
    "description": "Increase the capacity of your ore box by mining 100 of each of the listed ores.",
    "category": "Skills",
    "subcategory": "Mining",
@@ -394,6 +424,7 @@
   },
   "Everything Is Still Treemendous": {
    "name": "Everything Is Still Treemendous",
+   "page": "Everything Is Still Treemendous",
    "description": "Increase the capacity of your wood box by cutting eternal magic logs.",
    "category": "Skills",
    "subcategory": "Woodcutting",
@@ -406,6 +437,7 @@
   },
   "Everything Is Treemendous": {
    "name": "Everything Is Treemendous",
+   "page": "Everything Is Treemendous",
    "description": "Increase the capacity of your wood box by cutting 100 of each of the listed logs.",
    "category": "Skills",
    "subcategory": "Woodcutting",
@@ -418,6 +450,7 @@
   },
   "Family Spirit Tree": {
    "name": "Family Spirit Tree",
+   "page": "Family Spirit Tree",
    "description": "Reconnect the Prifddinas spirit tree with her brethren.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -433,6 +466,7 @@
   },
   "Famous": {
    "name": "Famous",
+   "page": "Famous",
    "description": "Earn the title 'The Famous' by completing Morvran's Slayer challenge.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -449,6 +483,7 @@
   },
   "Fletch Quest": {
    "name": "Fletch Quest",
+   "page": "Fletch Quest",
    "description": "Unlock the ability to fletch masterwork bows by making and upgrading to Mk. 5 a full set of primal/eternal magic ranged weaponry.",
    "category": "Skills",
    "subcategory": "Fletching",
@@ -461,6 +496,7 @@
   },
   "From Ardougne with Love": {
    "name": "From Ardougne with Love",
+   "page": "From Ardougne with Love",
    "description": "Fully upgrade the penguin spy device by tracking penguin spies around the world.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -471,6 +507,7 @@
   },
   "Gaps, Traps and Laps": {
    "name": "Gaps, Traps and Laps",
+   "page": "Gaps, Traps and Laps",
    "description": "Complete each of the listed agility courses at least once.",
    "category": "Skills",
    "subcategory": "Agility",
@@ -483,6 +520,7 @@
   },
   "Gross Misconduct": {
    "name": "Gross Misconduct",
+   "page": "Gross Misconduct",
    "description": "Slay an entire cohort of Zamorak's most powerful minions by killing 144 demons in the Wilderness.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -493,6 +531,7 @@
   },
   "Heal, Quickly": {
    "name": "Heal, Quickly",
+   "page": "Heal, Quickly",
    "description": "Unlock the prayer 'Rapid Renewal' by purchasing the scroll of renewal from the Dungeoneering reward shop.",
    "category": "Skills",
    "subcategory": "Prayer",
@@ -506,6 +545,7 @@
   },
   "Here to Slay": {
    "name": "Here to Slay",
+   "page": "Here to Slay",
    "description": "Equip a Corrupted Slayer Helmet, upgraded with an ensouled spectral lens.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -523,6 +563,7 @@
   },
   "I'm Forever Washing Shadows": {
    "name": "I'm Forever Washing Shadows",
+   "page": "I'm Forever Washing Shadows",
    "description": "Aid Lord Amlodd in cleansing shadow cores.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -537,6 +578,7 @@
   },
   "I've Got a Little List (of Miniquests)": {
    "name": "I've Got a Little List (of Miniquests)",
+   "page": "I've Got a Little List (of Miniquests)",
    "description": "Complete all miniquests listed in the Quests interface. Does not include sagas.",
    "category": "Lore",
    "subcategory": "No",
@@ -599,6 +641,7 @@
   },
   "Imping Around": {
    "name": "Imping Around",
+   "page": "Imping Around",
    "description": "Collect one of each impling for Daffyd in Prifddinas.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -614,6 +657,7 @@
   },
   "In Rituals We Trust": {
    "name": "In Rituals We Trust",
+   "page": "In Rituals We Trust",
    "description": "Perform every core ritual.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -626,6 +670,7 @@
   },
   "Invention Gives Me the Blues": {
    "name": "Invention Gives Me the Blues",
+   "page": "Invention Gives Me the Blues",
    "description": "Purchase all of the blueprints for the Invention Technology devices.",
    "category": "Skills",
    "subcategory": "Invention",
@@ -641,6 +686,7 @@
   },
   "It Should Have Been Called Aetherium": {
    "name": "It Should Have Been Called Aetherium",
+   "page": "It Should Have Been Called Aetherium",
    "description": "Unlock the ability to smith masterwork armour by making and upgrading to +5 a full set of elder rune armour.",
    "category": "Skills",
    "subcategory": "Smithing",
@@ -653,6 +699,7 @@
   },
   "It Should Have Been Called Ancestral": {
    "name": "It Should Have Been Called Ancestral",
+   "page": "It Should Have Been Called Ancestral",
    "description": "Unlock the ability to craft masterwork magic armour by making and upgrading to +5 a full set of starbloom armour.",
    "category": "Skills",
    "subcategory": "Crafting",
@@ -665,6 +712,7 @@
   },
   "It Should Have Been Called Chinskin": {
    "name": "It Should Have Been Called Chinskin",
+   "page": "It Should Have Been Called Chinskin",
    "description": "Unlock the ability to craft masterwork ranged armour by making and upgrading to +5 a full set of apex hide armour.",
    "category": "Skills",
    "subcategory": "Crafting",
@@ -677,6 +725,7 @@
   },
   "It Still Should Have Been Called Aetherium": {
    "name": "It Still Should Have Been Called Aetherium",
+   "page": "It Still Should Have Been Called Aetherium",
    "description": "Unlock the ability to smith masterwork swords by making and upgrading to +5 a full set of primal armour.",
    "category": "Skills",
    "subcategory": "Smithing",
@@ -689,6 +738,7 @@
   },
   "Kiln Fighter": {
    "name": "Kiln Fighter",
+   "page": "Kiln Fighter",
    "description": "Complete the Fight Kiln.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -701,6 +751,7 @@
   },
   "Kudos to You": {
    "name": "Kudos to You",
+   "page": "Kudos to You",
    "description": "Reach full Kudos with the Varrock Museum.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -731,6 +782,7 @@
   },
   "Long Live the Queen": {
    "name": "Long Live the Queen",
+   "page": "Long Live the Queen",
    "description": "Defeat the Queen Black Dragon and obtain the first dragonkin journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -743,6 +795,7 @@
   },
   "Lunar Master": {
    "name": "Lunar Master",
+   "page": "Lunar Master",
    "description": "Unlock all lunar spells.",
    "category": "Skills",
    "subcategory": "Magic",
@@ -761,6 +814,7 @@
   },
   "Make Them Bleed": {
    "name": "Make Them Bleed",
+   "page": "Make Them Bleed",
    "description": "Perform well enough in Rush of Blood to impress Morvran.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -775,6 +829,7 @@
   },
   "Master Skiller": {
    "name": "Master Skiller",
+   "page": "Master Skiller",
    "description": "Increase all skills to mastery level.",
    "category": "Skills",
    "subcategory": "No",
@@ -815,6 +870,7 @@
   },
   "Maximum Poolpulation": {
    "name": "Maximum Poolpulation",
+   "page": "Maximum Poolpulation",
    "description": "Reach the maximum number of fish in each pool at the Wendlewick fish farm with all four pools active.",
    "category": "Skills",
    "subcategory": "Fishing",
@@ -831,6 +887,7 @@
   },
   "Memories of Guthix": {
    "name": "Memories of Guthix",
+   "page": "Memories of Guthix (achievement)",
    "description": "Attune and hand all engrams in to the Memorial to Guthix.",
    "category": "Skills",
    "subcategory": "Divination",
@@ -843,6 +900,7 @@
   },
   "Minor Wisdom": {
    "name": "Minor Wisdom",
+   "page": "Minor Wisdom",
    "description": "Earn the Wisdom of Anima fletching perk for one of the Elder God arrow types.",
    "category": "Exploration",
    "subcategory": "Fort Forinthry",
@@ -858,6 +916,7 @@
   },
   "Music Maestro": {
    "name": "Music Maestro",
+   "page": "Music Maestro",
    "description": "Unlock all music tracks.",
    "category": "Activities",
    "subcategory": "No",
@@ -868,6 +927,7 @@
   },
   "My Last Resort": {
    "name": "My Last Resort",
+   "page": "My Last Resort",
    "description": "Unlock the mentioned amenities in War's Retreat.",
    "category": "Combat",
    "subcategory": "PvM Hub: War's Retreat",
@@ -880,6 +940,7 @@
   },
   "Myreque in Memoriam": {
    "name": "Myreque in Memoriam",
+   "page": "Myreque in Memoriam",
    "description": "Complete construction of the Myreque memorial and help Veliaf to move on.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -893,6 +954,7 @@
   },
   "Mystical Moonstone": {
    "name": "Mystical Moonstone",
+   "page": "Mystical Moonstone",
    "description": "Learn how to craft moonstone jewellery.",
    "category": "Exploration",
    "subcategory": "City of Um",
@@ -905,6 +967,7 @@
   },
   "No Need to Pikkenchoose": {
    "name": "No Need to Pikkenchoose",
+   "page": "No Need to Pikkenchoose",
    "description": "Unlock everything from Pikkenflix's Shrine of the Spirit Wolf shop south of Wendlewick.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -917,6 +980,7 @@
   },
   "Out into the Ourania": {
    "name": "Out into the Ourania",
+   "page": "Out into the Ourania",
    "description": "Unlock the spell: Ourania Teleport.",
    "category": "Skills",
    "subcategory": "Magic",
@@ -929,6 +993,7 @@
   },
   "Peachy Bones": {
    "name": "Peachy Bones",
+   "page": "Peachy Bones",
    "description": "Unlock the spell: Bones to Peaches.",
    "category": "Skills",
    "subcategory": "Magic",
@@ -941,6 +1006,7 @@
   },
   "Pious Prayers": {
    "name": "Pious Prayers",
+   "page": "Pious Prayers",
    "description": "By completing the 8 Knight Waves in Camelot, unlock the prayers: Chivalry, Piety, Rigour, Augury.",
    "category": "Skills",
    "subcategory": "Prayer",
@@ -957,6 +1023,7 @@
   },
   "Port Life": {
    "name": "Port Life",
+   "page": "Port Life",
    "description": "Complete the Player Owned Port tutorial.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -967,6 +1034,7 @@
   },
   "Potion For a Lady": {
    "name": "Potion For a Lady",
+   "page": "Potion For a Lady",
    "description": "Help Lady Meilyr to retrieve her lost potion recipes.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -979,6 +1047,7 @@
   },
   "Potion Mixer Master I": {
    "name": "Potion Mixer Master I",
+   "page": "Potion Mixer Master I",
    "description": "Unlock the listed combination potion recipes from Clan Meilyr in Prifddinas.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -991,6 +1060,7 @@
   },
   "Potion Mixer Master II": {
    "name": "Potion Mixer Master II",
+   "page": "Potion Mixer Master II",
    "description": "Unlock the listed advanced combination potion recipes from Clan Meilyr in Prifddinas.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -1003,6 +1073,7 @@
   },
   "Power Planter II": {
    "name": "Power Planter II",
+   "page": "Power Planter II",
    "description": "Unlock Plant Power (Tier 4) from Sydekix's Reward Store at the Garden of Kharid.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -1017,6 +1088,7 @@
   },
   "Qualification - Guildmaster": {
    "name": "Qualification - Guildmaster",
+   "page": "Qualification - Guildmaster",
    "description": "Complete all of the listed achievements and attend the qualification ceremony.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -1035,6 +1107,7 @@
   },
   "Quest Cape": {
    "name": "Quest Cape",
+   "page": "Quest Cape (achievement)",
    "description": "Complete all quests to obtain the quest cape.",
    "category": "Completionist",
    "subcategory": "No",
@@ -1322,6 +1395,7 @@
   },
   "Rhian in Gold - The Original": {
    "name": "Rhian in Gold - The Original",
+   "page": "Rhian in Gold - The Original",
    "description": "Fully build the statue of Rhiannon in the Tower of Voices at least once.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -1334,6 +1408,7 @@
   },
   "Seren Memories": {
    "name": "Seren Memories",
+   "page": "Seren Memories",
    "description": "Deposit Seren memoriam crystals (from the Approach of Freneskae), then search the Sanctum alcove.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1346,6 +1421,7 @@
   },
   "Sing for the Lady": {
    "name": "Sing for the Lady",
+   "page": "Sing for the Lady",
    "description": "Help Lady Ithell with crystal singing research.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -1361,6 +1437,7 @@
   },
   "Slayer Master": {
    "name": "Slayer Master",
+   "page": "Slayer Master (achievement)",
    "description": "Earn the title 'Slayer Master' from Morvran's platinum Rush of Blood challenge.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -1384,6 +1461,7 @@
   },
   "Slide To The Left": {
    "name": "Slide To The Left",
+   "page": "Slide To The Left",
    "description": "Solve a puzzle box.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -1394,6 +1472,7 @@
   },
   "Stacks on Stacks": {
    "name": "Stacks on Stacks",
+   "page": "Stacks on Stacks",
    "description": "Place a totem on Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -1411,6 +1490,7 @@
   },
   "Stay Safe": {
    "name": "Stay Safe",
+   "page": "Stay Safe",
    "description": "Fully complete the Stronghold of Player Safety.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -1421,6 +1501,7 @@
   },
   "Stay Secure": {
    "name": "Stay Secure",
+   "page": "Stay Secure",
    "description": "Fully complete the Stronghold of Security.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -1431,6 +1512,7 @@
   },
   "Student Becomes the Master": {
    "name": "Student Becomes the Master",
+   "page": "Student Becomes the Master",
    "description": "Learn all of Kili's equipment upgrade tasks.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -1445,6 +1527,7 @@
   },
   "Talented in Necromancy": {
    "name": "Talented in Necromancy",
+   "page": "Talented in Necromancy",
    "description": "Unlock every Talent from the Well of Souls.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -1457,6 +1540,7 @@
   },
   "Task Master": {
    "name": "Task Master",
+   "page": "Task Master",
    "description": "Complete all the listed area achievement sets.",
    "category": "Area Tasks",
    "subcategory": "No",
@@ -1520,6 +1604,7 @@
   },
   "The Crocodile Hunter": {
    "name": "The Crocodile Hunter",
+   "page": "The Crocodile Hunter",
    "description": "Unlock all non-cosmetic Hunter upgrades from Dundee's Shop.",
    "category": "Exploration",
    "subcategory": "Het's Oasis",
@@ -1530,6 +1615,7 @@
   },
   "The Greatest Gift of All": {
    "name": "The Greatest Gift of All",
+   "page": "The Greatest Gift of All",
    "description": "Learn a lesson from Lea outside the Invention Guild.",
    "category": "Skills",
    "subcategory": "Invention",
@@ -1543,6 +1629,7 @@
   },
   "Tiers of Treasure": {
    "name": "Tiers of Treasure",
+   "page": "Tiers of Treasure",
    "description": "Complete 1 clue of each tier.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -1553,6 +1640,7 @@
   },
   "Top Town Hall": {
    "name": "Top Town Hall",
+   "page": "Top Town Hall",
    "description": "Fully upgrade the Town Hall in the base camp on Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -1563,6 +1651,7 @@
   },
   "Towering Over Us All": {
    "name": "Towering Over Us All",
+   "page": "Towering Over Us All",
    "description": "Solve a Towers puzzle.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -1573,6 +1662,7 @@
   },
   "Trip to the East": {
    "name": "Trip to the East",
+   "page": "Trip to the East",
    "description": "Complete one of the trio storylines from your Player Owned Port.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -1583,6 +1673,7 @@
   },
   "Troublesome Crystals": {
    "name": "Troublesome Crystals",
+   "page": "Troublesome Crystals",
    "description": "Find all of the memoriam crystals in Prifddinas.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -1600,6 +1691,7 @@
   },
   "Uncorrupted Ore": {
    "name": "Uncorrupted Ore",
+   "page": "Uncorrupted Ore",
    "description": "Aid Lady Trahaearn in removing some corruption by smelting 100 corrupted ore.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -1615,6 +1707,7 @@
   },
   "Undead to Rites": {
    "name": "Undead to Rites",
+   "page": "Undead to Rites",
    "description": "Teleport to the Ungael ritual site using the Ungael Teleport incantation.",
    "category": "Area Tasks",
    "subcategory": "Elite Underworld",
@@ -1627,6 +1720,7 @@
   },
   "Unliving on a Prayer": {
    "name": "Unliving on a Prayer",
+   "page": "Unliving on a Prayer",
    "description": "Unlock all of the listed prayers from Selene.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -1643,6 +1737,7 @@
   },
   "Unlocking Waiko I": {
    "name": "Unlocking Waiko I",
+   "page": "Unlocking Waiko I",
    "description": "Purchase unlocks from the Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -1655,6 +1750,7 @@
   },
   "Untangled": {
    "name": "Untangled",
+   "page": "Untangled",
    "description": "Solve a celtic knot.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -1665,6 +1761,7 @@
   },
   "Upgrading Waiko I": {
    "name": "Upgrading Waiko I",
+   "page": "Upgrading Waiko I",
    "description": "Purchase the first tier of upgrades in the Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -1677,6 +1774,7 @@
   },
   "Walking the Reef": {
    "name": "Walking the Reef",
+   "page": "Walking the Reef",
    "description": "Find all reefwalker's cape scroll pieces in Player Owned Ports.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -1687,6 +1785,7 @@
   },
   "What's Mine is Also Doric's": {
    "name": "What's Mine is Also Doric's",
+   "page": "What's Mine is Also Doric's",
    "description": "Complete all of the Doric and Boric tasks.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -1702,6 +1801,7 @@
   },
   "Whodunnit? I Dunnit!": {
    "name": "Whodunnit? I Dunnit!",
+   "page": "Whodunnit? I Dunnit!",
    "description": "Complete the Ungael combat activity on standard mode.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -1714,6 +1814,7 @@
   },
   "Yaktwee's a Charm": {
    "name": "Yaktwee's a Charm",
+   "page": "Yaktwee's a Charm",
    "description": "Unlock the enhanced Yaktwee stick by catching charm sprites.",
    "category": "Skills",
    "subcategory": "Hunter",
@@ -1726,6 +1827,7 @@
   },
   "Zarosian Memories": {
    "name": "Zarosian Memories",
+   "page": "Zarosian Memories",
    "description": "Deposit Zarosian memoriam crystals, then search the Sanctum alcove.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1738,6 +1840,7 @@
   },
   "A bug in the system": {
    "name": "A bug in the system",
+   "page": "A bug in the system",
    "description": "Find and read the scruffy note in the Scabarite Cavern.",
    "category": "Lore",
    "subcategory": "Books",
@@ -1748,6 +1851,7 @@
   },
   "A Cultist's Journey": {
    "name": "A Cultist's Journey",
+   "page": "A Cultist's Journey (achievement)",
    "description": "Complete the 'A Cultist's Journey' tasks from the Curator.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -1758,6 +1862,7 @@
   },
   "A Mini Shipment": {
    "name": "A Mini Shipment",
+   "page": "A Mini Shipment",
    "description": "Loot the trunk in the Temple of Aminishi.",
    "category": "Combat",
    "subcategory": "Elite Dungeon: Shadow Reef<!--sic-->",
@@ -1771,6 +1876,7 @@
   },
   "A New Direction": {
    "name": "A New Direction",
+   "page": "A New Direction",
    "description": "Reunite Irwinsson with his lost compass.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -1784,6 +1890,7 @@
   },
   "A Sliver of Silver Helps the Sanguine Go Down": {
    "name": "A Sliver of Silver Helps the Sanguine Go Down",
+   "page": "A Sliver of Silver Helps the Sanguine Go Down",
    "description": "Learn how to smith more durable havensilver.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1796,6 +1903,7 @@
   },
   "Advanced Sweeping": {
    "name": "Advanced Sweeping",
+   "page": "Advanced Sweeping",
    "description": "Fully enchant your broomstick after the 'Swept Away' quest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1813,6 +1921,7 @@
   },
   "Aereck's Old Bones": {
    "name": "Aereck's Old Bones",
+   "page": "Aereck's Old Bones",
    "description": "Claim ancient bones from Father Aereck after 'The Restless Ghost'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1825,6 +1934,7 @@
   },
   "After the Close": {
    "name": "After the Close",
+   "page": "After the Close",
    "description": "Unlock the Closure's robes cosmetic override outfit after 'Once Upon a Time in Gielinor'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1837,6 +1947,7 @@
   },
   "After the Flood": {
    "name": "After the Flood",
+   "page": "After the Flood (achievement)",
    "description": "Find and read Elidinis' memoir.",
    "category": "Lore",
    "subcategory": "Books",
@@ -1849,6 +1960,7 @@
   },
   "Aged Journal": {
    "name": "Aged Journal",
+   "page": "Aged Journal (achievement)",
    "description": "Find and read the Aged Journal in Daemonheim.",
    "category": "Lore",
    "subcategory": "Books",
@@ -1859,6 +1971,7 @@
   },
   "Ali the Trader": {
    "name": "Ali the Trader",
+   "page": "Ali the Trader",
    "description": "Unlock all Rogue Trader merchandise.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1872,6 +1985,7 @@
   },
   "All Rise": {
    "name": "All Rise",
+   "page": "All Rise",
    "description": "Complete all Court Cases and claim a gavel and the 'the Detective' title from the courthouse clerk.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -1884,6 +1998,7 @@
   },
   "Am I a good boy yet?": {
    "name": "Am I a good boy yet?",
+   "page": "Am I a good boy yet?",
    "description": "Get a gift from the stray dog after he moves into Fort Forinthry.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1896,6 +2011,7 @@
   },
   "An Exploration of Havenhythe": {
    "name": "An Exploration of Havenhythe",
+   "page": "An Exploration of Havenhythe",
    "description": "Find all volumes of Kaleb's Travel Journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -1908,6 +2024,7 @@
   },
   "Angs Off My Ring": {
    "name": "Angs Off My Ring",
+   "page": "Angs Off My Ring",
    "description": "Return the wedding ring after 'The Light Within'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1920,6 +2037,7 @@
   },
   "Animalingual": {
    "name": "Animalingual",
+   "page": "Animalingual",
    "description": "Fully upgrade the cramulet.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1937,6 +2055,7 @@
   },
   "Another One Scabarites The Dust": {
    "name": "Another One Scabarites The Dust",
+   "page": "Another One Scabarites The Dust",
    "description": "Kill elite profane scabarites with the primed keris equipped to upgrade it after 'Beneath Scabaras' Sands'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1949,6 +2068,7 @@
   },
   "Any Odd Chicken": {
    "name": "Any Odd Chicken",
+   "page": "Any Odd Chicken",
    "description": "Claim Professor Oddenstein's extra rewards after 'Ernest the Chicken'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1961,6 +2081,7 @@
   },
   "Ape A'hollow": {
    "name": "Ape A'hollow",
+   "page": "Ape A'hollow",
    "description": "Unblock the hollow log and tunnel shortcut after 'Fairy Tale III'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1976,6 +2097,7 @@
   },
   "Are You Needing Access?": {
    "name": "Are You Needing Access?",
+   "page": "Are You Needing Access?",
    "description": "Gain access to the secret treasure room from 'Do No Evil'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -1990,6 +2112,7 @@
   },
   "Are You The Keymaster?": {
    "name": "Are You The Keymaster?",
+   "page": "Are You The Keymaster?",
    "description": "Add all valid keys to the steel key ring after 'One Small Favour'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2008,6 +2131,7 @@
   },
   "Argh, it burns!": {
    "name": "Argh, it burns!",
+   "page": "Argh, it burns!",
    "description": "Find out who in Amberfell has the 'monthly affliction'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2021,6 +2145,7 @@
   },
   "Arise from the Ash": {
    "name": "Arise from the Ash",
+   "page": "Arise from the Ash",
    "description": "Defeat the phoenix once, after 'In Pyre Need'.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -2035,6 +2160,7 @@
   },
   "Armadylean Expert": {
    "name": "Armadylean Expert",
+   "page": "Armadylean Expert",
    "description": "Restored a collection of Armadylean artefacts.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -2047,6 +2173,7 @@
   },
   "Around the World in Six Ways": {
    "name": "Around the World in Six Ways",
+   "page": "Around the World in Six Ways",
    "description": "Unlock all hot-air balloon travel routes.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2061,6 +2188,7 @@
   },
   "As Clear as a Crystal Seed": {
    "name": "As Clear as a Crystal Seed",
+   "page": "As Clear as a Crystal Seed",
    "description": "Unlock the Temple of Light teleport after 'Within the Light'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2073,6 +2201,7 @@
   },
   "As Taxed as a Yak": {
    "name": "As Taxed as a Yak",
+   "page": "As Taxed as a Yak",
    "description": "Gain access to the Contraband Yak Produce shop.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2085,6 +2214,7 @@
   },
   "Azacorax's Rewards": {
    "name": "Azacorax's Rewards",
+   "page": "Azacorax's Rewards",
    "description": "Speak to Azacorax after 'Rune Memories' and gain Magic or Prayer XP.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2100,6 +2230,7 @@
   },
   "Azdaran Birthright": {
    "name": "Azdaran Birthright",
+   "page": "Azdaran Birthright",
    "description": "Complete the Azdaran document.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2114,6 +2245,7 @@
   },
   "Bandosian Expert": {
    "name": "Bandosian Expert",
+   "page": "Bandosian Expert",
    "description": "Restored a collection of Bandosian artefacts.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -2128,6 +2260,7 @@
   },
   "Banking History": {
    "name": "Banking History",
+   "page": "Banking History",
    "description": "Find all hidden treasure from the 'Making History' quest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2140,6 +2273,7 @@
   },
   "Behemoth Notes": {
    "name": "Behemoth Notes",
+   "page": "Behemoth Notes (achievement)",
    "description": "Find all Behemoth notes.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2152,6 +2286,7 @@
   },
   "Birds of Prey": {
    "name": "Birds of Prey",
+   "page": "Birds of Prey",
    "description": "Track all of the owls for Deryn.",
    "category": "Exploration",
    "subcategory": "City of Um",
@@ -2166,6 +2301,7 @@
   },
   "Blinded by Ramarno's Teaching": {
    "name": "Blinded by Ramarno's Teaching",
+   "page": "Blinded by Ramarno's Teaching",
    "description": "Claim Smithing XP from Ramarno after 'Defender of Varrock'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2178,6 +2314,7 @@
   },
   "Bloodstained Treasure": {
    "name": "Bloodstained Treasure",
+   "page": "Bloodstained Treasure",
    "description": "Obtain hidden runes from Meiyerditch laboratory and blood altar ruins.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2190,6 +2327,7 @@
   },
   "Bogolin Dichromacy": {
    "name": "Bogolin Dichromacy",
+   "page": "Bogolin Dichromacy",
    "description": "Help the bogolins to reach an accord.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -2202,6 +2340,7 @@
   },
   "Brothers Gower": {
    "name": "Brothers Gower",
+   "page": "Brothers Gower",
    "description": "Claim the rewards from all three Gower brothers after 'Gower Quest'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2232,6 +2371,7 @@
   },
   "Brutal Stuffsies": {
    "name": "Brutal Stuffsies",
+   "page": "Brutal Stuffsies",
    "description": "Open Uglug's Stuffsies store by selling him Relicym's balm.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2244,6 +2384,7 @@
   },
   "Bugs in the Walls": {
    "name": "Bugs in the Walls",
+   "page": "Bugs in the Walls",
    "description": "Find and read the High Priest of Scabaras' notes.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2256,6 +2397,7 @@
   },
   "Buy and Sell Some XP": {
    "name": "Buy and Sell Some XP",
+   "page": "Buy and Sell Some XP",
    "description": "Claim Thieving XP after 'Buyers and Cellars'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2270,6 +2412,7 @@
   },
   "Buying Up Ancient Artefacts": {
    "name": "Buying Up Ancient Artefacts",
+   "page": "Buying Up Ancient Artefacts",
    "description": "Buy an ancient staff after 'Desert Treasure'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2282,6 +2425,7 @@
   },
   "Carnillean Riches": {
    "name": "Carnillean Riches",
+   "page": "Carnillean Riches",
    "description": "Return Lady Henryeta's necklace or open Ceril's money pouch after 'Carnillean Rising'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2294,6 +2438,7 @@
   },
   "Castaways of the Arc": {
    "name": "Castaways of the Arc",
+   "page": "Castaways of the Arc",
    "description": "Discover all the Arc castaways.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -2309,6 +2454,7 @@
   },
   "Caving into the Gains": {
    "name": "Caving into the Gains",
+   "page": "Caving into the Gains",
    "description": "Claim the XP from cave paintings and 5,000 coins from Explorer Jack.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2325,6 +2471,7 @@
   },
   "Cecilia, I'm Begging You, Please...": {
    "name": "Cecilia, I'm Begging You, Please...",
+   "page": "Cecilia, I'm Begging You, Please...",
    "description": "Tell Sister Cecilia whether to leave or stay after 'One Piercing Note'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2337,6 +2484,7 @@
   },
   "Centaur of Attention": {
    "name": "Centaur of Attention",
+   "page": "Centaur of Attention",
    "description": "Read the book acquired from Roberta outside the Everlight porcelain clay mine.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2350,6 +2498,7 @@
   },
   "Challenge Maria": {
    "name": "Challenge Maria",
+   "page": "Challenge Maria",
    "description": "Complete Maria's additional challenges and unlock all chests in the Gulvas mansion.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2392,6 +2541,7 @@
   },
   "Challenging Chat": {
    "name": "Challenging Chat",
+   "page": "Challenging Chat",
    "description": "Hear Vorago's introduction dialogue.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -2402,6 +2552,7 @@
   },
   "Chilling with Arrav": {
    "name": "Chilling with Arrav",
+   "page": "Chilling with Arrav",
    "description": "Put Arrav (north-east of the mahjarrat ritual marker) to rest after 'Ritual of the Mahjarrat'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2414,6 +2565,7 @@
   },
   "Chippy Transport": {
    "name": "Chippy Transport",
+   "page": "Chippy Transport",
    "description": "Unlock the ability to chip teleport tablets to Trollheim.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2426,6 +2578,7 @@
   },
   "Chivalry is Dead": {
    "name": "Chivalry is Dead",
+   "page": "Chivalry is Dead",
    "description": "Claim the post-quest rewards from 'The Death of Chivalry'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2441,6 +2594,7 @@
   },
   "Chivalry is Fed": {
    "name": "Chivalry is Fed",
+   "page": "Chivalry is Fed",
    "description": "Restore the cabbage patch after 'The Death of Chivalry'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2455,6 +2609,7 @@
   },
   "Chivalry is Threads": {
    "name": "Chivalry is Threads",
+   "page": "Chivalry is Threads",
    "description": "Unlock Templar and Dulcin armour after 'The Death of Chivalry'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2467,6 +2622,7 @@
   },
   "Circus of Fire": {
    "name": "Circus of Fire",
+   "page": "Circus of Fire",
    "description": "Unlock the firemaker's outfit from the circus.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -2479,6 +2635,7 @@
   },
   "Claiming Azzanadra's Heart": {
    "name": "Claiming Azzanadra's Heart",
+   "page": "Claiming Azzanadra's Heart",
    "description": "Claim the medium XP lamp from Azzanadra after 'Heart of Stone'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2492,6 +2649,7 @@
   },
   "Claiming the Knight's Experience": {
    "name": "Claiming the Knight's Experience",
+   "page": "Claiming the Knight's Experience",
    "description": "Claim the smithing lamp from Squire Asrol after 'Knight's Sword'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2504,6 +2662,7 @@
   },
   "Clue's in the Monkey Drool": {
    "name": "Clue's in the Monkey Drool",
+   "page": "Clue's in the Monkey Drool",
    "description": "Receive the medium clue scroll from a monkey in your backpack.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2516,6 +2675,7 @@
   },
   "Collection of Zamorakian Notes": {
    "name": "Collection of Zamorakian Notes",
+   "page": "Collection of Zamorakian Notes (achievement)",
    "description": "Find all 5 Zamorakian notes, dropped by those dedicated to Zamorak.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2526,6 +2686,7 @@
   },
   "Complete History of Droalak": {
    "name": "Complete History of Droalak",
+   "page": "Complete History of Droalak",
    "description": "Free Droalak after 'Making History'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2538,6 +2699,7 @@
   },
   "Complete Trekky": {
    "name": "Complete Trekky",
+   "page": "Complete Trekky",
    "description": "Fully level up all Temple Trekking companions.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -2550,6 +2712,7 @@
   },
   "Cook's Delights": {
    "name": "Cook's Delights",
+   "page": "Cook's Delights",
    "description": "Claim the cook's extra rewards after 'Cook's Assistant'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2562,6 +2725,7 @@
   },
   "Count All Light Fingers": {
    "name": "Count All Light Fingers",
+   "page": "Count All Light Fingers",
    "description": "Fully upgrade the Thieves' Guild.",
    "category": "Skills",
    "subcategory": "Thieving",
@@ -2579,6 +2743,7 @@
   },
   "Cower Behind the Chosen Commander": {
    "name": "Cower Behind the Chosen Commander",
+   "page": "Cower Behind the Chosen Commander",
    "description": "Claim the goblin cower shield.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2591,6 +2756,7 @@
   },
   "Cran Door's Secret": {
    "name": "Cran Door's Secret",
+   "page": "Cran Door's Secret",
    "description": "Unlocked the secret door between Crandor and Karamja.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2603,6 +2769,7 @@
   },
   "Culinary Exchange": {
    "name": "Culinary Exchange",
+   "page": "Culinary Exchange",
    "description": "Deliver a serving of tangled toad's legs to Longramble during or after 'The Path of Glouphrie'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2615,6 +2782,7 @@
   },
   "Curses!": {
    "name": "Curses!",
+   "page": "Curses!",
    "description": "Unlock the ancient curses by reading the ancient hymnal given to you by Azzanadra.",
    "category": "Skills",
    "subcategory": "Prayer",
@@ -2627,6 +2795,7 @@
   },
   "Daemonology of Celerity": {
    "name": "Daemonology of Celerity",
+   "page": "Daemonology of Celerity",
    "description": "Claim the malleus daemoniorum.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2637,6 +2806,7 @@
   },
   "Daero Take This Experience?": {
    "name": "Daero Take This Experience?",
+   "page": "Daero Take This Experience?",
    "description": "Claim the XP reward from Daero following Monkey Madness.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2649,6 +2819,7 @@
   },
   "Dark Reading Material": {
    "name": "Dark Reading Material",
+   "page": "Dark Reading Material",
    "description": "Collect the following 'lore' books from the Infernal Source.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -2663,6 +2834,7 @@
   },
   "Death to the Mahjarrat": {
    "name": "Death to the Mahjarrat",
+   "page": "Death to the Mahjarrat",
    "description": "Discover all the mahjarrat deathstones on Freneskae.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2675,6 +2847,7 @@
   },
   "Deep and Bloody Experience": {
    "name": "Deep and Bloody Experience",
+   "page": "Deep and Bloody Experience",
    "description": "Claim the XP reward after 'Blood Runs Deep'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2687,6 +2860,7 @@
   },
   "Diamonds in the Dung": {
    "name": "Diamonds in the Dung",
+   "page": "Diamonds in the Dung",
    "description": "Find Uraeus and Aten in the Kalphite Nursery after 'Diamond in the Rough'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2699,6 +2873,7 @@
   },
   "Diary of Oreb": {
    "name": "Diary of Oreb",
+   "page": "Diary of Oreb",
    "description": "Discover and read all five journals of The Magister.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2711,6 +2886,7 @@
   },
   "Diary of the Gods": {
    "name": "Diary of the Gods",
+   "page": "Diary of the Gods",
    "description": "Find all five God Wars journals.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2726,6 +2902,7 @@
   },
   "Dishonourable Gains": {
    "name": "Dishonourable Gains",
+   "page": "Dishonourable Gains",
    "description": "Claim all XP chests during or after 'Dishonour among Thieves'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2765,6 +2942,7 @@
   },
   "Dishonourable Loot": {
    "name": "Dishonourable Loot",
+   "page": "Dishonourable Loot",
    "description": "Claim all loot chests after 'Dishonour among Thieves'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2777,6 +2955,7 @@
   },
   "Distorted Div": {
    "name": "Distorted Div",
+   "page": "Distorted Div",
    "description": "Claim the one-time Divination XP from a distorted engrammeter.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2790,6 +2969,7 @@
   },
   "Divine Ichor": {
    "name": "Divine Ichor",
+   "page": "Divine Ichor (achievement)",
    "description": "Find all 7 tablets of 'Divine Ichor'.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2802,6 +2982,7 @@
   },
   "Do a Minion, Take Notes": {
    "name": "Do a Minion, Take Notes",
+   "page": "Do a Minion, Take Notes",
    "description": "Complete the Dominion journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2814,6 +2995,7 @@
   },
   "Do No Elite": {
    "name": "Do No Elite",
+   "page": "Do No Elite",
    "description": "Claim the elite clue scroll using Ava's alerter from 'Do No Evil'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2826,6 +3008,7 @@
   },
   "Don't Fear the Ripper": {
    "name": "Don't Fear the Ripper",
+   "page": "Don't Fear the Ripper",
    "description": "Find and read all five miner's journals and the diary of Jebediah Omnis.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2838,6 +3021,7 @@
   },
   "Dragon Ink": {
    "name": "Dragon Ink",
+   "page": "Dragon Ink",
    "description": "Collect the following lore books from bosses inside the Dragonkin Laboratory.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2848,6 +3032,7 @@
   },
   "Dragonkin Diary": {
    "name": "Dragonkin Diary",
+   "page": "Dragonkin Diary",
    "description": "Find and return Naressa's journal to her.",
    "category": "Exploration",
    "subcategory": "Senntisten",
@@ -2860,6 +3045,7 @@
   },
   "Dragonkin Expert": {
    "name": "Dragonkin Expert",
+   "page": "Dragonkin Expert",
    "description": "Restored at least one of each dragonkin artefact.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -2872,6 +3058,7 @@
   },
   "Dragonkin Logs": {
    "name": "Dragonkin Logs",
+   "page": "Dragonkin Logs",
    "description": "Find and read the adamant dragon journals.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2884,6 +3071,7 @@
   },
   "Draugr Me to Hela": {
    "name": "Draugr Me to Hela",
+   "page": "Draugr Me to Hela",
    "description": "Free the remaining spirits around above-ground Daemonheim after 'Remains of the Necrolord'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2896,6 +3084,7 @@
   },
   "Dusting Murial": {
    "name": "Dusting Murial",
+   "page": "Dusting Murial",
    "description": "Update the Dragonkin Primer with murals in Brimhaven Dungeon and Mount Firewake.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2913,6 +3102,7 @@
   },
   "Eastern Adventurer: Eastern Curiosities": {
    "name": "Eastern Adventurer: Eastern Curiosities",
+   "page": "Eastern Adventurer: Eastern Curiosities",
    "description": "Complete story voyages of the Architect, Chef and Trapper.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -2927,6 +3117,7 @@
   },
   "Eastern Adventurer: Guardians of the World": {
    "name": "Eastern Adventurer: Guardians of the World",
+   "page": "Eastern Adventurer: Guardians of the World",
    "description": "Complete story voyages of the Tengu, Memory and Exile.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -2941,6 +3132,7 @@
   },
   "Eastern Adventurer: Hyu-Ji": {
    "name": "Eastern Adventurer: Hyu-Ji",
+   "page": "Eastern Adventurer: Hyu-Ji",
    "description": "Complete story voyages of the Biologist, Missionary and Convict.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -2955,6 +3147,7 @@
   },
   "Eastern Adventurer: Quin": {
    "name": "Eastern Adventurer: Quin",
+   "page": "Eastern Adventurer: Quin",
    "description": "Complete story voyages of the Whaler, Occultist and Assassin.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -2969,6 +3162,7 @@
   },
   "EEEEAGLE!": {
    "name": "EEEEAGLE!",
+   "page": "EEEEAGLE!",
    "description": "Fully unlock all eagle transport routes.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -2984,6 +3178,7 @@
   },
   "Enough of the Crazy Walking": {
    "name": "Enough of the Crazy Walking",
+   "page": "Enough of the Crazy Walking",
    "description": "Purchase the Mad Ramblings.",
    "category": "Lore",
    "subcategory": "Books",
@@ -2994,6 +3189,7 @@
   },
   "Epi Logueque Experience": {
    "name": "Epi Logueque Experience",
+   "page": "Epi Logueque Experience",
    "description": "Watch the 'While Guthix Sleeps' epilogue and claim the XP reward.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3006,6 +3202,7 @@
   },
   "Experience the Fate of the Gods": {
    "name": "Experience the Fate of the Gods",
+   "page": "Experience the Fate of the Gods",
    "description": "Claim and use the 'Fate of the Gods' XP lamps from Azzanadra and Wahisietel.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3021,6 +3218,7 @@
   },
   "Explore for Nestor": {
    "name": "Explore for Nestor",
+   "page": "Explore for Nestor",
    "description": "Find and read the explorer's notes in the Keldagrim library.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3031,6 +3229,7 @@
   },
   "Fates of the Colossi": {
    "name": "Fates of the Colossi",
+   "page": "Fates of the Colossi",
    "description": "Restore all colossus murals across Havenhythe.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -3045,6 +3244,7 @@
   },
   "Final Destination Unlocked": {
    "name": "Final Destination Unlocked",
+   "page": "Final Destination Unlocked",
    "description": "Unlock all ferry points in the City of Um.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3057,6 +3257,7 @@
   },
   "Finding Tali": {
    "name": "Finding Tali",
+   "page": "Finding Tali",
    "description": "Find Tali and convince her to return home.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -3069,6 +3270,7 @@
   },
   "Fires are Mostly Harmless": {
    "name": "Fires are Mostly Harmless",
+   "page": "Fires are Mostly Harmless",
    "description": "Light the campfire and find exotic herbs and seeds after 'Fairy Tale III'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3084,6 +3286,7 @@
   },
   "Flippers": {
    "name": "Flippers",
+   "page": "Flippers (achievement)",
    "description": "Convince Flippers McGraw in the Port Sarim pub to join your crew.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -3096,6 +3299,7 @@
   },
   "Fly You Fool": {
    "name": "Fly You Fool",
+   "page": "Fly You Fool",
    "description": "Convince Velrak the Explorer to escape Taverley Dungeon.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3106,6 +3310,7 @@
   },
   "Following In The Footsteps": {
    "name": "Following In The Footsteps",
+   "page": "Following In The Footsteps",
    "description": "Find out the outcome of the research continued by Vicendithas.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -3118,6 +3323,7 @@
   },
   "For the Love of Mabel": {
    "name": "For the Love of Mabel",
+   "page": "For the Love of Mabel",
    "description": "Return Mabel's ring and chop down the guard's tree.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3130,6 +3336,7 @@
   },
   "Forcae's Mettle": {
    "name": "Forcae's Mettle",
+   "page": "Forcae's Mettle",
    "description": "Complete Forcae's journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3140,6 +3347,7 @@
   },
   "Fred's Shearings": {
    "name": "Fred's Shearings",
+   "page": "Fred's Shearings",
    "description": "Claim 1,940 coins from Fred the Farmer after the 'Sheep Shearer' miniquest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3152,6 +3360,7 @@
   },
   "Free Beer Here": {
    "name": "Free Beer Here",
+   "page": "Free Beer Here",
    "description": "Tell Faisal the Barman that Traitorous Hesham's drink was poisoned.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3164,6 +3373,7 @@
   },
   "Friend of the Imcando": {
    "name": "Friend of the Imcando",
+   "page": "Friend of the Imcando",
    "description": "Engage in all of Thalmund's conversations.",
    "category": "Exploration",
    "subcategory": "City of Um",
@@ -3176,6 +3386,7 @@
   },
   "Gift from Sliske": {
    "name": "Gift from Sliske",
+   "page": "Gift from Sliske",
    "description": "Unlock Sliske's gift and the sixth-age circuit upgrade.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3193,6 +3404,7 @@
   },
   "Gift of Buggies": {
    "name": "Gift of Buggies",
+   "page": "Gift of Buggies",
    "description": "Give Aurora her favourite mush.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -3205,6 +3417,7 @@
   },
   "God Wars": {
    "name": "God Wars",
+   "page": "God Wars (achievement)",
    "description": "Visit an ancient war, which became unfrozen after hundreds of years.",
    "category": "Combat",
    "subcategory": "Dungeon: God Wars",
@@ -3220,6 +3433,7 @@
   },
   "Goebie One with the Wildlife": {
    "name": "Goebie One with the Wildlife",
+   "page": "Goebie One with the Wildlife",
    "description": "Complete Arod's wildlife reserve on Mazcab.",
    "category": "Skills",
    "subcategory": "Hunter",
@@ -3232,6 +3446,7 @@
   },
   "Goebie Relics": {
    "name": "Goebie Relics",
+   "page": "Goebie Relics",
    "description": "Find all Mazcab stone fragments and take them to the ancient statue.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3242,6 +3457,7 @@
   },
   "Got a Vyre Reputation": {
    "name": "Got a Vyre Reputation",
+   "page": "Got a Vyre Reputation",
    "description": "Unlock the Vyrelord/Vyrelady title and reach maximum vyre reputation in Darkmeyer.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3254,6 +3470,7 @@
   },
   "Goulash! Get Your Free Goulash!": {
    "name": "Goulash! Get Your Free Goulash!",
+   "page": "Goulash! Get Your Free Goulash!",
    "description": "Drink 10 bowls of goulash after 'Swept Away'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3266,6 +3483,7 @@
   },
   "Grave Records": {
    "name": "Grave Records",
+   "page": "Grave Records (achievement)",
    "description": "Collect all 11 pages of the 'Grave Records' in the Sanctum of Rebirth.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3280,6 +3498,7 @@
   },
   "Grondaban's Legacy": {
    "name": "Grondaban's Legacy",
+   "page": "Grondaban's Legacy",
    "description": "Obtain Grondaban's stalker notes from the stalker dungeon.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3292,6 +3511,7 @@
   },
   "Gunning for Jewellery": {
    "name": "Gunning for Jewellery",
+   "page": "Gunning for Jewellery",
    "description": "Engrave all of Dororan's jewellery.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3306,6 +3526,7 @@
   },
   "Guthix and the Chamber of Secrets": {
    "name": "Guthix and the Chamber of Secrets",
+   "page": "Guthix and the Chamber of Secrets",
    "description": "Learn about Guthix's core memories in the Hall of Memories.",
    "category": "Skills",
    "subcategory": "Divination",
@@ -3318,6 +3539,7 @@
   },
   "Guthixian Expert": {
    "name": "Guthixian Expert",
+   "page": "Guthixian Expert",
    "description": "Restored at least one of each  artefact.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -3332,6 +3554,7 @@
   },
   "Haul Comes to Templeton": {
    "name": "Haul Comes to Templeton",
+   "page": "Haul Comes to Templeton",
    "description": "Unlock the ability to trade noted artefacts with Simon Templeton.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3344,6 +3567,7 @@
   },
   "Heavy Metal": {
    "name": "Heavy Metal",
+   "page": "Heavy Metal",
    "description": "Obtain all the entries of Boric's Book of Metal by mining the listed ores or catalysts.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3358,6 +3582,7 @@
   },
   "Hello, I Like Money": {
    "name": "Hello, I Like Money",
+   "page": "Hello, I Like Money",
    "description": "Claim 1000 coins from Hannah after solving her crab problem.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3370,6 +3595,7 @@
   },
   "Herbi's Flax": {
    "name": "Herbi's Flax",
+   "page": "Herbi's Flax",
    "description": "Give Herbi Flax's diary to the Varrock apothecary.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3382,6 +3608,7 @@
   },
   "Here Was a Scabaras Mask": {
    "name": "Here Was a Scabaras Mask",
+   "page": "Here Was a Scabaras Mask",
    "description": "Gain access to the secret treasure room from 'Diamond in the Rough'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3396,6 +3623,7 @@
   },
   "Heroes of the Graveyard": {
    "name": "Heroes of the Graveyard",
+   "page": "Heroes of the Graveyard",
    "description": "Find and read all four books about the heroes buried in Senntisten graveyard.",
    "category": "Exploration",
    "subcategory": "Senntisten",
@@ -3411,6 +3639,7 @@
   },
   "History of Bilrach": {
    "name": "History of Bilrach",
+   "page": "History of Bilrach",
    "description": "Find all Chronicles of Bilrach.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3423,6 +3652,7 @@
   },
   "Home is Where the God is": {
    "name": "Home is Where the God is",
+   "page": "Home is Where the God is",
    "description": "Convince Armadyl to visit Stormguard.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -3437,6 +3667,7 @@
   },
   "I Can See For Miles and Miles": {
    "name": "I Can See For Miles and Miles",
+   "page": "I Can See For Miles and Miles",
    "description": "Unlock all beacon keepers and fully unlock the beacon map.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3464,6 +3695,7 @@
   },
   "I Dig This Transportation": {
    "name": "I Dig This Transportation",
+   "page": "I Dig This Transportation",
    "description": "Unlock Dig Site pendants.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3476,6 +3708,7 @@
   },
   "I Know. I Was There...": {
    "name": "I Know. I Was There...",
+   "page": "I Know. I Was There...",
    "description": "Obtain personal stories from Edgeville regarding the destruction after 'The Ritual of the Mahjarrat'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3488,6 +3721,7 @@
   },
   "I Presume These Rewards Are Mine, Death?": {
    "name": "I Presume These Rewards Are Mine, Death?",
+   "page": "I Presume These Rewards Are Mine, Death?",
    "description": "Claim all rewards from the statue of Death after 'Missing, Presumed Death'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3504,6 +3738,7 @@
   },
   "I Want a New Duck": {
    "name": "I Want a New Duck",
+   "page": "I Want a New Duck",
    "description": "Fish for all of the peas in Paddlington after 'Duck Quest'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3516,6 +3751,7 @@
   },
   "Ice Ice Chimpy": {
    "name": "Ice Ice Chimpy",
+   "page": "Ice Ice Chimpy",
    "description": "Complete 25 chimp ice deliveries.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3528,6 +3764,7 @@
   },
   "Icthlarin's Little Chest": {
    "name": "Icthlarin's Little Chest",
+   "page": "Icthlarin's Little Chest",
    "description": "Loot the chest from the pyramid during or after 'Icthlarin's Little Helper'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3540,6 +3777,7 @@
   },
   "Impressing Char": {
    "name": "Impressing Char",
+   "page": "Impressing Char",
    "description": "Create Char's most treasured symbol in her training cave.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3554,6 +3792,7 @@
   },
   "Is He Chipped?": {
    "name": "Is He Chipped?",
+   "page": "Is He Chipped?",
    "description": "Return Bob's collar to him during or after 'Ritual of the Mahjarrat'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3566,6 +3805,7 @@
   },
   "It's Like God Book Illuminations in Here": {
    "name": "It's Like God Book Illuminations in Here",
+   "page": "It's Like God Book Illuminations in Here",
    "description": "Create all 6 illuminated God Books after 'One Piercing Note'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3583,6 +3823,7 @@
   },
   "Ivan is Flailing": {
    "name": "Ivan is Flailing",
+   "page": "Ivan is Flailing",
    "description": "Unlock the full power of the ivandis flail by burning vyre corpses in the Columbarium.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3597,6 +3838,7 @@
   },
   "Jas not Meant for Mortal Hands": {
    "name": "Jas not Meant for Mortal Hands",
+   "page": "Jas not Meant for Mortal Hands",
    "description": "Return to the Submerged Statue at Entrana after 'One of a Kind' and 'Ritual of the Mahjarrat'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3610,6 +3852,7 @@
   },
   "Kaiki's Tusks": {
    "name": "Kaiki's Tusks",
+   "page": "Kaiki's Tusks",
    "description": "Complete Kaigi's journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3622,6 +3865,7 @@
   },
   "Kal'gerion Notes": {
    "name": "Kal'gerion Notes",
+   "page": "Kal'gerion Notes (achievement)",
    "description": "Find all Kal'gerion notes.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3634,6 +3878,7 @@
   },
   "Keeping Up with the Carnilleans": {
    "name": "Keeping Up with the Carnilleans",
+   "page": "Keeping Up with the Carnilleans",
    "description": "Claim and use 8 experience lamps from Philipe Carnillean.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3649,6 +3894,7 @@
   },
   "Koschei's Cache": {
    "name": "Koschei's Cache",
+   "page": "Koschei's Cache",
    "description": "Complete the 'Koschei's Troubles' miniquest and unlock all jewel memories.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3664,6 +3910,7 @@
   },
   "Lamp of Luxury": {
    "name": "Lamp of Luxury",
+   "page": "Lamp of Luxury",
    "description": "Rub these quest lamps that can be reclaimed from May's storage chest, near Varrock lodestone.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3709,6 +3956,7 @@
   },
   "Last of the Summer Swine": {
    "name": "Last of the Summer Swine",
+   "page": "Last of the Summer Swine",
    "description": "Fully upgrade the pig creation machine after 'Bringing Home the Bacon'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3725,6 +3973,7 @@
   },
   "Learning from Mr Mordaut": {
    "name": "Learning from Mr Mordaut",
+   "page": "Learning from Mr Mordaut",
    "description": "Claim and use the Divination XP lamp from Mr. Mordaut after 'One of a Kind'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3737,6 +3986,7 @@
   },
   "Legal Entitlement": {
    "name": "Legal Entitlement",
+   "page": "Legal Entitlement",
    "description": "Inform the Old man about the fate of his mother after 'Vessel of the Harbinger'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3749,6 +3999,7 @@
   },
   "Let Us Give Ugthanks": {
    "name": "Let Us Give Ugthanks",
+   "page": "Let Us Give Ugthanks",
    "description": "Find and read the Ugthanatos journal.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3761,6 +4012,7 @@
   },
   "Let's Hope it Doesn't Un-Shrink": {
    "name": "Let's Hope it Doesn't Un-Shrink",
+   "page": "Let's Hope it Doesn't Un-Shrink",
    "description": "Claim the King Slime's Top Hat cosmetic override from Eva after 'Once Upon a Slime'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3773,6 +4025,7 @@
   },
   "Library of Nex": {
    "name": "Library of Nex",
+   "page": "Library of Nex",
    "description": "Find and read the books from the Nex, Angel of Death encounter.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3788,6 +4041,7 @@
   },
   "Load of Bakulla": {
    "name": "Load of Bakulla",
+   "page": "Load of Bakulla",
    "description": "Hear the Epic of Bukalla in the Rellekka longhall.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3800,6 +4054,7 @@
   },
   "Looting the Demon Throne": {
    "name": "Looting the Demon Throne",
+   "page": "Looting the Demon Throne",
    "description": "Claim the gems from the demon throne during or after 'The Golem'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3812,6 +4067,7 @@
   },
   "Lost and...Found?": {
    "name": "Lost and...Found?",
+   "page": "Lost and...Found?",
    "description": "Discover the hidden places in Moonsylvar Wood.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -3824,6 +4080,7 @@
   },
   "Lovingly Crafted": {
    "name": "Lovingly Crafted",
+   "page": "Lovingly Crafted",
    "description": "Discover and read all five Horror journals.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3839,6 +4096,7 @@
   },
   "Lurgon's Run": {
    "name": "Lurgon's Run",
+   "page": "Lurgon's Run",
    "description": "Unlock the Dorgesh-Kaan food trading minigame.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3851,6 +4109,7 @@
   },
   "Madness and Malediction": {
    "name": "Madness and Malediction",
+   "page": "Madness and Malediction",
    "description": "Find and read 'Archaeology Journal - H.F.A', found in the Zamorakian Undercity.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3861,6 +4120,7 @@
   },
   "Mage Arena": {
    "name": "Mage Arena",
+   "page": "Mage Arena (achievement)",
    "description": "Defeat Kolodion at the Mage Arena and collect a god staff.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -3873,6 +4133,7 @@
   },
   "Many Shades of a Cure": {
    "name": "Many Shades of a Cure",
+   "page": "Many Shades of a Cure",
    "description": "Permanently cure Razmire and Ulsquire after 'Shades of Mort'ton'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3885,6 +4146,7 @@
   },
   "Marmaros and Thok Letters": {
    "name": "Marmaros and Thok Letters",
+   "page": "Marmaros and Thok Letters",
    "description": "Find all Marmaros and Thok letters from Daemonheim.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3897,6 +4159,7 @@
   },
   "Mask of Dragith Nurn": {
    "name": "Mask of Dragith Nurn",
+   "page": "Mask of Dragith Nurn (achievement)",
    "description": "Assemble the five parts of the Mask of Dragith Nurn from the Lumbridge Catacombs.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3907,6 +4170,7 @@
   },
   "Master Bogreman": {
    "name": "Master Bogreman",
+   "page": "Master Bogreman",
    "description": "Unlock the ogre bowman hat by killing 30 chompy birds.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3919,6 +4183,7 @@
   },
   "Maya Use Your Fish Farm?": {
    "name": "Maya Use Your Fish Farm?",
+   "page": "Maya Use Your Fish Farm?",
    "description": "Learn how to use the Wendlewick fish farm.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -3934,6 +4199,7 @@
   },
   "Measure of Old": {
    "name": "Measure of Old",
+   "page": "Measure of Old",
    "description": "Use the Measure to find the four Elder God chronicles.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3946,6 +4212,7 @@
   },
   "Meeting your Idols": {
    "name": "Meeting your Idols",
+   "page": "Meeting your Idols",
    "description": "Investigate an overgrown Karamjan idol to discover an ancient tale.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3956,6 +4223,7 @@
   },
   "Memoirs of the Devourer": {
    "name": "Memoirs of the Devourer",
+   "page": "Memoirs of the Devourer (achievement)",
    "description": "Read the Memoirs of the Devourer from Amascut, the Devourer.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3968,6 +4236,7 @@
   },
   "Message from the Abyss": {
    "name": "Message from the Abyss",
+   "page": "Message from the Abyss",
    "description": "Find and read 'Scions of Erebus', dropped by an Abyssal lord.",
    "category": "Lore",
    "subcategory": "Books",
@@ -3980,6 +4249,7 @@
   },
   "Met Het Yet?": {
    "name": "Met Het Yet?",
+   "page": "Met Het Yet?",
    "description": "Gain access to the secret treasure room from 'Our Man in the North'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -3994,6 +4264,7 @@
   },
   "Milk of Chocolate, Snape of Grass": {
    "name": "Milk of Chocolate, Snape of Grass",
+   "page": "Milk of Chocolate, Snape of Grass",
    "description": "Sober up Skippy.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -4006,6 +4277,7 @@
   },
   "Milky Teeth": {
    "name": "Milky Teeth",
+   "page": "Milky Teeth",
    "description": "Give the Tooth Fairy five teeth and claim a tooth creature pet.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4023,6 +4295,7 @@
   },
   "Miniature Monolith Maestro": {
    "name": "Miniature Monolith Maestro",
+   "page": "Miniature Monolith Maestro",
    "description": "Create the cosmic accumulator by combining the cosmic focus and the cosmic pyramid after 'Desperate Measures'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4037,6 +4310,7 @@
   },
   "Miscellaneous Notes": {
    "name": "Miscellaneous Notes",
+   "page": "Miscellaneous Notes",
    "description": "Find Misc. Dungeoneering journals 1 through 15.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4049,6 +4323,7 @@
   },
   "Mixing in Ancient Circles": {
    "name": "Mixing in Ancient Circles",
+   "page": "Mixing in Ancient Circles",
    "description": "Restore the fairy ring in the Ancient Cavern.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4061,6 +4336,7 @@
   },
   "My Adze is Bigger Than Yours": {
    "name": "My Adze is Bigger Than Yours",
+   "page": "My Adze is Bigger Than Yours",
    "description": "Speak to King Roald with the inferno adze equipped.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4083,6 +4359,7 @@
   },
   "My Precious!": {
    "name": "My Precious!",
+   "page": "My Precious!",
    "description": "Find and return Gregg 'Groggy' Herring's lost ring.",
    "category": "Skills",
    "subcategory": "Fishing",
@@ -4095,6 +4372,7 @@
   },
   "Mysteries - Daemonheim": {
    "name": "Mysteries - Daemonheim",
+   "page": "Mysteries - Daemonheim",
    "description": "Complete all the Daemonheim mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4111,6 +4389,7 @@
   },
   "Mysteries - Everlight": {
    "name": "Mysteries - Everlight",
+   "page": "Mysteries - Everlight",
    "description": "Complete all the Everlight mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4131,6 +4410,7 @@
   },
   "Mysteries - Guild": {
    "name": "Mysteries - Guild",
+   "page": "Mysteries - Guild",
    "description": "Complete all the Guild mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4146,6 +4426,7 @@
   },
   "Mysteries - Infernal Source": {
    "name": "Mysteries - Infernal Source",
+   "page": "Mysteries - Infernal Source",
    "description": "Complete all the Infernal Source mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4163,6 +4444,7 @@
   },
   "Mysteries - Kharid-et": {
    "name": "Mysteries - Kharid-et",
+   "page": "Mysteries - Kharid-et",
    "description": "Complete all the Kharid-et mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4184,6 +4466,7 @@
   },
   "Mysteries - Moonrise": {
    "name": "Mysteries - Moonrise",
+   "page": "Mysteries - Moonrise",
    "description": "Complete all the Moonrise mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4202,6 +4485,7 @@
   },
   "Mysteries - Orthen": {
    "name": "Mysteries - Orthen",
+   "page": "Mysteries - Orthen",
    "description": "Complete all the Orthen mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4223,6 +4507,7 @@
   },
   "Mysteries - Senntisten": {
    "name": "Mysteries - Senntisten",
+   "page": "Mysteries - Senntisten",
    "description": "Complete all the Daemonheim mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4239,6 +4524,7 @@
   },
   "Mysteries - Stormguard Citadel": {
    "name": "Mysteries - Stormguard Citadel",
+   "page": "Mysteries - Stormguard Citadel",
    "description": "Complete all the Stormguard mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4258,6 +4544,7 @@
   },
   "Mysteries - Warforge": {
    "name": "Mysteries - Warforge",
+   "page": "Mysteries - Warforge",
    "description": "Complete all the Warforge mysteries.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4277,6 +4564,7 @@
   },
   "Mysteries of the TokHaar": {
    "name": "Mysteries of the TokHaar",
+   "page": "Mysteries of the TokHaar",
    "description": "Fully interact with the mysterious statues after 'One of a Kind'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4289,6 +4577,7 @@
   },
   "Nano to Kipple, Come in Kipple": {
    "name": "Nano to Kipple, Come in Kipple",
+   "page": "Nano to Kipple, Come in Kipple",
    "description": "Claim the Kipple Nano pet.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4301,6 +4590,7 @@
   },
   "Naturally Muspah": {
    "name": "Naturally Muspah",
+   "page": "Naturally Muspah",
    "description": "Claim the reward lamp from the natural historian after 'The Tale of the Muspah'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4313,6 +4603,7 @@
   },
   "New Varrock Set Tasks - Easy": {
    "name": "New Varrock Set Tasks - Easy",
+   "page": "New Varrock Set Tasks - Easy",
    "description": "Given by Tiny Zemouregal in New Varrock square for completing all Easy Tasks in New Varrock.",
    "category": "Exploration",
    "subcategory": "New Varrock",
@@ -4329,6 +4620,7 @@
   },
   "New Varrock Set Tasks - Elite": {
    "name": "New Varrock Set Tasks - Elite",
+   "page": "New Varrock Set Tasks - Elite",
    "description": "Given by Tiny Zemouregal in New Varrock square for completing all Elite Tasks in New Varrock.",
    "category": "Exploration",
    "subcategory": "New Varrock",
@@ -4345,6 +4637,7 @@
   },
   "New Varrock Set Tasks - Hard": {
    "name": "New Varrock Set Tasks - Hard",
+   "page": "New Varrock Set Tasks - Hard",
    "description": "Given by Tiny Zemouregal in New Varrock square for completing all Hard Tasks in New Varrock.",
    "category": "Exploration",
    "subcategory": "New Varrock",
@@ -4361,6 +4654,7 @@
   },
   "New Varrock Set Tasks - Medium": {
    "name": "New Varrock Set Tasks - Medium",
+   "page": "New Varrock Set Tasks - Medium",
    "description": "Given by Tiny Zemouregal in New Varrock square for completing all Medium Tasks in New Varrock.",
    "category": "Exploration",
    "subcategory": "New Varrock",
@@ -4377,6 +4671,7 @@
   },
   "No Secrets Left to Steal": {
    "name": "No Secrets Left to Steal",
+   "page": "No Secrets Left to Steal",
    "description": "Restore and claim from the statues of four famous icyene.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4390,6 +4685,7 @@
   },
   "Now That's What I Call a Dead Parrot": {
    "name": "Now That's What I Call a Dead Parrot",
+   "page": "Now That's What I Call a Dead Parrot",
    "description": "Unlock the Ex-Ex-Parrot pet after 'Rocking Out'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4404,6 +4700,7 @@
   },
   "Ocellus Virius Notus": {
    "name": "Ocellus Virius Notus",
+   "page": "Ocellus Virius Notus",
    "description": "Complete History of the Order of Ascension.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4416,6 +4713,7 @@
   },
   "Of Kraken Ink": {
    "name": "Of Kraken Ink",
+   "page": "Of Kraken Ink",
    "description": "Collect the following lore books from bosses inside the Shadow Reef.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4426,6 +4724,7 @@
   },
   "On a Mission from...the Gods": {
    "name": "On a Mission from...the Gods",
+   "page": "On a Mission from...the Gods",
    "description": "Complete the 'God Emissaries' miniquest.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -4449,6 +4748,7 @@
   },
   "One Final Ride": {
    "name": "One Final Ride",
+   "page": "One Final Ride",
    "description": "Find and read the Last Riders book, dropped by the King Black Dragon.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4459,6 +4759,7 @@
   },
   "One Man's Junk...Is Mine": {
    "name": "One Man's Junk...Is Mine",
+   "page": "One Man's Junk...Is Mine",
    "description": "Fully loot Movario's base.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4471,6 +4772,7 @@
   },
   "Ornate Crockery": {
    "name": "Ornate Crockery",
+   "page": "Ornate Crockery",
    "description": "Create the big bowl for Tears of Guthix.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4486,6 +4788,7 @@
   },
   "Otto the Ancient": {
    "name": "Otto the Ancient",
+   "page": "Otto the Ancient",
    "description": "Find all barbarian notes in the Ancient Cavern.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4498,6 +4801,7 @@
   },
   "Out of the Past": {
    "name": "Out of the Past",
+   "page": "Out of the Past",
    "description": "Give Sharrigan her mentor's Pastkeeper Amulet.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4511,6 +4815,7 @@
   },
   "Oyster Mash": {
    "name": "Oyster Mash",
+   "page": "Oyster Mash",
    "description": "Feed the giant oyster on Tutorial Island.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4523,6 +4828,7 @@
   },
   "Paint It Red": {
    "name": "Paint It Red",
+   "page": "Paint It Red",
    "description": "Uncover the secrets of haemalchemy, after 'River of Blood'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4535,6 +4841,7 @@
   },
   "Pane in the Glass": {
    "name": "Pane in the Glass",
+   "page": "Pane in the Glass",
    "description": "Repair the stained glass windows in the Cathedral.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4548,6 +4855,7 @@
   },
   "Penny For Your Life": {
    "name": "Penny For Your Life",
+   "page": "Penny For Your Life",
    "description": "Unlock all rewards from 'Dimension of Disaster'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4560,6 +4868,7 @@
   },
   "Potting Is Such Sweet Sorrow": {
    "name": "Potting Is Such Sweet Sorrow",
+   "page": "Potting Is Such Sweet Sorrow",
    "description": "Help Bill (near the mystical tree on the west coast of Anachronia) realise his 'pot'ential.",
    "category": "Activities",
    "subcategory": "'Accidental' Skilling Station",
@@ -4575,6 +4884,7 @@
   },
   "Power of Three Spirits": {
    "name": "Power of Three Spirits",
+   "page": "Power of Three Spirits",
    "description": "Unlock the ability to grow three spirit trees at once.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -4590,6 +4900,7 @@
   },
   "Pulling on the Threads": {
    "name": "Pulling on the Threads",
+   "page": "Pulling on the Threads",
    "description": "Discover all of the chapters in 'The Needle Skips' and then claim your reward from Megan.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4602,6 +4913,7 @@
   },
   "Pure Newbstalgia": {
    "name": "Pure Newbstalgia",
+   "page": "Pure Newbstalgia",
    "description": "Use Lev's old music box after 'Beneath Cursed Tides'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4614,6 +4926,7 @@
   },
   "Quiet But Deadly Lore": {
    "name": "Quiet But Deadly Lore",
+   "page": "Quiet But Deadly Lore",
    "description": "Defeat the Queen Black Dragon and obtain all four dragonkin journals.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4626,6 +4939,7 @@
   },
   "Red Sky All the Time, Shepherds Confused": {
    "name": "Red Sky All the Time, Shepherds Confused",
+   "page": "Red Sky All the Time, Shepherds Confused",
    "description": "Use the Bloodstone to turn the skies red after 'River of Blood'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4638,6 +4952,7 @@
   },
   "Redistribution of Knowledge": {
    "name": "Redistribution of Knowledge",
+   "page": "Redistribution of Knowledge",
    "description": "Claim Thieving XP from Caelyn Kadaan after 'Heartstealer'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4652,6 +4967,7 @@
   },
   "Relight My Fire (Post-Quest achievement)": {
    "name": "Relight My Fire (Post-Quest achievement)",
+   "page": "Relight My Fire (Post-Quest achievement)",
    "description": "Re-kindle the Dragon Forge.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4667,6 +4983,7 @@
   },
   "Reliquary of Cithara": {
    "name": "Reliquary of Cithara",
+   "page": "Reliquary of Cithara",
    "description": "Claim XP from the Holy Cithara.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4681,6 +4998,7 @@
   },
   "Research - Daemonheim": {
    "name": "Research - Daemonheim",
+   "page": "Research - Daemonheim",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4693,6 +5011,7 @@
   },
   "Research - Everlight": {
    "name": "Research - Everlight",
+   "page": "Research - Everlight",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4705,6 +5024,7 @@
   },
   "Research - Guild": {
    "name": "Research - Guild",
+   "page": "Research - Guild",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4715,6 +5035,7 @@
   },
   "Research - Infernal Source": {
    "name": "Research - Infernal Source",
+   "page": "Research - Infernal Source",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4727,6 +5048,7 @@
   },
   "Research - Kharid-et": {
    "name": "Research - Kharid-et",
+   "page": "Research - Kharid-et",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4742,6 +5064,7 @@
   },
   "Research - Moonrise": {
    "name": "Research - Moonrise",
+   "page": "Research - Moonrise",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4754,6 +5077,7 @@
   },
   "Research - Orthen": {
    "name": "Research - Orthen",
+   "page": "Research - Orthen",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4766,6 +5090,7 @@
   },
   "Research - Senntisten": {
    "name": "Research - Senntisten",
+   "page": "Research - Senntisten",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4778,6 +5103,7 @@
   },
   "Research - Stormguard Citadel": {
    "name": "Research - Stormguard Citadel",
+   "page": "Research - Stormguard Citadel",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4790,6 +5116,7 @@
   },
   "Research - Warforge": {
    "name": "Research - Warforge",
+   "page": "Research - Warforge",
    "description": "Complete all of the listed research.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4802,6 +5129,7 @@
   },
   "Research Director": {
    "name": "Research Director",
+   "page": "Research Director",
    "description": "Unlock all researchers.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4825,6 +5153,7 @@
   },
   "Respect the Balance": {
    "name": "Respect the Balance",
+   "page": "Respect the Balance",
    "description": "Pay respects and light the torches in Guthix's shrine.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4840,6 +5169,7 @@
   },
   "Resting Lich Place": {
    "name": "Resting Lich Place",
+   "page": "Resting Lich Place",
    "description": "Locate Rasial's tomb after 'Tomes of the Warlock'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4852,6 +5182,7 @@
   },
   "Roake Kal": {
    "name": "Roake Kal",
+   "page": "Roake Kal",
    "description": "Decipher all four murals in the sunken temple.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4869,6 +5200,7 @@
   },
   "Rogue Down": {
    "name": "Rogue Down",
+   "page": "Rogue Down",
    "description": "Free the Wilderness portal rogue trader.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4881,6 +5213,7 @@
   },
   "Rusty Reward": {
    "name": "Rusty Reward",
+   "page": "Rusty Reward",
    "description": "Take the order to Braindeath and claim the Rusty Anchor's bartender's reward.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4893,6 +5226,7 @@
   },
   "Saradominist Expert": {
    "name": "Saradominist Expert",
+   "page": "Saradominist Expert",
    "description": "Restored a collection of Saradominist artefacts.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -4905,6 +5239,7 @@
   },
   "Scabigail": {
    "name": "Scabigail",
+   "page": "Scabigail",
    "description": "Complete the Scabaras research and present it to lead archaeologist Abigail.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4917,6 +5252,7 @@
   },
   "Scorpvino": {
    "name": "Scorpvino",
+   "page": "Scorpvino",
    "description": "Claim a jug of wine from the Observatory assistant after 'Observatory Quest'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4929,6 +5265,7 @@
   },
   "Scribbling in the Depths": {
    "name": "Scribbling in the Depths",
+   "page": "Scribbling in the Depths",
    "description": "Obtain the hidden rewards after the 'Song from the Depths' quest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4943,6 +5280,7 @@
   },
   "Scribblings of a Dragonkin": {
    "name": "Scribblings of a Dragonkin",
+   "page": "Scribblings of a Dragonkin",
    "description": "Find 'Vicendithas' Scribblings' located in the Edimmu Resource Dungeon.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4957,6 +5295,7 @@
   },
   "Selene's Lessons": {
    "name": "Selene's Lessons",
+   "page": "Selene's Lessons (achievement)",
    "description": "Find all 9 pages of 'Selene's Lessons' and return the finished book to Raz.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4969,6 +5308,7 @@
   },
   "Sentient Letters": {
    "name": "Sentient Letters",
+   "page": "Sentient Letters",
    "description": "Collect all of the letters from the Senntisten dig.",
    "category": "Lore",
    "subcategory": "Books",
@@ -4979,6 +5319,7 @@
   },
   "Shadow Hanging Over Me": {
    "name": "Shadow Hanging Over Me",
+   "page": "Shadow Hanging Over Me",
    "description": "Claim all treasure from the chests during 'A Shadow over Ashdale', or talk to Gudrik to claim them afterwards.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -4991,6 +5332,7 @@
   },
   "Shell-Shocked": {
    "name": "Shell-Shocked",
+   "page": "Shell-Shocked",
    "description": "Speak to Edvard in the Abyss after 'Tortle Combat'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5003,6 +5345,7 @@
   },
   "Skeletal Wishes": {
    "name": "Skeletal Wishes",
+   "page": "Skeletal Wishes",
    "description": "Help the Odd Old Man complete his creepy tasks.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -5019,6 +5362,7 @@
   },
   "Sliske's New Game Plus": {
    "name": "Sliske's New Game Plus",
+   "page": "Sliske's New Game Plus",
    "description": "Replay 'Sliske's Endgame' once to receive the 'Agent of the Eldest' cosmetic outfit override.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5031,6 +5375,7 @@
   },
   "Soft Dragon, Warm Dragon": {
    "name": "Soft Dragon, Warm Dragon",
+   "page": "Soft Dragon, Warm Dragon",
    "description": "Read two bedtime stories to Vorkath.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5043,6 +5388,7 @@
   },
   "Some Old Dusty Journals": {
    "name": "Some Old Dusty Journals",
+   "page": "Some Old Dusty Journals",
    "description": "Find the Ancient, Dusty and Weathered Tarddian journals.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5055,6 +5401,7 @@
   },
   "Squeal for Coins": {
    "name": "Squeal for Coins",
+   "page": "Squeal for Coins",
    "description": "Claim the coins from Yelps' cash bag after fighting him.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5067,6 +5414,7 @@
   },
   "Stalker Notes": {
    "name": "Stalker Notes",
+   "page": "Stalker Notes (achievement)",
    "description": "Find all Stalker notes.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5079,6 +5427,7 @@
   },
   "Stealing Sedridor's Stones": {
    "name": "Stealing Sedridor's Stones",
+   "page": "Stealing Sedridor's Stones",
    "description": "Fully loot Archmage Sedridor's chest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5093,6 +5442,7 @@
   },
   "Stone Cold Observers": {
    "name": "Stone Cold Observers",
+   "page": "Stone Cold Observers",
    "description": "Observe all the large dragonkin statues around Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -5103,6 +5453,7 @@
   },
   "Summary Spirits": {
    "name": "Summary Spirits",
+   "page": "Summary Spirits",
    "description": "Claim the XP from all Wilderness spirit realm portals.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5122,6 +5473,7 @@
   },
   "Supply and Demand": {
    "name": "Supply and Demand",
+   "page": "Supply and Demand",
    "description": "Complete five supply runs after 'Death Plateau'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5136,6 +5488,7 @@
   },
   "Tactless Analysis": {
    "name": "Tactless Analysis",
+   "page": "Tactless Analysis",
    "description": "Collect all 22 pages of dragonkin research in the Dragonkin Laboratory.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5148,6 +5501,7 @@
   },
   "Take it to Sir Tiffy in a Jiffy": {
    "name": "Take it to Sir Tiffy in a Jiffy",
+   "page": "Take it to Sir Tiffy in a Jiffy",
    "description": "Deliver the knight's notes from the God Wars Dungeon to Sir Tiffy Cashien.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5158,6 +5512,7 @@
   },
   "Tasty Bobbles": {
    "name": "Tasty Bobbles",
+   "page": "Tasty Bobbles",
    "description": "Unlock the Tim and Crunchy pets during or after 'Gower Quest'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5170,6 +5525,7 @@
   },
   "That'll Teach Bill": {
    "name": "That'll Teach Bill",
+   "page": "That'll Teach Bill",
    "description": "Claim 10,000 coins from Bill Teach after 'Cabin Fever'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5182,6 +5538,7 @@
   },
   "That's a Lot of Books": {
    "name": "That's a Lot of Books",
+   "page": "That's a Lot of Books",
    "description": "Try to enter the Grand Library.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -5194,6 +5551,7 @@
   },
   "The Book of Elei": {
    "name": "The Book of Elei",
+   "page": "The Book of Elei",
    "description": "Collect all 22 pages of Elei's Diary in the Temple of Aminishi.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5208,6 +5566,7 @@
   },
   "The Elder Ring": {
    "name": "The Elder Ring",
+   "page": "The Elder Ring",
    "description": "Fully upgrade the Shadow Pontifex ring.",
    "category": "Exploration",
    "subcategory": "Senntisten",
@@ -5222,6 +5581,7 @@
   },
   "The Firemaker's Pet": {
    "name": "The Firemaker's Pet",
+   "page": "The Firemaker's Pet",
    "description": "Claim a fire creature pet from Char's training cave after 'The Firemaker's Curse'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5236,6 +5596,7 @@
   },
   "The History of Slayer": {
    "name": "The History of Slayer",
+   "page": "The History of Slayer",
    "description": "Uncover all of the murals inside the Sunken Pyramid.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5250,6 +5611,7 @@
   },
   "The Journal of Fell Arnessen": {
    "name": "The Journal of Fell Arnessen",
+   "page": "The Journal of Fell Arnessen (achievement)",
    "description": "Obtain the Journal of Fell Arnessen from the Arch Glacor.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5260,6 +5622,7 @@
   },
   "The Lute of Love": {
    "name": "The Lute of Love",
+   "page": "The Lute of Love",
    "description": "Craft a lute for Dalia the lumberjack.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -5275,6 +5638,7 @@
   },
   "The Many Hands That Write": {
    "name": "The Many Hands That Write",
+   "page": "The Many Hands That Write",
    "description": "Collect the following lore books from bosses inside the Temple of Aminishi.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5287,6 +5651,7 @@
   },
   "The Tale of Hawthorn": {
    "name": "The Tale of Hawthorn",
+   "page": "The Tale of Hawthorn (achievement)",
    "description": "Find and read the tale of the founder of Amberfell.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5299,6 +5664,7 @@
   },
   "The Worst Witch's Grimoire": {
    "name": "The Worst Witch's Grimoire",
+   "page": "The Worst Witch's Grimoire",
    "description": "Find and restore all 22 pages from the burnt grimoire in the Zamorakian Undercity.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5311,6 +5677,7 @@
   },
   "Three's a Kiln": {
    "name": "Three's a Kiln",
+   "page": "Three's a Kiln",
    "description": "Claim the enhanced fire cape override from TzHaar-Mej-Jeh, by completing the Fight Kiln once with each of the following combat styles: Melee, Ranged, and Magic.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -5323,6 +5690,7 @@
   },
   "Through the Eye of the Needle": {
    "name": "Through the Eye of the Needle",
+   "page": "Through the Eye of the Needle",
    "description": "Witness Jas task Kerapac with retrieving her kin.",
    "category": "Exploration",
    "subcategory": "Senntisten",
@@ -5333,6 +5701,7 @@
   },
   "To Dream, Perchance to Keep": {
    "name": "To Dream, Perchance to Keep",
+   "page": "To Dream, Perchance to Keep",
    "description": "Help Pastkeeper Sharrigan to remember all stories within the 'Dream of Iaia'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5346,6 +5715,7 @@
   },
   "To Thaw a Frozen Heart": {
    "name": "To Thaw a Frozen Heart",
+   "page": "To Thaw a Frozen Heart",
    "description": "Thaw all the frozen snow implings in Yeti Town after 'Violet is Blue'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5387,6 +5757,7 @@
   },
   "Tome Raider": {
    "name": "Tome Raider",
+   "page": "Tome Raider",
    "description": "Collect the following lore books from bosses inside the Sanctum of Rebirth.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5399,6 +5770,7 @@
   },
   "Trader Woes": {
    "name": "Trader Woes",
+   "page": "Trader Woes",
    "description": "Help Nathan the banker set up a trade venture.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -5411,6 +5783,7 @@
   },
   "Trials of the Heart": {
    "name": "Trials of the Heart",
+   "page": "Trials of the Heart",
    "description": "Claim the Helmet of Trials.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5423,6 +5796,7 @@
   },
   "Trickster's Trinkets": {
    "name": "Trickster's Trinkets",
+   "page": "Trickster's Trinkets",
    "description": "Discover all the trinkets and restore the old necklace after 'You Are It'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5436,6 +5810,7 @@
   },
   "Triple Trouble": {
    "name": "Triple Trouble",
+   "page": "Triple Trouble",
    "description": "Unlock the post-quest rewards of Tamayu, Tinsay and Tiadeche.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5448,6 +5823,7 @@
   },
   "Two Rites Don't Make a Wrong": {
    "name": "Two Rites Don't Make a Wrong",
+   "page": "Two Rites Don't Make a Wrong",
    "description": "Free Klenter's soul during or after 'Icthlarin's Little Helper'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5460,6 +5836,7 @@
   },
   "Ultimate Codex": {
    "name": "Ultimate Codex",
+   "page": "Ultimate Codex",
    "description": "Claim and read the Codex Ultimatus.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5472,6 +5849,7 @@
   },
   "Umbral Diplomacy": {
    "name": "Umbral Diplomacy",
+   "page": "Umbral Diplomacy (achievement)",
    "description": "Collect all 22 pages of Umbral Diplomacy in the Shadow Reef.",
    "category": "Lore",
    "subcategory": "Books",
@@ -5484,6 +5862,7 @@
   },
   "Under Croc and Key": {
    "name": "Under Croc and Key",
+   "page": "Under Croc and Key",
    "description": "Gain access to the secret treasure room from 'Crocodile Tears'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5498,6 +5877,7 @@
   },
   "Unholy Crafting": {
    "name": "Unholy Crafting",
+   "page": "Unholy Crafting",
    "description": "Unlock the ability to craft unholy symbols.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5510,6 +5890,7 @@
   },
   "Uzer Master": {
    "name": "Uzer Master",
+   "page": "Uzer Master",
    "description": "Clear the shortcut path in the Uzer Mastaba.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5522,6 +5903,7 @@
   },
   "White Knight Rises": {
    "name": "White Knight Rises",
+   "page": "White Knight Rises",
    "description": "Achieve the Master White Knight rank.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5534,6 +5916,7 @@
   },
   "Work For Idol Hands": {
    "name": "Work For Idol Hands",
+   "page": "Work For Idol Hands",
    "description": "Give the 6 demon statuettes from Lumbridge Catacombs to Xenia/Ilona at the entrance.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5546,6 +5929,7 @@
   },
   "You Mistag This Brooch": {
    "name": "You Mistag This Brooch",
+   "page": "You Mistag This Brooch",
    "description": "Return Mistag's brooch and claim a mining helmet after 'The Lost Tribe'.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5558,6 +5942,7 @@
   },
   "You're Not My Real Mah": {
    "name": "You're Not My Real Mah",
+   "page": "You're Not My Real Mah",
    "description": "Gather elder chronicle fragments in the Elder Halls of Freneskae.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5570,6 +5955,7 @@
   },
   "Zamorakian Expert": {
    "name": "Zamorakian Expert",
+   "page": "Zamorakian Expert",
    "description": "Restored a collection of Zamorakian artefacts.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -5582,6 +5968,7 @@
   },
   "Zarosian Expert": {
    "name": "Zarosian Expert",
+   "page": "Zarosian Expert",
    "description": "Restored a collection of Zarosian artefacts.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -5594,6 +5981,7 @@
   },
   "A Druid's Sidekick": {
    "name": "A Druid's Sidekick",
+   "page": "A Druid's Sidekick",
    "description": "Unlock the listed upgrades from Sydekix's Shop.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -5608,6 +5996,7 @@
   },
   "A Song of Ice and Ire II": {
    "name": "A Song of Ice and Ire II",
+   "page": "A Song of Ice and Ire II",
    "description": "Defeat the Arch-Glacor at 100% enrage.",
    "category": "Combat",
    "subcategory": "Arch-Glacor",
@@ -5618,6 +6007,7 @@
   },
   "Agile from Head to Toe": {
    "name": "Agile from Head to Toe",
+   "page": "Agile from Head to Toe",
    "description": "Unlock the agile top and leg rewards from advanced Agility courses.",
    "category": "Skills",
    "subcategory": "Agility",
@@ -5630,6 +6020,7 @@
   },
   "All Your Energies": {
    "name": "All Your Energies",
+   "page": "All Your Energies",
    "description": "Unlock the energy-gathering scrimshaw scroll from Waiko ports reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -5642,6 +6033,7 @@
   },
   "Bone to Pick With You": {
    "name": "Bone to Pick With You",
+   "page": "Bone to Pick With You",
    "description": "Unlock the bonecrusher upgrade from Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -5656,6 +6048,7 @@
   },
   "Build Them All!": {
    "name": "Build Them All!",
+   "page": "Build Them All!",
    "description": "Build all of the Treasure Trail hidey-holes. You can find a complete list of hidey-holes at the noticeboard by Zaida.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -5668,6 +6061,7 @@
   },
   "Canoe Fix It? Yes You Can!": {
    "name": "Canoe Fix It? Yes You Can!",
+   "page": "Canoe Fix It? Yes You Can!",
    "description": "Repair all the canoe stations around Havenhythe.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -5682,6 +6076,7 @@
   },
   "Champions. What Champions?": {
    "name": "Champions. What Champions?",
+   "page": "Champions. What Champions?",
    "description": "Defeat all champions in the Champions' Challenge.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -5695,6 +6090,7 @@
   },
   "Chompy Massacre": {
    "name": "Chompy Massacre",
+   "page": "Chompy Massacre",
    "description": "Kill chompy birds.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -5707,6 +6103,7 @@
   },
   "Collectors Assemble": {
    "name": "Collectors Assemble",
+   "page": "Collectors Assemble",
    "description": "Complete all collections for archaeological collectors.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -5719,6 +6116,7 @@
   },
   "Completionist Cape": {
    "name": "Completionist Cape",
+   "page": "Completionist Cape (achievement)",
    "description": "Complete all these to be able to obtain the completionist cape.",
    "category": "Completionist",
    "subcategory": "No",
@@ -5832,6 +6230,7 @@
   },
   "Conquered Everyone's Heart": {
    "name": "Conquered Everyone's Heart",
+   "page": "Conquered Everyone's Heart",
    "description": "Reach maximum reputation with all Heart of Gielinor factions.",
    "category": "Combat",
    "subcategory": "Dungeon: Heart of Gielinor",
@@ -5846,6 +6245,7 @@
   },
   "Cracking": {
    "name": "Cracking",
+   "page": "Cracking",
    "description": "Crack open each visible part of the millipede colossus.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -5860,6 +6260,7 @@
   },
   "Death Effect": {
    "name": "Death Effect",
+   "page": "Death Effect",
    "description": "Unlock all permanent effects from Death's Store.",
    "category": "Combat",
    "subcategory": "No",
@@ -5870,6 +6271,7 @@
   },
   "Don't Crush My Memories": {
    "name": "Don't Crush My Memories",
+   "page": "Don't Crush My Memories",
    "description": "Unlock the memory-crushing scrimshaw scroll from the Waiko ports reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -5882,6 +6284,7 @@
   },
   "Draught Includer": {
    "name": "Draught Includer",
+   "page": "Draught Includer",
    "description": "Discover all invention blueprints.",
    "category": "Skills",
    "subcategory": "Invention",
@@ -5899,6 +6302,7 @@
   },
   "Dream Team": {
    "name": "Dream Team",
+   "page": "Dream Team",
    "description": "Start a research contract with a full team of consultants.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -5917,6 +6321,7 @@
   },
   "E-I-E-DI-NO": {
    "name": "E-I-E-DI-NO",
+   "page": "E-I-E-DI-NO",
    "description": "Complete the Ranch Out of Time breeding log.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -5930,6 +6335,7 @@
   },
   "E-I-E-I-O": {
    "name": "E-I-E-I-O",
+   "page": "E-I-E-I-O",
    "description": "Complete the breeding log.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -5943,6 +6349,7 @@
   },
   "Eastern Explorer": {
    "name": "Eastern Explorer",
+   "page": "Eastern Explorer",
    "description": "Explore the Eastern Lands as far as the Shield from your port. Distance travelled:",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -5953,6 +6360,7 @@
   },
   "Elder Wisdom": {
    "name": "Elder Wisdom",
+   "page": "Elder Wisdom",
    "description": "Earn the Wisdom of Anima fletching perk for all the Elder God arrow types.",
    "category": "Exploration",
    "subcategory": "Fort Forinthry",
@@ -5968,6 +6376,7 @@
   },
   "Ferocious Upgrade": {
    "name": "Ferocious Upgrade",
+   "page": "Ferocious Upgrade",
    "description": "Unlock the upgrade to the ferocious ring so it can be used in Morvran's arena.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -5982,6 +6391,7 @@
   },
   "Finish Him!": {
    "name": "Finish Him!",
+   "page": "Finish Him!",
    "description": "Personally defeat Vorago with the Maul of Omens.",
    "category": "Combat",
    "subcategory": "Vorago",
@@ -5992,6 +6402,7 @@
   },
   "Finished unpacking!": {
    "name": "Finished unpacking!",
+   "page": "Finished unpacking!",
    "description": "Access the fourth room of the player-owned slayer dungeon.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -6006,6 +6417,7 @@
   },
   "Get Tooled Up": {
    "name": "Get Tooled Up",
+   "page": "Get Tooled Up",
    "description": "Fill up your tool belt.",
    "category": "Activities",
    "subcategory": "No",
@@ -6035,6 +6447,7 @@
   },
   "Globetrotter": {
    "name": "Globetrotter",
+   "page": "Globetrotter (achievement)",
    "description": "Purchase the full Globetrotter outfit.",
    "category": "Activities",
    "subcategory": "Treasure Trails",
@@ -6045,6 +6458,7 @@
   },
   "God of the Grind": {
    "name": "God of the Grind",
+   "page": "God of the Grind",
    "description": "Fully repair the statue of Het.",
    "category": "Exploration",
    "subcategory": "Het's Oasis",
@@ -6055,6 +6469,7 @@
   },
   "Granny's Favourite Farmer": {
    "name": "Granny's Favourite Farmer",
+   "page": "Granny's Favourite Farmer",
    "description": "Gain max reputation with the Farming Guild.",
    "category": "Skills",
    "subcategory": "Farming",
@@ -6068,6 +6483,7 @@
   },
   "Hard as Daemons": {
    "name": "Hard as Daemons",
+   "page": "Hard as Daemons",
    "description": "Earn the right to wear the title 'of Daemonheim'.",
    "category": "Skills",
    "subcategory": "Dungeoneering",
@@ -6080,6 +6496,7 @@
   },
   "Honourary Imcando": {
    "name": "Honourary Imcando",
+   "page": "Honourary Imcando",
    "description": "Craft all of Kili's equipment upgrades.",
    "category": "Skills",
    "subcategory": "Necromancy",
@@ -6096,6 +6513,7 @@
   },
   "Jack of the Circus": {
    "name": "Jack of the Circus",
+   "page": "Jack of the Circus",
    "description": "Obtain all circus clothing from Balthazar Beauregard's Big Top Bonanza.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -6108,6 +6526,7 @@
   },
   "Jail break": {
    "name": "Jail break",
+   "page": "Jail break",
    "description": "Free each of the baby dinosaurs from the jail cells within the Rex Matriarch lair.",
    "category": "Combat",
    "subcategory": "Rex Matriarchs",
@@ -6120,6 +6539,7 @@
   },
   "Jurassic Perk": {
    "name": "Jurassic Perk",
+   "page": "Jurassic Perk",
    "description": "Discover all the totem pieces on Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -6135,6 +6555,7 @@
   },
   "Kal'gerion Commander": {
    "name": "Kal'gerion Commander",
+   "page": "Kal'gerion Commander",
    "description": "Unlock the Kal'gerion battle commendation titles.",
    "category": "Skills",
    "subcategory": "Dungeoneering",
@@ -6147,6 +6568,7 @@
   },
   "Like Farming Fish in a Pool - Giant Crayfish": {
    "name": "Like Farming Fish in a Pool - Giant Crayfish",
+   "page": "Like Farming Fish in a Pool - Giant Crayfish",
    "description": "Catch 250 giant crayfish at the Wendlewick fish farm.",
    "category": "Skills",
    "subcategory": "Fishing",
@@ -6163,6 +6585,7 @@
   },
   "Like Farming Fish in a Pool - Shark": {
    "name": "Like Farming Fish in a Pool - Shark",
+   "page": "Like Farming Fish in a Pool - Shark",
    "description": "Catch 250 sharks at the Wendlewick fish farm.",
    "category": "Skills",
    "subcategory": "Fishing",
@@ -6179,6 +6602,7 @@
   },
   "Like Farming Fish in a Pool - Swordfish": {
    "name": "Like Farming Fish in a Pool - Swordfish",
+   "page": "Like Farming Fish in a Pool - Swordfish",
    "description": "Catch 250 swordfish at the Wendlewick fish farm.",
    "category": "Skills",
    "subcategory": "Fishing",
@@ -6195,6 +6619,7 @@
   },
   "Mama-Rummer-Totummer": {
    "name": "Mama-Rummer-Totummer",
+   "page": "Mama-Rummer-Totummer",
    "description": "Fletch one of each Linbog totem.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -6210,6 +6635,7 @@
   },
   "Maria, You Gotta See Her": {
    "name": "Maria, You Gotta See Her",
+   "page": "Maria, You Gotta See Her",
    "description": "Complete all three additional challenges from Maria in the Broken Home quest.",
    "category": "Lore",
    "subcategory": "Post-Quest",
@@ -6222,6 +6648,7 @@
   },
   "Master Angler": {
    "name": "Master Angler",
+   "page": "Master Angler",
    "description": "Purchase the champion's tackle box from the Fish Flingers fisherman.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -6232,6 +6659,7 @@
   },
   "Master Builder": {
    "name": "Master Builder",
+   "page": "Master Builder",
    "description": "Fully upgrade the base camp on Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -6249,6 +6677,7 @@
   },
   "Master Otto": {
    "name": "Master Otto",
+   "page": "Master Otto",
    "description": "Complete all barbarian training with Otto, at his grotto west of Baxtorian Falls.",
    "category": "Activities",
    "subcategory": "Barbarian Training",
@@ -6269,6 +6698,7 @@
   },
   "Master Quest Cape": {
    "name": "Master Quest Cape",
+   "page": "Master Quest Cape (achievement)",
    "description": "Complete all these to be able to obtain the master quest cape.",
    "category": "Completionist",
    "subcategory": "No",
@@ -6279,6 +6709,7 @@
   },
   "Mastery - Daemonheim": {
    "name": "Mastery - Daemonheim",
+   "page": "Mastery - Daemonheim",
    "description": "Fully explore the history of the Daemonheim Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6294,6 +6725,7 @@
   },
   "Mastery - Everlight": {
    "name": "Mastery - Everlight",
+   "page": "Mastery - Everlight",
    "description": "Fully explore the history of the Everlight Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6311,6 +6743,7 @@
   },
   "Mastery - Infernal Source": {
    "name": "Mastery - Infernal Source",
+   "page": "Mastery - Infernal Source",
    "description": "Fully explore the history of the Infernal Source Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6327,6 +6760,7 @@
   },
   "Mastery - Kharid-et": {
    "name": "Mastery - Kharid-et",
+   "page": "Mastery - Kharid-et",
    "description": "Fully explore the history of the Kharid-et Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6344,6 +6778,7 @@
   },
   "Mastery - Moonrise": {
    "name": "Mastery - Moonrise",
+   "page": "Mastery - Moonrise",
    "description": "Fully explore the history of the Moonrise Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6359,6 +6794,7 @@
   },
   "Mastery - Orthen": {
    "name": "Mastery - Orthen",
+   "page": "Mastery - Orthen",
    "description": "Fully explore the history of the Orthen Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6374,6 +6810,7 @@
   },
   "Mastery - Senntisten": {
    "name": "Mastery - Senntisten",
+   "page": "Mastery - Senntisten",
    "description": "Fully explore the history of the Senntisten Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6390,6 +6827,7 @@
   },
   "Mastery - Stormguard Citadel": {
    "name": "Mastery - Stormguard Citadel",
+   "page": "Mastery - Stormguard Citadel",
    "description": "Fully explore the history of the Stormguard Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6407,6 +6845,7 @@
   },
   "Mastery - Warforge": {
    "name": "Mastery - Warforge",
+   "page": "Mastery - Warforge",
    "description": "Fully explore the history of the Warforge Dig Site.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6422,6 +6861,7 @@
   },
   "Mazcab Teleport": {
    "name": "Mazcab Teleport",
+   "page": "Mazcab Teleport (achievement)",
    "description": "Unlock the Mazcab Teleport spell.",
    "category": "Skills",
    "subcategory": "Magic",
@@ -6432,6 +6872,7 @@
   },
   "Memorialised More Than Once": {
    "name": "Memorialised More Than Once",
+   "page": "Memorialised More Than Once",
    "description": "Prestige the Memorial to Guthix three times.",
    "category": "Skills",
    "subcategory": "Divination",
@@ -6444,6 +6885,7 @@
   },
   "Mitts and Waders - Death Lotus": {
    "name": "Mitts and Waders - Death Lotus",
+   "page": "Mitts and Waders - Death Lotus",
    "description": "Unlock the death lotus gloves and boots scrolls from the Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -6456,6 +6898,7 @@
   },
   "Mitts and Waders - Seasinger": {
    "name": "Mitts and Waders - Seasinger",
+   "page": "Mitts and Waders - Seasinger",
    "description": "Unlock the seasinger gloves and boots scrolls from the Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -6468,6 +6911,7 @@
   },
   "Mitts and Waders - Tetsu": {
    "name": "Mitts and Waders - Tetsu",
+   "page": "Mitts and Waders - Tetsu",
    "description": "Unlock the tetsu gloves and boots scrolls from the Waiko reward shop.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -6480,6 +6924,7 @@
   },
   "My Goebie Homies": {
    "name": "My Goebie Homies",
+   "page": "My Goebie Homies",
    "description": "Obtain maximum reputation with the goebies on Mazcab.",
    "category": "Combat",
    "subcategory": "Raid: Liberation of Mazcab",
@@ -6490,6 +6935,7 @@
   },
   "Nomad's Mirage": {
    "name": "Nomad's Mirage",
+   "page": "Nomad's Mirage",
    "description": "Defeat the memory of Nomad and loot one of his bounty chests.",
    "category": "Activities",
    "subcategory": "Memory of Nomad",
@@ -6502,6 +6948,7 @@
   },
   "On a Rune High": {
    "name": "On a Rune High",
+   "page": "On a Rune High",
    "description": "Unlock the highest rune shop from Ali Morrisane, by completing the 'Rogue Trader' miniquest.",
    "category": "Lore",
    "subcategory": "Miniquests",
@@ -6514,6 +6961,7 @@
   },
   "One Ten-Thousandth of a Milly": {
    "name": "One Ten-Thousandth of a Milly",
+   "page": "One Ten-Thousandth of a Milly",
    "description": "Hand in 100 millipede legs to Azur.",
    "category": "Exploration",
    "subcategory": "Havenhythe",
@@ -6528,6 +6976,7 @@
   },
   "Out of this World": {
    "name": "Out of this World",
+   "page": "Out of this World",
    "description": "Unlock everything in the Shooting Star Reward Shop.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -6538,6 +6987,7 @@
   },
   "Penguin Adoption Agency": {
    "name": "Penguin Adoption Agency",
+   "page": "Penguin Adoption Agency",
    "description": "Adopt Sheldon the penguin by tracking penguin spies around the world.",
    "category": "Activities",
    "subcategory": "Distractions & Diversions",
@@ -6548,6 +6998,7 @@
   },
   "Perky Like a Prawn": {
    "name": "Perky Like a Prawn",
+   "page": "Perky Like a Prawn",
    "description": "Gain all possible Prawn Perk Points for your Aquarium.",
    "category": "Skills",
    "subcategory": "Construction",
@@ -6562,6 +7013,7 @@
   },
   "Rank: Master Finix": {
    "name": "Rank: Master Finix",
+   "page": "Rank: Master Finix",
    "description": "Obtain rank 1 esteem from Wizard Finix.",
    "category": "Skills",
    "subcategory": "Runecrafting",
@@ -6572,6 +7024,7 @@
   },
   "Raptor's Revenge": {
    "name": "Raptor's Revenge",
+   "page": "Raptor's Revenge",
    "description": "Complete the Ungael combat activity on hard mode.",
    "category": "Activities",
    "subcategory": "Minigames",
@@ -6585,6 +7038,7 @@
   },
   "Reaper Crew": {
    "name": "Reaper Crew",
+   "page": "Reaper Crew",
    "description": "Defeat listed bosses at least once.",
    "category": "Combat",
    "subcategory": "No",
@@ -6623,6 +7077,7 @@
   },
   "Relic-weary": {
    "name": "Relic-weary",
+   "page": "Relic-weary",
    "description": "Unlock all relic powers at the monolith.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6635,6 +7090,7 @@
   },
   "Remotely Possible": {
    "name": "Remotely Possible",
+   "page": "Remotely Possible",
    "description": "Build the Remote Totem Access Point in the base camp on Anachronia.",
    "category": "Exploration",
    "subcategory": "Anachronia",
@@ -6650,6 +7106,7 @@
   },
   "Reputation - Class Crown": {
    "name": "Reputation - Class Crown",
+   "page": "Reputation - Class Crown",
    "description": "Earn tier 10 reputation with the imperial faction in Menaphos.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -6663,6 +7120,7 @@
   },
   "Reputation - Lock, Stock and Barrel": {
    "name": "Reputation - Lock, Stock and Barrel",
+   "page": "Reputation - Lock, Stock and Barrel",
    "description": "Earn tier 10 reputation with the merchant faction in Menaphos.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -6676,6 +7134,7 @@
   },
   "Reputation - Seagullible": {
    "name": "Reputation - Seagullible",
+   "page": "Reputation - Seagullible",
    "description": "Earn tier 10 reputation with the ports faction in Menaphos.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -6689,6 +7148,7 @@
   },
   "Reputation - To the Bone": {
    "name": "Reputation - To the Bone",
+   "page": "Reputation - To the Bone",
    "description": "Earn tier 10 reputation with the worker faction in Menaphos.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -6702,6 +7162,7 @@
   },
   "Salty": {
    "name": "Salty",
+   "page": "Salty (achievement)",
    "description": "Fully explore what the Arc has to offer, and earn the right to claim the 'Salty' title.",
    "category": "Exploration",
    "subcategory": "The Arc",
@@ -6726,6 +7187,7 @@
   },
   "Sandy": {
    "name": "Sandy",
+   "page": "Sandy (achievement)",
    "description": "Complete various achievements within Menaphos... and then some more to earn the right to claim the 'Sandy' title.",
    "category": "Exploration",
    "subcategory": "Menaphos",
@@ -6748,6 +7210,7 @@
   },
   "Scrolling in the Deep": {
    "name": "Scrolling in the Deep",
+   "page": "Scrolling in the Deep",
    "description": "Find every scroll piece in Player Owned Ports.",
    "category": "Activities",
    "subcategory": "Player-Owned Port",
@@ -6758,6 +7221,7 @@
   },
   "Scrolling with Power": {
    "name": "Scrolling with Power",
+   "page": "Scrolling with Power",
    "description": "Unlock the Dungeoneering scroll traits.",
    "category": "Skills",
    "subcategory": "Dungeoneering",
@@ -6772,6 +7236,7 @@
   },
   "Shadows Below": {
    "name": "Shadows Below",
+   "page": "Shadows Below",
    "description": "Survive the shadow beneath the barrows.",
    "category": "Combat",
    "subcategory": "Barrows: Rise of the Six",
@@ -6782,6 +7247,7 @@
   },
   "Sort of Crystally": {
    "name": "Sort of Crystally",
+   "page": "Sort of Crystally",
    "description": "Obtain the 'Dark Lord' title by unlocking a selection of titles from Prifddinas.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -6806,6 +7272,7 @@
   },
   "Special Slayer Delivery": {
    "name": "Special Slayer Delivery",
+   "page": "Special Slayer Delivery",
    "description": "Unlock the ability to craft the listed Slayer items.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -6816,6 +7283,7 @@
   },
   "Stone's Throw Away": {
    "name": "Stone's Throw Away",
+   "page": "Stone's Throw Away",
    "description": "Complete the Dahmaroc statue in your player-owned house.",
    "category": "Skills",
    "subcategory": "Construction",
@@ -6828,6 +7296,7 @@
   },
   "Telos If You're Angry II": {
    "name": "Telos If You're Angry II",
+   "page": "Telos If You're Angry II",
    "description": "Defeat Telos at 100% enrage.",
    "category": "Combat",
    "subcategory": "Telos",
@@ -6838,6 +7307,7 @@
   },
   "The Golden Crocodile Hunter": {
    "name": "The Golden Crocodile Hunter",
+   "page": "The Golden Crocodile Hunter",
    "description": "Unlock all Hunter upgrades from Dundee's Shop.",
    "category": "Exploration",
    "subcategory": "Het's Oasis",
@@ -6850,6 +7320,7 @@
   },
   "The Prodigal Spender": {
    "name": "The Prodigal Spender",
+   "page": "The Prodigal Spender",
    "description": "Purchase all permanent unlocks from Ezreal's shop at the Archaeology Guild.",
    "category": "Skills",
    "subcategory": "Archaeology",
@@ -6864,6 +7335,7 @@
   },
   "To Be a Master": {
    "name": "To Be a Master",
+   "page": "To Be a Master",
    "description": "Fully complete the slayer codex.",
    "category": "Skills",
    "subcategory": "Slayer",
@@ -6897,6 +7369,7 @@
   },
   "Um Pop": {
    "name": "Um Pop",
+   "page": "Um Pop",
    "description": "Meet all of the listed inhabitants of Um.",
    "category": "Exploration",
    "subcategory": "City of Um",
@@ -6915,6 +7388,7 @@
   },
   "War. What Is It Good For?": {
    "name": "War. What Is It Good For?",
+   "page": "War. What Is It Good For?",
    "description": "Buy all unlocks and upgrades from War's store.",
    "category": "Combat",
    "subcategory": "PvM Hub: War's Retreat",
@@ -6928,6 +7402,7 @@
   },
   "Who Will Be Her Lover?": {
    "name": "Who Will Be Her Lover?",
+   "page": "Who Will Be Her Lover?",
    "description": "Complete the replica statue of Rhiannon in the Max Guild garden.",
    "category": "Exploration",
    "subcategory": "Prifddinas",
@@ -6940,6 +7415,7 @@
   },
   "Work on Your Artisan II": {
    "name": "Work on Your Artisan II",
+   "page": "Work on Your Artisan II",
    "description": "Unlock all rewards from the Artisans' Workshop (including outfits and excluding auras).",
    "category": "Skills",
    "subcategory": "Smithing",
