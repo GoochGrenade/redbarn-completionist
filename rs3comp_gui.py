@@ -446,8 +446,9 @@ class GuidePage(Adw.NavigationPage):
                     group.add(r)
             page.add(group)
         if written:
-            sources = Adw.PreferencesGroup(title="Sources", description=f"Checked {written['checked']}. The facts come "
-                                           "from these pages; the wording is written for this app.")
+            sources = Adw.PreferencesGroup(title="Sources", description=f"Checked {written['checked']}. Written for this app "
+                                           "from these pages; some lists and directions are quoted from the "
+                                           "RuneScape Wiki.")
             for title, url in written["sources"]:
                 sources.add(self.link_row(title, url))
             full = row("Read the full wiki page", "Show the RuneScape Wiki's own page here instead")

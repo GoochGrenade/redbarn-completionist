@@ -1,5 +1,5 @@
 {
- "license": "Original guides written for Redbarn Completionist, from the sources listed with each guide. Shared under CC BY-NC-SA 3.0 (creativecommons.org/licenses/by-nc-sa/3.0), like the RuneScape Wiki content they draw on.",
+ "license": "Guides written for Redbarn Completionist from the sources listed with each guide; some lists and directions are quoted from the RuneScape Wiki. Shared under CC BY-NC-SA 3.0 (creativecommons.org/licenses/by-nc-sa/3.0), like the wiki content they draw on.",
  "guides": {
   "Bag of Herbs": {
    "checked": "2026-11-04",
@@ -2243,6 +2243,599 @@
     [
      "RuneScape Wiki: Stronghold of Player Safety",
      "https://runescape.wiki/w/Stronghold_of_Player_Safety"
+    ]
+   ]
+  },
+  "Stay Secure": {
+   "checked": "2026-11-04",
+   "summary": "Claim the reward at the end of each of the four levels of the Stronghold of Security, in the middle of Barbarian Village.",
+   "need": [],
+   "steps": [
+    [
+     "Vault of War (level 1): claim the Gift of Peace.",
+     []
+    ],
+    [
+     "Catacomb of Famine (level 2): claim the Grain of Plenty.",
+     []
+    ],
+    [
+     "Pit of Pestilence (level 3): claim the Box of Health.",
+     []
+    ],
+    [
+     "Sepulchre of Death (level 4): claim the Cradle of Life.",
+     []
+    ]
+   ],
+   "tips": [
+    "Some doors ask a security question before letting you through.",
+    "Each level ends with its reward, a way back to the start, and the way down to the next level."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Stay Secure",
+     "https://runescape.wiki/w/Stay_Secure"
+    ],
+    [
+     "RuneScape Wiki: Stronghold of Security",
+     "https://runescape.wiki/w/Stronghold_of_Security"
+    ]
+   ]
+  },
+  "Student Becomes the Master": {
+   "checked": "2026-11-04",
+   "summary": "Learn all of Kili's Necromancy gear upgrades by completing his Kili's Knowledge achievements.",
+   "need": [
+    "90 Necromancy",
+    "Kili Row",
+    "Kili's Knowledge I",
+    "Kili's Knowledge II",
+    "Kili's Knowledge III",
+    "Kili's Knowledge IV",
+    "Kili's Knowledge V",
+    "Kili's Knowledge V (power)",
+    "Kili's Knowledge VI",
+    "Kili's Knowledge VI (power)",
+    "Kili's Knowledge VII",
+    "Kili's Knowledge VII (power)"
+   ],
+   "steps": [
+    [
+     "Complete each Kili's Knowledge achievement in the list above. Each one opens its own guide.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Student Becomes the Master",
+     "https://runescape.wiki/w/Student_Becomes_the_Master"
+    ]
+   ]
+  },
+  "Talented in Necromancy": {
+   "checked": "2026-11-04",
+   "summary": "Unlock all of Necromancy's talents by powering the Well of Souls with souls and reaching the levels below.",
+   "need": [
+    "99 Necromancy"
+   ],
+   "steps": [
+    [
+     "Unlock each tier of talents as you reach its level and its soul total:",
+     [
+      "Tier 1: level 1, 1 souls",
+      "Tier 2: level 20, 50 souls",
+      "Tier 3: level 40, 400 souls",
+      "Tier 4: level 60, 2,000 souls",
+      "Tier 5: level 70, 4,500 souls",
+      "Tier 6: level 80, 8,500 souls",
+      "Tier 7: level 90, 35,000 souls"
+     ]
+    ]
+   ],
+   "tips": [
+    "Souls come from Necromancy rituals; bring them to the Well of Souls."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Talented in Necromancy",
+     "https://runescape.wiki/w/Talented_in_Necromancy"
+    ],
+    [
+     "RuneScape Wiki: Rituals",
+     "https://runescape.wiki/w/Rituals"
+    ]
+   ]
+  },
+  "The Crocodile Hunter": {
+   "checked": "2026-11-04",
+   "summary": "Unlock all the useful Hunter upgrades from Dundee's Crocodile Upgrades at Het's Oasis, by catching 3,000 scarabs in total.",
+   "need": [],
+   "steps": [
+    [
+     "Catch scarabs at Het's Oasis. Stacked scarabs count towards the total.",
+     []
+    ],
+    [
+     "Unlock the upgrades as you pass each total:",
+     [
+      "Increased catch rate: 250 scarabs",
+      "Double loot chance: 500 scarabs",
+      "Flower saving chance: 1,000 scarabs",
+      "Increased XP rate: 1,500 scarabs",
+      "Automatic looting: 2,500 scarabs",
+      "Increased scarab stacks: 3,000 scarabs"
+     ]
+    ]
+   ],
+   "tips": [
+    "Catch plain whirligigs: they have the best catch rate, so they're quickest. Expect about 1,000 scarabs an hour.",
+    "The golden crocodile cosmetic needs 2,000 more scarabs and counts for The Golden Crocodile Hunter, a trimmed completionist requirement."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: The Crocodile Hunter",
+     "https://runescape.wiki/w/The_Crocodile_Hunter"
+    ]
+   ]
+  },
+  "The Greatest Gift of All": {
+   "checked": "2026-11-04",
+   "summary": "Give Lea a new pickpocketing bag, then a new crystal binding rod.",
+   "need": [
+    "82 Invention",
+    "80 Crafting"
+   ],
+   "steps": [
+    [
+     "Give Lea a new pickpocketing bag.",
+     []
+    ],
+    [
+     "Then give Lea a new crystal binding rod.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: The Greatest Gift of All",
+     "https://runescape.wiki/w/The_Greatest_Gift_of_All"
+    ],
+    [
+     "RuneScape Wiki: Lea",
+     "https://runescape.wiki/w/Lea"
+    ]
+   ]
+  },
+  "Tiers of Treasure": {
+   "checked": "2026-11-04",
+   "summary": "Complete one clue scroll of each tier: easy, medium, hard, elite and master.",
+   "need": [],
+   "steps": [
+    [
+     "Complete an easy clue scroll.",
+     []
+    ],
+    [
+     "Complete a medium clue scroll.",
+     []
+    ],
+    [
+     "Complete a hard clue scroll.",
+     []
+    ],
+    [
+     "Complete an elite clue scroll.",
+     []
+    ],
+    [
+     "Complete a master clue scroll.",
+     []
+    ]
+   ],
+   "tips": [
+    "Master clues also give the lockbox and towers puzzles needed for Balanced Combat Triangle and Towering Over Us All."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Tiers of Treasure",
+     "https://runescape.wiki/w/Tiers_of_Treasure"
+    ],
+    [
+     "RuneScape Wiki: Clue scroll",
+     "https://runescape.wiki/w/Clue_scroll"
+    ]
+   ]
+  },
+  "Towering Over Us All": {
+   "checked": "2026-11-04",
+   "summary": "Solve a towers puzzle scroll from a master clue scroll.",
+   "need": [
+    "A master clue scroll"
+   ],
+   "steps": [
+    [
+     "Do master clue scrolls until you get a towers puzzle scroll.",
+     []
+    ],
+    [
+     "Solve the towers puzzle.",
+     []
+    ]
+   ],
+   "tips": [
+    "A tower skipping ticket skips the puzzle, but then the achievement doesn't count."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Towering Over Us All",
+     "https://runescape.wiki/w/Towering_Over_Us_All"
+    ],
+    [
+     "RuneScape Wiki: Towers puzzle scroll (master)",
+     "https://runescape.wiki/w/Towers_puzzle_scroll_%28master%29"
+    ]
+   ]
+  },
+  "Uncorrupted Ore": {
+   "checked": "2026-11-04",
+   "summary": "Smelt 100 corrupted ore at the Trahaearn Clan furnace in Prifddinas, then claim a Smithing XP lamp from Lady Trahaearn.",
+   "need": [
+    "89 Smithing",
+    "Plague's End"
+   ],
+   "steps": [
+    [
+     "Get 100 corrupted ore. Mining Seren stones (89 Mining) gives it, and so does the crystal chest.",
+     []
+    ],
+    [
+     "Smelt all 100 at the Trahaearn Clan furnace.",
+     []
+    ],
+    [
+     "Claim the Smithing XP lamp from Lady Trahaearn.",
+     []
+    ]
+   ],
+   "tips": [
+    "The 89 Mining listed on the achievement isn't needed if your corrupted ore comes from somewhere else, such as the crystal chest."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Uncorrupted Ore",
+     "https://runescape.wiki/w/Uncorrupted_Ore"
+    ],
+    [
+     "RuneScape Wiki: Corrupted ore",
+     "https://runescape.wiki/w/Corrupted_ore"
+    ]
+   ]
+  },
+  "Undead to Rites": {
+   "checked": "2026-11-04",
+   "summary": "Teleport to the Ungael ritual site with the Ungael Teleport incantation.",
+   "need": [
+    "Requiem for a Dragon"
+   ],
+   "steps": [
+    [
+     "Cast Ungael Teleport.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Undead to Rites",
+     "https://runescape.wiki/w/Undead_to_Rites"
+    ],
+    [
+     "RuneScape Wiki: Ungael Teleport",
+     "https://runescape.wiki/w/Ungael_Teleport"
+    ]
+   ]
+  },
+  "Unliving on a Prayer": {
+   "checked": "2026-11-04",
+   "summary": "Unlock every Necromancy prayer and curse from Selene in the City of Um, except Ruination.",
+   "need": [
+    "90 Necromancy",
+    "King's Ransom",
+    "The Temple at Senntisten",
+    "Knight Waves training ground"
+   ],
+   "steps": [
+    [
+     "Talk to Selene in the City of Um and unlock each of these:",
+     [
+      "Hand of Doom",
+      "Accelerated Decay",
+      "Sanctity",
+      "Sap Necromancy Attack",
+      "Sap Necromancy Strength",
+      "Leech Necromancy Attack",
+      "Leech Necromancy Strength",
+      "Sorrow"
+     ]
+    ]
+   ],
+   "tips": [
+    "Ruination isn't needed."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Unliving on a Prayer",
+     "https://runescape.wiki/w/Unliving_on_a_Prayer"
+    ],
+    [
+     "RuneScape Wiki: Selene",
+     "https://runescape.wiki/w/Selene"
+    ]
+   ]
+  },
+  "Unlocking Waiko I": {
+   "checked": "2026-11-04",
+   "summary": "Buy five unlocks from the Waiko Reward Shop in the Arc: 7,750 chimes and 5 taijitu in total.",
+   "need": [
+    "Impressing the Locals"
+   ],
+   "steps": [
+    [
+     "Earn chimes and taijitu in the Arc.",
+     []
+    ],
+    [
+     "Buy each unlock from the Waiko Reward Shop:",
+     [
+      "Waiko grill: 500 chimes",
+      "Whale's Maw campfire: 500 chimes",
+      "Whale's Maw deposit box: 750 chimes",
+      "Arc journal teletabs: 1,000 chimes",
+      "Crystal tool siphon blueprint: 5,000 chimes + 5 taijitu"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Unlocking Waiko I",
+     "https://runescape.wiki/w/Unlocking_Waiko_I"
+    ],
+    [
+     "RuneScape Wiki: Waiko Reward Shop",
+     "https://runescape.wiki/w/Waiko_Reward_Shop"
+    ]
+   ]
+  },
+  "Untangled": {
+   "checked": "2026-11-04",
+   "summary": "Solve a celtic knot puzzle from Treasure Trails.",
+   "need": [
+    "A clue scroll"
+   ],
+   "steps": [
+    [
+     "Do clue scrolls until a step gives you a celtic knot.",
+     []
+    ],
+    [
+     "Solve it.",
+     []
+    ]
+   ],
+   "tips": [
+    "The wiki has a method for celtic knots; it's listed in the sources."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Untangled",
+     "https://runescape.wiki/w/Untangled"
+    ],
+    [
+     "RuneScape Wiki: Treasure Trails/Guide/Celtic knots",
+     "https://runescape.wiki/w/Treasure_Trails/Guide/Celtic_knots"
+    ]
+   ]
+  },
+  "Upgrading Waiko I": {
+   "checked": "2026-11-04",
+   "summary": "Buy the first tier of five upgrades from the Waiko Reward Shop in the Arc: 17,000 chimes and 16 taijitu in total.",
+   "need": [
+    "Impressing the Locals"
+   ],
+   "steps": [
+    [
+     "Earn chimes and taijitu in the Arc.",
+     []
+    ],
+    [
+     "Buy the first tier of each upgrade:",
+     [
+      "Commodity sell per day increase: 1,500 chimes + 1 taijitu",
+      "Supplies cap increase: 2,000 chimes + 2 taijitu",
+      "Contracts per day increase: 2,500 chimes + 2 taijitu",
+      "Supplies cost reduction: 3,000 chimes + 3 taijitu",
+      "Commodity sell price increase: 8,000 chimes + 8 taijitu"
+     ]
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Upgrading Waiko I",
+     "https://runescape.wiki/w/Upgrading_Waiko_I"
+    ],
+    [
+     "RuneScape Wiki: Waiko Reward Shop",
+     "https://runescape.wiki/w/Waiko_Reward_Shop"
+    ]
+   ]
+  },
+  "What's Mine is Also Doric's": {
+   "checked": "2026-11-04",
+   "summary": "Complete Doric's and Boric's task series of miniquests, after What's Mine is Yours.",
+   "need": [
+    "60 Mining",
+    "70 Smithing",
+    "What's Mine is Yours"
+   ],
+   "steps": [
+    [
+     "Complete Doric's Tasks, in order.",
+     []
+    ],
+    [
+     "Complete Boric's Tasks, in order.",
+     []
+    ]
+   ],
+   "tips": [
+    "Each task series is a set of miniquests. RuneMetrics tracks them, so they tick off when you refresh."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: What's Mine is Also Doric's",
+     "https://runescape.wiki/w/What%27s_Mine_is_Also_Doric%27s"
+    ],
+    [
+     "RuneScape Wiki: Doric's Tasks quest series",
+     "https://runescape.wiki/w/Doric%27s_Tasks_quest_series"
+    ],
+    [
+     "RuneScape Wiki: Boric's Tasks quest series",
+     "https://runescape.wiki/w/Boric%27s_Tasks_quest_series"
+    ]
+   ]
+  },
+  "Whodunnit? I Dunnit!": {
+   "checked": "2026-11-04",
+   "summary": "Complete the standard mode of the Ungael combat activity, after Ancient Awakening.",
+   "need": [
+    "Ancient Awakening"
+   ],
+   "steps": [
+    [
+     "Start the Ungael combat activity on standard mode and complete the encounter.",
+     []
+    ]
+   ],
+   "tips": [],
+   "sources": [
+    [
+     "RuneScape Wiki: Whodunnit? I Dunnit!",
+     "https://runescape.wiki/w/Whodunnit%3F_I_Dunnit%21"
+    ],
+    [
+     "RuneScape Wiki: Ungael combat activity",
+     "https://runescape.wiki/w/Ungael_combat_activity"
+    ]
+   ]
+  },
+  "Yaktwee's a Charm": {
+   "checked": "2026-11-04",
+   "summary": "Catch 1,000 charm sprites with the yaktwee stick, which unlocks the enhanced yaktwee stick.",
+   "need": [
+    "72 Hunter",
+    "A yaktwee stick"
+   ],
+   "steps": [
+    [
+     "Catch charm sprites with the yaktwee stick until you've caught 1,000.",
+     []
+    ]
+   ],
+   "tips": [
+    "The enhanced yaktwee stick also boosts Hunter XP in Big Chinchompa."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Yaktwee's a Charm",
+     "https://runescape.wiki/w/Yaktwee%27s_a_Charm"
+    ],
+    [
+     "RuneScape Wiki: Charm sprite",
+     "https://runescape.wiki/w/Charm_sprite"
+    ]
+   ]
+  },
+  "Zarosian Memories": {
+   "checked": "2026-11-04",
+   "summary": "Collect all 12 Zarosian memoriam crystals on Freneskae, put them in the memoriam device in the Sanctum, and claim the Helm of Zaros override.",
+   "need": [
+    "Fate of the Gods"
+   ],
+   "steps": [
+    [
+     "z01 (Origins: Creator): From the entrance, jump from ledge twice, take the left (north) branch and cross a rock formation. It will be found on the right before reaching the first healing point.",
+     []
+    ],
+    [
+     "z02 (Origins: Companion): From the entrance, jump from ledge twice, take the right (south) branch and climb the cliffside. The crystal is a short distance along the passage, on the left.",
+     []
+    ],
+    [
+     "z03 (Origins: Control): The Cradle (can only be reached after the quest has been completed.)",
+     []
+    ],
+    [
+     "z04 (Origins: Departure): From the first healing point, go north, cross the stepping stones and climb the cliffside. Go east and go down the drop.",
+     []
+    ],
+    [
+     "z05 (Discovery: Language): From the first healing point, go north, cross the stepping stones and climb the cliffside. Go east and north and cross the overhang then climb down the cliffside. It will be found to the north at a dead end.",
+     []
+    ],
+    [
+     "z06 (Discovery: Society): From the location of z07, back out of the dead end and take the south branch. Climb a rock formation, go west and walk across another rock formation. Climb down the cliffside, go west and find the crystal among the lava vents. (It is just west of the second healing point).",
+     []
+    ],
+    [
+     "z07 (Discovery: Diversity): Enter the Approach from the Sanctum. Go north and traverse a rock formation, then go west and north into a dead end.",
+     []
+    ],
+    [
+     "z08 (Discovery: Obedience): Enter the Approach from the Sanctum. Go south and squeeze through a crevice to the east.",
+     []
+    ],
+    [
+     "z09 (Amor Fati: Eris Quod Sum): Enter the Approach. From the entrance, go west and north, at a dead-end.",
+     []
+    ],
+    [
+     "z10 (Amor Fati: Sub Rosa): The Pit, on the left just before the exit doors.",
+     []
+    ],
+    [
+     "z11 (Amor Fati: Tabula Rasa): The Sanctum.",
+     []
+    ],
+    [
+     "z12 (Amor Fati: Deus Ex): The Elder Halls, near the end of the southeast passage.",
+     []
+    ],
+    [
+     "Activate the memoriam device in the centre of the Sanctum.",
+     []
+    ],
+    [
+     "Search the storage to the east to claim the Helm of Zaros override. That completes the achievement.",
+     []
+    ]
+   ],
+   "tips": [
+    "Some crystals can only be reached after Fate of the Gods is finished."
+   ],
+   "sources": [
+    [
+     "RuneScape Wiki: Zarosian Memories",
+     "https://runescape.wiki/w/Zarosian_Memories"
+    ],
+    [
+     "RuneScape Wiki: Freneskae",
+     "https://runescape.wiki/w/Freneskae"
     ]
    ]
   }
