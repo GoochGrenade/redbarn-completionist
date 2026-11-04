@@ -45,7 +45,7 @@ python3 rs3comp.py "Your Name" --done "Kudos to You"
 
 ## Windows
 
-**[Download Redbarn Completionist for Windows](https://github.com/GoochGrenade/redbarn-completionist/releases/download/v1.1.0/Redbarn-Completionist-Windows.zip)** (48 MB)
+**[Download Redbarn Completionist for Windows](https://github.com/GoochGrenade/redbarn-completionist/releases/latest/download/Redbarn-Completionist-Windows.zip)** (48 MB)
 
 1. Unzip the download.
 2. Open **Redbarn Completionist.exe** in the unzipped folder. If Windows warns that it's from an unknown publisher, click **More info**, then **Run anyway**.
